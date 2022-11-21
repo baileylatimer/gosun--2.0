@@ -73,6 +73,7 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
 
     {%- comment -%}Preload important resources{%- endcomment -%}
     <link rel="preload" as="style" href="{{ 'theme.css' | asset_url }}">
+    <link rel="preload" as="style" href="{{ 'custom.css' | asset_url }}">
     <link rel="preload" as="script" href="{{ 'vendor.js' | asset_url }}">
     <link rel="preload" as="script" href="{{ 'theme.js' | asset_url }}">
 
@@ -101,6 +102,7 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
     {% render 'js-variables', direction: direction %}
 
     <link rel="stylesheet" href="{{ 'theme.css' | asset_url }}">
+    <link rel="stylesheet" href="{{ 'custom.css' | asset_url }}">
 
     {% if request.path == '/products/camp365' or request.path == '/collections/todays-deals' or request.path == '/products/go-pro-pack-1'  %}
      <link rel="preload" as="style" href="https://api.fastbundle.co/react-src/static/css/main.min.css">
