@@ -8,7 +8,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/fusion_fall_hero.jpg",
             "mobile_image": "shopify:\/\/shop_images\/fusion_fall_hero_mobile.jpg",
-            "text_position": "middle_right",
+            "text_position": "middle_left",
             "subheading": "COOK. COOL. LIGHT. CHARGE. PURIFY.",
             "title": "'Tis the Season for Good Energy",
             "text_paragraph": "",
@@ -27,7 +27,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/off-grid_trailer_gosun_camp365_hero.jpg",
-            "text_position": "middle_right",
+            "text_position": "middle_left",
             "subheading": "Now introducing",
             "title": "GoSun Camp365 Solar Off-Grid Trailer",
             "text_paragraph": "",
@@ -84,7 +84,7 @@
             "icon": "picto-delivery-truck",
             "custom_icon": "shopify:\/\/shop_images\/Frame-2.png",
             "custom_icon_width": 40,
-            "title": "Free Shipping over $50",
+            "title": "Free shipping over $50",
             "content": ""
           }
         },
@@ -94,7 +94,7 @@
             "icon": "picto-shield",
             "custom_icon": "shopify:\/\/shop_images\/Frame-3.png",
             "custom_icon_width": 40,
-            "title": "1 Year Warranty",
+            "title": "1-year warranty",
             "content": ""
           }
         }
