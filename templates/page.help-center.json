@@ -1,0 +1,155 @@
+{
+  "sections": {
+    "165453417194d5ba13": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "GoSun",
+        "title": "Help Center",
+        "content": "<p>ONE YEAR MONEY BACK GUARANTEE<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#e7f4fd",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "1654533357242c5b7c": {
+      "type": "cb-secondary-header",
+      "blocks": {
+        "95b80f70-8ba5-44c9-a8ee-8447f8c48f5b": {
+          "type": "link",
+          "settings": {
+            "link": "shopify:\/\/pages\/new-returns-exchange",
+            "text": "Return & Exchanges"
+          }
+        },
+        "c8935e32-57a6-4cf5-a9f7-dddf15753a5a": {
+          "type": "link",
+          "disabled": true,
+          "settings": {
+            "link": "shopify:\/\/pages\/new-track-my-order",
+            "text": "Track My Order"
+          }
+        },
+        "362a80d7-1732-497f-86e7-03425475b29c": {
+          "type": "link",
+          "settings": {
+            "link": "shopify:\/\/pages\/new-warranty",
+            "text": "Warranty"
+          }
+        },
+        "af965035-41e4-438f-9fa8-5f5d8d1465d8": {
+          "type": "link",
+          "settings": {
+            "link": "shopify:\/\/pages\/new-product-manuals",
+            "text": "Product Manuals"
+          }
+        },
+        "b3b017eb-be1d-4b9b-8716-8507039160ec": {
+          "type": "link",
+          "settings": {
+            "link": "shopify:\/\/pages\/new-contact",
+            "text": "Contact"
+          }
+        }
+      },
+      "block_order": [
+        "95b80f70-8ba5-44c9-a8ee-8447f8c48f5b",
+        "c8935e32-57a6-4cf5-a9f7-dddf15753a5a",
+        "362a80d7-1732-497f-86e7-03425475b29c",
+        "af965035-41e4-438f-9fa8-5f5d8d1465d8",
+        "b3b017eb-be1d-4b9b-8716-8507039160ec"
+      ],
+      "settings": {
+        "main_text": "",
+        "main_url": "",
+        "tel": "",
+        "main_menu_alignment": "after",
+        "enable_phone_number": false,
+        "hide_secondary_menu_on_mobile": false
+      }
+    },
+    "1654533667667992d6": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Return Policy",
+        "content": "<p>GoSun believes in the power of the sun to fuel your life and our products are made with great attention to detail and quality manufacturing; all with the goal of freeing consumers from traditional sources of fuel. If you are not entirely satisfied with your purchase, we're here to help. GoSun backs purchases with a One Year Money Back Guarantee*.<\/p>",
+        "button_text": "Start a Return",
+        "button_link": "mailto:support@gosun.co",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16545337407511c113": {
+      "type": "faq",
+      "blocks": {
+        "165453374047bfed24-1": {
+          "type": "question",
+          "settings": {
+            "title": "What can be returned?",
+            "answer": "<p><strong>Returns are available only to customers that purchased directly from gosun.co.<\/strong><\/p><p>If you are not happy with your purchase, whether it’s quality or performance or you dropped it off a cliff, we will replace it for free or give your money back.<\/p><p>To be eligible for a full refund, the item must be lightly used or the same condition that you received it. The item must be in the original packaging and include receipt or proof of purchase.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "165453374047bfed24-2": {
+          "type": "question",
+          "settings": {
+            "title": "When will I be refunded?",
+            "answer": "<p>Once we receive your returned item, we will notify you within three days on the status of your refund after inspecting the item. Once approved, we will initiate a refund to your credit card (or original method of payment) which is generally seen on a statement after a few days.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "165453374047bfed24-4": {
+          "type": "question",
+          "settings": {
+            "title": "Do I need to pay for return shipping?",
+            "answer": "<p>You will be responsible for shipping costs when returning your item. Shipping costs are non-­refundable. If you would like GoSun to email a pre-paid return label, the cost of return shipping, plus a $10 handling fee will be deducted from your refund.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165453374047bfed24-1",
+        "165453374047bfed24-2",
+        "165453374047bfed24-4"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "165453417194d5ba13",
+    "main",
+    "1654533357242c5b7c",
+    "1654533667667992d6",
+    "16545337407511c113"
+  ]
+}

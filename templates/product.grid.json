@@ -1,0 +1,562 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "558b2ec9-dc80-41d1-9a13-de0017ea9627": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": ""
+          }
+        },
+        "f557431d-55ee-4904-af57-f75cd6400497": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/star-rating-badge\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "disabled": true,
+          "settings": {
+            "use_metafields": true,
+            "sku_tagtype": "sku",
+            "is_featured_product": false,
+            "featured_product_handle": ""
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "button_text": "",
+            "atc_button_background": "#c65824",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "#288bcc",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "e0cd8fad-2554-431f-bf92-5ab7a52d7dff": {
+          "type": "inventory",
+          "settings": {
+            "inventory_phrase": "Ships in November 2022",
+            "low_inventory_threshold": 0
+          }
+        },
+        "f4e9d67a-168f-4b6f-ae4c-3d308ba56d71": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "92dac3a7-b7f1-4aca-86fd-5e77d9be6ab5": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "558b2ec9-dc80-41d1-9a13-de0017ea9627",
+        "f557431d-55ee-4904-af57-f75cd6400497",
+        "variant_picker",
+        "buy_buttons",
+        "e0cd8fad-2554-431f-bf92-5ab7a52d7dff",
+        "f4e9d67a-168f-4b6f-ae4c-3d308ba56d71",
+        "quantity_selector",
+        "92dac3a7-b7f1-4aca-86fd-5e77d9be6ab5"
+      ],
+      "settings": {
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": true,
+        "show_sticky_add_to_cart": true,
+        "show_share_buttons": true,
+        "bold_compare_price": false,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "left",
+        "transition_effect": "slide"
+      }
+    },
+    "16540172429e0f5254": {
+      "type": "featured-collections",
+      "disabled": true,
+      "blocks": {
+        "165401724260c85ee6-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessories",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "b2f9027d-f324-4b8b-a25e-ce0ea6438e87": {
+          "type": "collection",
+          "settings": {
+            "collection": "bundles",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "6d8ae422-2bea-422f-9f29-4f6508d17b0d": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-sellers",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "165401724260c85ee6-0",
+        "b2f9027d-f324-4b8b-a25e-ce0ea6438e87",
+        "6d8ae422-2bea-422f-9f29-4f6508d17b0d"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Shop",
+        "content": "",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1653413494c86d6524": {
+      "type": "text-with-icons",
+      "blocks": {
+        "1653413494f89b2b0c-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "custom_icon": "shopify:\/\/shop_images\/icon-1.png",
+            "custom_icon_width": 50,
+            "title": "Solar micro-grid",
+            "content": "<p>Cook, cool, clean, charge, and brew - all powered by the Sun<\/p>"
+          }
+        },
+        "1653413494f89b2b0c-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "custom_icon": "shopify:\/\/shop_images\/icon_14.png",
+            "custom_icon_width": 50,
+            "title": "Independent power",
+            "content": "<p>Set up the grid without limits to fuel the next adventure, even in the backyard<\/p>"
+          }
+        },
+        "1653413494f89b2b0c-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "custom_icon": "shopify:\/\/shop_images\/icon_2.png",
+            "custom_icon_width": 50,
+            "title": "Performance",
+            "content": "<p>Power outputs to meet all your needs: 110 AC, 12V DC, USB-A, USB-C, QC3.0<\/p>"
+          }
+        },
+        "1653413494f89b2b0c-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-email",
+            "custom_icon": "shopify:\/\/shop_images\/icon_9.png",
+            "custom_icon_width": 50,
+            "title": "Versatility",
+            "content": "<p>Use the grid all-together or each item separately to address any situation<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1653413494f89b2b0c-0",
+        "1653413494f89b2b0c-1",
+        "1653413494f89b2b0c-2",
+        "1653413494f89b2b0c-3"
+      ],
+      "settings": {
+        "background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)",
+        "font_size_desktop": 16,
+        "font_size_mobile": 16
+      }
+    },
+    "ee7f02b6-4e95-4855-8fee-8806fa239467": {
+      "type": "videowise-product-widgets",
+      "settings": {
+        "widget_selector": "62824551e2a5af002acdb3a5"
+      }
+    },
+    "165341330043ddaa83": {
+      "type": "image-with-text",
+      "blocks": {
+        "1653413300086aa30d-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GoSun_Grid.jpg",
+            "tab_label": "",
+            "subheading": "Bringing it all together",
+            "title": "How It Works",
+            "content": "<p>Versatile, compatible, and complete, the GoSun Grid is an ecosystem of super efficient products that work in unison. Cook, chill, clean, purify, charge, and brew - all with the power of the Sun<br\/><br\/><strong>2022 GoSun Grid includes:<\/strong><br\/><a href=\"https:\/\/gosun.co\/products\/fusion-pro\" target=\"_blank\">Fusion Pro<\/a>, <a href=\"https:\/\/gosun.co\/products\/fusion-tilt-kit-for-water-heating\" target=\"_blank\">Fusion Tilt Kit<\/a>, <a href=\"https:\/\/gosun.co\/products\/12v-submersible-water-heater\">Submersion Heater<\/a>, <a href=\"https:\/\/gosun.co\/products\/solartable-120\" target=\"_blank\">Solar Table 120<\/a>,<a href=\"https:\/\/gosun.co\/products\/power-1100\" target=\"_blank\"> Power 1100<\/a>,<a href=\"https:\/\/gosun.co\/products\/flow-pro\"> Flow Pro<\/a>, <a href=\"https:\/\/gosun.co\/products\/chillest\">Chillest<\/a>,<a href=\"https:\/\/gosun.co\/products\/electric-blanket\"> Heated Blanket<\/a>, and <a href=\"https:\/\/gosun.co\/products\/brew\">Brew<\/a><\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1653413300086aa30d-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16548896571634f97a": {
+      "type": "image-with-text",
+      "blocks": {
+        "1654889657d20fafd4-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Freezer.gif",
+            "tab_label": "",
+            "subheading": "Chillest",
+            "title": "Dual Cooling Zones",
+            "content": "<p>The dual cooling zones mean you have a freezer and fridge in the same device. You can set the temperature for each side anywhere from -4°F to 68°F (-20°C to 20°C) using the buttons<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1654889657d20fafd4-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#d9e8f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1654886254f056124a": {
+      "type": "image-with-text",
+      "blocks": {
+        "16548862541acbbe0e-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/solar_water_filter_battery.jpg",
+            "tab_label": "",
+            "subheading": "Flow Pro",
+            "title": "Long Lasting",
+            "content": "<p>The GoSun Flow can filter 100 Gallons of water with a fully charged Power 18, which is included with the Flow.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16548862541acbbe0e-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1654886212579ce6e0": {
+      "type": "image-with-text",
+      "blocks": {
+        "16548862125f84aa11-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_29.png",
+            "tab_label": "",
+            "subheading": "Fusion Pro",
+            "title": "All-weather performance.",
+            "content": "<p>Cooking under full sun is always nice with a solar cooker, but GoSun operates under a wide range of conditions; cloudy, freezing, muggy, snowing, windy, dusty, you name it, nothing is off limits. Now, with the electric heater, the cooking never ends.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16548862125f84aa11-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#d9e8f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1653414092fd41c26d": {
+      "type": "press",
+      "blocks": {
+        "1653414092e9b48df3-0": {
+          "type": "item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/digital-journal-logo.png",
+            "logo_width": 150,
+            "content": "GoSun’s products are portable, efficient, and free of harmful emissions. Designed for the outdoors, these solutions increase resilience and independence"
+          }
+        },
+        "5ab0b2e4-9ddb-4f23-84d2-0fbd66e72074": {
+          "type": "item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Digital_Trends_logo.svg_9f6b443a-2f7e-4b07-9582-8e79e99cac3e.png",
+            "logo_width": 150,
+            "content": "The Fusion isn't only good for people who are prepping for the apocalypse, but also those who want something different than a traditional grill for camping trips"
+          }
+        },
+        "1bbbf339-948a-4edd-822b-76cab085e858": {
+          "type": "item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Frame_29.png",
+            "logo_width": 150,
+            "content": "...this shows the kind of versatility GoSun’s devices offer in the event of unexpected power outages and natural disasters."
+          }
+        }
+      },
+      "block_order": [
+        "1653414092e9b48df3-0",
+        "5ab0b2e4-9ddb-4f23-84d2-0fbd66e72074",
+        "1bbbf339-948a-4edd-822b-76cab085e858"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background": "#ecedef",
+        "text_color": "rgba(0,0,0,0)",
+        "autoplay": true,
+        "cycle_speed": 5
+      }
+    },
+    "165341340647ca592b": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "background_type": "full_width",
+        "video_size": "auto",
+        "autoplay": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "product-content": {
+      "type": "product-content",
+      "blocks": {
+        "38991388-db52-4dee-9e08-c8e555620c13": {
+          "type": "content",
+          "settings": {
+            "title": "Weight & Dimensions",
+            "content": "<p>{{ product.metafields.my_fields._weight_and_dimensions | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "1791f09a-7192-47bc-887e-b6a125de0664": {
+          "type": "content",
+          "settings": {
+            "title": "Tech Specs",
+            "content": "<p>{{ product.metafields.my_fields.features | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "19e6c18d-95b3-4204-bf74-a8e1b49c0623": {
+          "type": "content",
+          "settings": {
+            "title": "In the Box",
+            "content": "<p>{{ product.metafields.my_fields.in_the_box | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "e467e674-5317-4edf-9e00-58a2d1b186eb": {
+          "type": "featured_products",
+          "settings": {
+            "title": "Buy It With",
+            "products": "{{ product.metafields.my_fields.buy_it_with.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "38991388-db52-4dee-9e08-c8e555620c13",
+        "1791f09a-7192-47bc-887e-b6a125de0664",
+        "19e6c18d-95b3-4204-bf74-a8e1b49c0623",
+        "e467e674-5317-4edf-9e00-58a2d1b186eb"
+      ],
+      "settings": {
+      }
+    },
+    "16524703050d8431b4": {
+      "type": "apps",
+      "blocks": {
+        "dea54526-4817-4ed5-b75d-239e4d8ae63a": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": false,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "dea54526-4817-4ed5-b75d-239e4d8ae63a"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
+    },
+    "1655497876fb3dc047": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Would you like to know more about this product?",
+        "content": "",
+        "button_text": "CHECK OUR FAQ PAGE",
+        "button_link": "https:\/\/gosun.zendesk.com\/hc\/en-us",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#d9e8f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "subheading": "",
+        "title": "You may also like",
+        "recommendations_count": 4,
+        "products": [
+
+        ],
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1652884753f9f03f8f": {
+      "type": "text-with-icons",
+      "blocks": {
+        "1652884753be2fdfe1-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-credit-card",
+            "custom_icon_width": 50,
+            "title": "Quick, simple financing",
+            "content": ""
+          }
+        },
+        "1652884753be2fdfe1-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-delivery-truck",
+            "custom_icon_width": 50,
+            "title": "Free Shipping over $50",
+            "content": ""
+          }
+        },
+        "1652884753be2fdfe1-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-shield",
+            "custom_icon_width": 50,
+            "title": "1-Year Warranty",
+            "content": ""
+          }
+        },
+        "1652884753be2fdfe1-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-customer-support",
+            "custom_icon_width": 50,
+            "title": "Award-winning customer service",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "1652884753be2fdfe1-0",
+        "1652884753be2fdfe1-1",
+        "1652884753be2fdfe1-2",
+        "1652884753be2fdfe1-3"
+      ],
+      "settings": {
+        "background": "#ecedef",
+        "text_color": "#424242",
+        "font_size_desktop": 16,
+        "font_size_mobile": 16
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16540172429e0f5254",
+    "1653413494c86d6524",
+    "ee7f02b6-4e95-4855-8fee-8806fa239467",
+    "165341330043ddaa83",
+    "16548896571634f97a",
+    "1654886254f056124a",
+    "1654886212579ce6e0",
+    "1653414092fd41c26d",
+    "165341340647ca592b",
+    "product-content",
+    "16524703050d8431b4",
+    "1655497876fb3dc047",
+    "product-recommendations",
+    "1652884753f9f03f8f"
+  ]
+}

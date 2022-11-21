@@ -1,0 +1,664 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "558b2ec9-dc80-41d1-9a13-de0017ea9627": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": ""
+          }
+        },
+        "f557431d-55ee-4904-af57-f75cd6400497": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/star-rating-badge\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "disabled": true,
+          "settings": {
+            "use_metafields": true,
+            "sku_tagtype": "sku"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "atc_button_background": "#c65824",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "#288bcc",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "e0cd8fad-2554-431f-bf92-5ab7a52d7dff": {
+          "type": "inventory",
+          "settings": {
+            "inventory_phrase": "Ships In September 2022",
+            "low_inventory_threshold": 0
+          }
+        },
+        "f4e9d67a-168f-4b6f-ae4c-3d308ba56d71": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "92dac3a7-b7f1-4aca-86fd-5e77d9be6ab5": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "558b2ec9-dc80-41d1-9a13-de0017ea9627",
+        "f557431d-55ee-4904-af57-f75cd6400497",
+        "variant_picker",
+        "buy_buttons",
+        "e0cd8fad-2554-431f-bf92-5ab7a52d7dff",
+        "f4e9d67a-168f-4b6f-ae4c-3d308ba56d71",
+        "quantity_selector",
+        "92dac3a7-b7f1-4aca-86fd-5e77d9be6ab5"
+      ],
+      "settings": {
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": true,
+        "show_sticky_add_to_cart": true,
+        "show_share_buttons": true,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "left",
+        "transition_effect": "slide"
+      }
+    },
+    "16540172429e0f5254": {
+      "type": "featured-collections",
+      "disabled": true,
+      "blocks": {
+        "165401724260c85ee6-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessories",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "b2f9027d-f324-4b8b-a25e-ce0ea6438e87": {
+          "type": "collection",
+          "settings": {
+            "collection": "bundles",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "6d8ae422-2bea-422f-9f29-4f6508d17b0d": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-sellers",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "165401724260c85ee6-0",
+        "b2f9027d-f324-4b8b-a25e-ce0ea6438e87",
+        "6d8ae422-2bea-422f-9f29-4f6508d17b0d"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Shop",
+        "content": "",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1653413494c86d6524": {
+      "type": "text-with-icons",
+      "blocks": {
+        "1653413494f89b2b0c-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "custom_icon": "shopify:\/\/shop_images\/gosun_worldwide.png",
+            "custom_icon_width": 50,
+            "title": "360º vertical tilting head",
+            "content": "<p>Adjust the direction of airflow for use in any situation<\/p>"
+          }
+        },
+        "1653413494f89b2b0c-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "custom_icon": "shopify:\/\/shop_images\/icon_4.png",
+            "custom_icon_width": 50,
+            "title": "Running noise less than 60db",
+            "content": "<p>The brushless motor operates in near silence to ensure minimal disruption<\/p>"
+          }
+        },
+        "1653413494f89b2b0c-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "custom_icon": "shopify:\/\/shop_images\/stream_wind_icon_217257.png",
+            "custom_icon_width": 50,
+            "title": "Stepless variable speed control",
+            "content": "<p>Versatile settings to dial up or down the cooling power<\/p>"
+          }
+        },
+        "1653413494f89b2b0c-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-email",
+            "custom_icon": "shopify:\/\/shop_images\/energy_plug_power_renewable_solar_sun_icon_123307.png",
+            "custom_icon_width": 50,
+            "title": "Highest efficiency on the market",
+            "content": "<p>Charge the fan directly from solar or  run from a powerbank for hours and hours<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1653413494f89b2b0c-0",
+        "1653413494f89b2b0c-1",
+        "1653413494f89b2b0c-2",
+        "1653413494f89b2b0c-3"
+      ],
+      "settings": {
+        "background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)",
+        "font_size_desktop": 16,
+        "font_size_mobile": 16
+      }
+    },
+    "1657900519a9c107fb": {
+      "type": "videowise-product-widgets",
+      "settings": {
+        "widget_selector": "62ebed6345a11b002a1851e4"
+      }
+    },
+    "165341330043ddaa83": {
+      "type": "image-with-text",
+      "blocks": {
+        "1653413300086aa30d-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gosun_breeze_12v_solar_fan_powerbank.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "Energy efficient heat relief",
+            "content": "<p>With the highest efficiency rating on the market, the Breeze can run directly from <a href=\"https:\/\/gosun.co\/collections\/solar-chargers\" title=\"https:\/\/gosun.co\/collections\/solar-chargers\">GoSun Solar Chargers<\/a>. Stay cool for as long as the sun shines, then switch to the included <a href=\"https:\/\/gosun.co\/products\/power-144\" target=\"_blank\" title=\"https:\/\/gosun.co\/products\/power-144\">Power 144<\/a> Powerbank to continue running overnight.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1653413300086aa30d-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#288bcc",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1654877885041d3361": {
+      "type": "image-with-text",
+      "blocks": {
+        "1654877885163a4502-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/solar_energy_efficient_fan_12v.jpg",
+            "tab_label": "Versatile",
+            "subheading": "",
+            "title": "360˚ of cooling power",
+            "content": "<p>Designed with a vertical tilting head, the Breeze offers amazing versatility - use on a table and in the sand at the beach or hang overhead in a tent, RV, or cabin.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1654877885163a4502-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#288bcc",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16579100432b6a8e20": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "1657910042fc97d883-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/solar_cooler_table_charger_surface.jpg",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "One of our most powerful chargers",
+            "content": "<p>Designed to recharge and provide shade for your Chillest or powerbank. The SolarTable 60's lightweight aluminum frame folds into a portable package that is easy to carry and store.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1657910042fc97d883-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#288bcc",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1653414092fd41c26d": {
+      "type": "press",
+      "disabled": true,
+      "blocks": {
+        "1653414092e9b48df3-0": {
+          "type": "item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Frame_20.png",
+            "logo_width": 150,
+            "content": "GoSun ‘Chillest’ Evolves the Portable Fridge -Gear Junkie"
+          }
+        },
+        "5ab0b2e4-9ddb-4f23-84d2-0fbd66e72074": {
+          "type": "item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Frame_29.png",
+            "logo_width": 150,
+            "content": "Amazingly, it takes fewer than 30 minutes to reach the temperature you select! -The Gadget Flow"
+          }
+        },
+        "1bbbf339-948a-4edd-822b-76cab085e858": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "logo_width": 100,
+            "content": "Write some content about what they are saying about your store."
+          }
+        }
+      },
+      "block_order": [
+        "1653414092e9b48df3-0",
+        "5ab0b2e4-9ddb-4f23-84d2-0fbd66e72074",
+        "1bbbf339-948a-4edd-822b-76cab085e858"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background": "#ecedef",
+        "text_color": "rgba(0,0,0,0)",
+        "autoplay": true,
+        "cycle_speed": 5
+      }
+    },
+    "165487926339887a95": {
+      "type": "image-with-text",
+      "blocks": {
+        "165487926319d7ab40-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/solar_fan_power_options1.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "How it works",
+            "content": "<p>The Breeze can run off any 12 volt power source like a car, boat or RV. Additionally for extra versatility, it can be powered by the included Power 144 or directly from solar energy produced by GoSun's Solar Chargers.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165487926319d7ab40-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#288bcc",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16555241718369dd1c": {
+      "type": "videowise-product-widgets",
+      "disabled": true,
+      "settings": {
+        "widget_selector": "62ad48d2036543002ba0038a"
+      }
+    },
+    "16548794344070cfc1": {
+      "type": "multi-column",
+      "disabled": true,
+      "blocks": {
+        "1654879434a09e5b95-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_9.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "59ffd1d6-ea82-49a7-b04d-85073bf6b530": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_8_1.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "1654879434a09e5b95-0",
+        "59ffd1d6-ea82-49a7-b04d-85073bf6b530"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "stack_items": true,
+        "subheading": "",
+        "title": "Product Comparison",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "large",
+        "spacing": "tight",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165341340647ca592b": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "background_type": "full_width",
+        "video_size": "auto",
+        "autoplay": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "product-content": {
+      "type": "product-content",
+      "blocks": {
+        "38991388-db52-4dee-9e08-c8e555620c13": {
+          "type": "content",
+          "settings": {
+            "title": "Weight & Dimensions",
+            "content": "<p>{{ product.metafields.my_fields._weight_and_dimensions | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "1791f09a-7192-47bc-887e-b6a125de0664": {
+          "type": "content",
+          "settings": {
+            "title": "Tech Specs",
+            "content": "<p>{{ product.metafields.my_fields.features | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "19e6c18d-95b3-4204-bf74-a8e1b49c0623": {
+          "type": "content",
+          "settings": {
+            "title": "In the Box",
+            "content": "<p>{{ product.metafields.my_fields.in_the_box | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "e467e674-5317-4edf-9e00-58a2d1b186eb": {
+          "type": "featured_products",
+          "settings": {
+            "title": "Buy It With",
+            "products": "{{ product.metafields.my_fields.buy_it_with.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "38991388-db52-4dee-9e08-c8e555620c13",
+        "1791f09a-7192-47bc-887e-b6a125de0664",
+        "19e6c18d-95b3-4204-bf74-a8e1b49c0623",
+        "e467e674-5317-4edf-9e00-58a2d1b186eb"
+      ],
+      "settings": {
+      }
+    },
+    "1659623362fd85a44a": {
+      "type": "faq",
+      "disabled": true,
+      "blocks": {
+        "1659623362fc93e3e6-0": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping"
+          }
+        },
+        "1659623362fc93e3e6-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "1659623362fc93e3e6-2": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "1659623362fc93e3e6-3": {
+          "type": "category",
+          "settings": {
+            "title": "Other"
+          }
+        },
+        "1659623362fc93e3e6-4": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1659623362fc93e3e6-0",
+        "1659623362fc93e3e6-1",
+        "1659623362fc93e3e6-2",
+        "1659623362fc93e3e6-3",
+        "1659623362fc93e3e6-4"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16524703050d8431b4": {
+      "type": "apps",
+      "blocks": {
+        "dea54526-4817-4ed5-b75d-239e4d8ae63a": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": true,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "dea54526-4817-4ed5-b75d-239e4d8ae63a"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "You may also like",
+        "recommendations_count": 4,
+        "products": [
+
+        ],
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1652884753f9f03f8f": {
+      "type": "text-with-icons",
+      "blocks": {
+        "1652884753be2fdfe1-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-credit-card",
+            "custom_icon_width": 50,
+            "title": "Quick, simple financing",
+            "content": ""
+          }
+        },
+        "1652884753be2fdfe1-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-delivery-truck",
+            "custom_icon_width": 50,
+            "title": "Free Shipping over $50",
+            "content": ""
+          }
+        },
+        "1652884753be2fdfe1-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-shield",
+            "custom_icon_width": 50,
+            "title": "1-Year Warranty",
+            "content": ""
+          }
+        },
+        "1652884753be2fdfe1-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-customer-support",
+            "custom_icon_width": 50,
+            "title": "Award-winning customer service",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "1652884753be2fdfe1-0",
+        "1652884753be2fdfe1-1",
+        "1652884753be2fdfe1-2",
+        "1652884753be2fdfe1-3"
+      ],
+      "settings": {
+        "background": "#ecedef",
+        "text_color": "#424242",
+        "font_size_desktop": 16,
+        "font_size_mobile": 16
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16540172429e0f5254",
+    "1653413494c86d6524",
+    "1657900519a9c107fb",
+    "165341330043ddaa83",
+    "1654877885041d3361",
+    "16579100432b6a8e20",
+    "1653414092fd41c26d",
+    "165487926339887a95",
+    "16555241718369dd1c",
+    "16548794344070cfc1",
+    "165341340647ca592b",
+    "product-content",
+    "1659623362fd85a44a",
+    "16524703050d8431b4",
+    "product-recommendations",
+    "1652884753f9f03f8f"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "16547143017c7833f0": {
+      "type": "image-with-text",
+      "blocks": {
+        "1654714300c0ea4941-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/download_1.png",
+            "tab_label": "",
+            "subheading": "",
+            "title": "Become an Affiliate",
+            "content": "<p>Share GoSun online with your own custom URL. Earn commissions from all sales generated from your link and purchases on our site. The GoSun Affiliate Program is managed Through Avantlink<br\/><br\/>Already an affiliate? <a href=\"https:\/\/www.shareasale.com\/shareasale.cfm?merchantID=52143\" title=\"GoSun Affiliate | Log in\">Log in<\/a>.<\/p>",
+            "button_text": "Sign-Up",
+            "button_link": "https:\/\/www.shareasale.com\/shareasale.cfm?merchantID=52143"
+          }
+        }
+      },
+      "block_order": [
+        "1654714300c0ea4941-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#d9e8f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1654714511029d2039": {
+      "type": "faq",
+      "blocks": {
+        "16547145115cfdca2c-1": {
+          "type": "question",
+          "settings": {
+            "title": "Why Avantlink?",
+            "answer": "<p>From Avantlink's Website<\/p><p>Headquartered in Park City, Utah, AvantLink was founded in 2005 and is privately owned and supports approximately 35 employees. The company takes pride in being profitable and debt-free. It operates three independent affiliate networks in the US (Global Network), Canada, and Australia, all boasting leading advertisers and accomplished publishers.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "16547145115cfdca2c-2": {
+          "type": "question",
+          "settings": {
+            "title": "What's affiliate marketing?",
+            "answer": "<p>Basically, you promote other people’s products, often through an affiliate network, earning a commission if people actually end up buying thanks to your marketing.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16547145115cfdca2c-1",
+        "16547145115cfdca2c-2"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16547143017c7833f0",
+    "1654714511029d2039"
+  ]
+}

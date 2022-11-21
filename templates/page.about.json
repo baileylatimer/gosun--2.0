@@ -1,0 +1,542 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "165288547857595783": {
+      "type": "image-with-text",
+      "blocks": {
+        "1652885478e77ce6f3-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sport_in_snow_compressed.png",
+            "tab_label": "",
+            "subheading": "Our Story",
+            "title": "GoSun is a team of designers, engineers, and change-makers, intent on serving the world with unparalleled clean energy solutions.",
+            "content": "",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1652885478e77ce6f3-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#d9e8f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16528854965b8c1e75": {
+      "type": "video",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=1dXYKzqg3tI",
+        "image": "shopify:\/\/shop_images\/1dXYKzqg3tI-HD.jpg",
+        "background_type": "full_width",
+        "video_size": "auto",
+        "autoplay": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1652885714ddd2b0b8": {
+      "type": "image-with-text",
+      "blocks": {
+        "16528857143d167ba1-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PatrickGarage.jpg",
+            "tab_label": "",
+            "subheading": "Founder & CEO",
+            "title": "Patrick Sherwin",
+            "content": "<p>“GoSun creates innovative products that encourage fun, resilience and independence. We are passionate about our products and how they power our customers’ lives. Founded in a small suburban garage in Cincinnati, Ohio, we grew quickly thanks to our community of committed customers and shareholders, who not only believe in our products, but also use them to bring people together.”<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16528857143d167ba1-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#d9e8f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16528859463841a91a": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Portable power to the people.",
+        "content": "<p>Although GoSun is still a small entrepreneurial business, we believe we should all do what we can, when we can. Since our inception, we've worked with dozens of nonprofit organizations to provide discounted solar cookers and other solar products to those that need them most.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#288bcc",
+        "text_color": "#ffffff",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16539107893910dc7d": {
+      "type": "image-with-text",
+      "blocks": {
+        "1653910789760f3291-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1_11.png",
+            "tab_label": "",
+            "subheading": "",
+            "title": "A solar future",
+            "content": "<p>GoSun has provided funding to support the efforts of the California Fire Foundation, The Houston Food Bank, Global Giving, and Operation BBQ Relief. We have made donations to The American Red Cross and World Central Kitchen to assist in Hurricane Florence relief efforts and to the California Community Wildfire Relief Fund.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1653910789760f3291-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#d9e8f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1653916228f8f95a20": {
+      "type": "multi-column",
+      "blocks": {
+        "165391622886666928-0": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "#288bcc",
+            "title": "50K",
+            "content": "<p>trees planted<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "165391622886666928-1": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "1.5k",
+            "content": "<p>cookers donated<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "165391622886666928-2": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Column 1",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "165391622886666928-3": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Column 1",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "165391622886666928-0",
+        "165391622886666928-1",
+        "165391622886666928-2",
+        "165391622886666928-3"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "large",
+        "spacing": "normal",
+        "background": "#288bcc",
+        "text_color": "#ffffff"
+      }
+    },
+    "1653916948c0c8c979": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Empowering others",
+        "content": "<p>While volunteering with non-profits in Haiti and Latin America, Patrick experienced first-hand the vulnerability of energy poverty. Touched by the resilience and happiness of those living on just $2 a day, he spent years facilitating technology, energy and social innovations in the developing world. These efforts, including many failures to introduce typical solar ovens, led to the realization that his solar hot dog cooker invention could be something more, serving a great need in emerging markets.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1653916776f21e58a8": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/patrick_haiti_solar.jpg",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "boxed",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "16539163953cf2317d": {
+      "type": "image-with-text",
+      "blocks": {
+        "16539163952106a586-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Fusion_Beach.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "40 days of sunshine",
+            "content": "<p>For the full story, listen to this interview with Patrick on the Inside the Adventure podcast. To see his latest adventure living off only solar cooked food for 40 days take a look at the 40 Days Of Sunshine Blog.<\/p>",
+            "button_text": "Read Now",
+            "button_link": "shopify:\/\/blogs\/40-days-of-sunshine"
+          }
+        }
+      },
+      "block_order": [
+        "16539163952106a586-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#d9e8f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1653917329c583ef18": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Meet the Team",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1653917335a4f2e26d": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/Group_Playful_2.jpg",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "boxed",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "16539087089aae3ce0": {
+      "type": "multi-column",
+      "disabled": true,
+      "blocks": {
+        "16539087085632a6e7-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4d49c978c710--Patrick-Sherwin-min-170eb5.png",
+            "image_width": 100,
+            "image_border": "#288bcc",
+            "title": "Patrick Sherwin",
+            "content": "<p><strong>Founder\/CEO<\/strong><br\/><br\/>Patrick is a seasoned inventor and designer of solar products. He lived off-grid with solar on a island in the Bahamas for almost four years. As a veteran solar engineer, Patrick holds several patents and has extensive small business, project management, and sales experience. Patrick’s entrepreneurial spirit and determination drives the company forward.<\/p>",
+            "link_text": "Linkedin",
+            "link_url": "https:\/\/www.linkedin.com\/in\/patricksherwin",
+            "link_style": "link",
+            "text_alignment": "left",
+            "vertical_alignment": "start"
+          }
+        },
+        "16539087085632a6e7-2": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Column 1",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "8d888831-fb78-4477-9dc4-c88c8e3adeaf": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Your content",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "4fe1b6cd-c7f5-4fac-920b-f5a1759fc8ea": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Your content",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "2de7e09b-92f5-4dfd-b800-ce3abc76844f": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Your content",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "3003e5ba-9e32-4ce0-bddc-e0ddb6430880": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Your content",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "e7dc0fe1-ce4f-4975-a836-fd593a1cf703": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Your content",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "374bad5b-cd2d-4cd3-9b1e-59abf48a4250": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Your content",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "17817426-dbee-4829-b394-a50fb6b7ffcf": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Your content",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "f0646273-0f86-4997-91a8-3098dc91272a": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Your content",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "13aa70c4-f686-4a79-b643-72409763fd5b": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Your content",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "16539087085632a6e7-1",
+        "16539087085632a6e7-2",
+        "8d888831-fb78-4477-9dc4-c88c8e3adeaf",
+        "4fe1b6cd-c7f5-4fac-920b-f5a1759fc8ea",
+        "2de7e09b-92f5-4dfd-b800-ce3abc76844f",
+        "3003e5ba-9e32-4ce0-bddc-e0ddb6430880",
+        "e7dc0fe1-ce4f-4975-a836-fd593a1cf703",
+        "374bad5b-cd2d-4cd3-9b1e-59abf48a4250",
+        "17817426-dbee-4829-b394-a50fb6b7ffcf",
+        "f0646273-0f86-4997-91a8-3098dc91272a",
+        "13aa70c4-f686-4a79-b643-72409763fd5b"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "medium",
+        "spacing": "normal",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16552224695d12dd09": {
+      "type": "staffs",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "165288547857595783",
+    "16528854965b8c1e75",
+    "1652885714ddd2b0b8",
+    "16528859463841a91a",
+    "16539107893910dc7d",
+    "1653916228f8f95a20",
+    "1653916948c0c8c979",
+    "1653916776f21e58a8",
+    "16539163953cf2317d",
+    "1653917329c583ef18",
+    "1653917335a4f2e26d",
+    "16539087089aae3ce0",
+    "16552224695d12dd09"
+  ]
+}

@@ -1,0 +1,414 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "558b2ec9-dc80-41d1-9a13-de0017ea9627": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": ""
+          }
+        },
+        "f557431d-55ee-4904-af57-f75cd6400497": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/star-rating-badge\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "disabled": true,
+          "settings": {
+            "use_metafields": true,
+            "sku_tagtype": "sku",
+            "is_featured_product": false,
+            "featured_product_handle": ""
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "button_text": "",
+            "atc_button_background": "#c65824",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "#288bcc",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "e0cd8fad-2554-431f-bf92-5ab7a52d7dff": {
+          "type": "inventory",
+          "settings": {
+            "inventory_phrase": "",
+            "low_inventory_threshold": 10
+          }
+        },
+        "f4e9d67a-168f-4b6f-ae4c-3d308ba56d71": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "92dac3a7-b7f1-4aca-86fd-5e77d9be6ab5": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "558b2ec9-dc80-41d1-9a13-de0017ea9627",
+        "f557431d-55ee-4904-af57-f75cd6400497",
+        "variant_picker",
+        "buy_buttons",
+        "e0cd8fad-2554-431f-bf92-5ab7a52d7dff",
+        "f4e9d67a-168f-4b6f-ae4c-3d308ba56d71",
+        "quantity_selector",
+        "92dac3a7-b7f1-4aca-86fd-5e77d9be6ab5"
+      ],
+      "settings": {
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": true,
+        "show_sticky_add_to_cart": true,
+        "show_share_buttons": true,
+        "bold_compare_price": false,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "left",
+        "transition_effect": "slide"
+      }
+    },
+    "16540172429e0f5254": {
+      "type": "featured-collections",
+      "disabled": true,
+      "blocks": {
+        "165401724260c85ee6-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessories",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "b2f9027d-f324-4b8b-a25e-ce0ea6438e87": {
+          "type": "collection",
+          "settings": {
+            "collection": "bundles",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "6d8ae422-2bea-422f-9f29-4f6508d17b0d": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-sellers",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "165401724260c85ee6-0",
+        "b2f9027d-f324-4b8b-a25e-ce0ea6438e87",
+        "6d8ae422-2bea-422f-9f29-4f6508d17b0d"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Shop",
+        "content": "",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1653413494c86d6524": {
+      "type": "text-with-icons",
+      "blocks": {
+        "1653413494f89b2b0c-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "custom_icon": "shopify:\/\/shop_images\/icon_25.png",
+            "custom_icon_width": 50,
+            "title": "Adjustable height",
+            "content": ""
+          }
+        },
+        "1653413494f89b2b0c-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "custom_icon": "shopify:\/\/shop_images\/icon_24.png",
+            "custom_icon_width": 50,
+            "title": "Aluminum + Steel",
+            "content": ""
+          }
+        },
+        "1653413494f89b2b0c-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "custom_icon": "shopify:\/\/shop_images\/icon_26.png",
+            "custom_icon_width": 50,
+            "title": "Charges Powerbank",
+            "content": ""
+          }
+        },
+        "1653413494f89b2b0c-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-email",
+            "custom_icon": "shopify:\/\/shop_images\/icon.png",
+            "custom_icon_width": 50,
+            "title": "Water-resistant",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "1653413494f89b2b0c-0",
+        "1653413494f89b2b0c-2",
+        "1653413494f89b2b0c-1",
+        "1653413494f89b2b0c-3"
+      ],
+      "settings": {
+        "background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)",
+        "font_size_desktop": 16,
+        "font_size_mobile": 16
+      }
+    },
+    "165341340647ca592b": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "background_type": "full_width",
+        "video_size": "auto",
+        "autoplay": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16552062715bf14213": {
+      "type": "image-with-text",
+      "blocks": {
+        "165520627131f9ac4b-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/266_table_laptop_garden.jpg",
+            "tab_label": "",
+            "subheading": "Charge all of your devices with the Sun",
+            "title": "Our most powerful charger yet",
+            "content": "<p>Designed to recharge your Power 144 or Power 266 and provide and shade for the Chill. The SolarTable 120's lightweight aluminum frame folds into a portable package that is easy to carry and store<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165520627131f9ac4b-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#d9e8f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "product-content": {
+      "type": "product-content",
+      "blocks": {
+        "38991388-db52-4dee-9e08-c8e555620c13": {
+          "type": "content",
+          "settings": {
+            "title": "Weight & Dimensions",
+            "content": "<p>{{ product.metafields.my_fields._weight_and_dimensions | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "1791f09a-7192-47bc-887e-b6a125de0664": {
+          "type": "content",
+          "settings": {
+            "title": "Tech Specs",
+            "content": "<p>{{ product.metafields.my_fields.features | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "19e6c18d-95b3-4204-bf74-a8e1b49c0623": {
+          "type": "content",
+          "settings": {
+            "title": "In the Box",
+            "content": "<p>{{ product.metafields.my_fields.in_the_box | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "e467e674-5317-4edf-9e00-58a2d1b186eb": {
+          "type": "featured_products",
+          "settings": {
+            "title": "Buy It With",
+            "products": "{{ product.metafields.my_fields.buy_it_with.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "38991388-db52-4dee-9e08-c8e555620c13",
+        "1791f09a-7192-47bc-887e-b6a125de0664",
+        "19e6c18d-95b3-4204-bf74-a8e1b49c0623",
+        "e467e674-5317-4edf-9e00-58a2d1b186eb"
+      ],
+      "settings": {
+      }
+    },
+    "16524703050d8431b4": {
+      "type": "apps",
+      "blocks": {
+        "dea54526-4817-4ed5-b75d-239e4d8ae63a": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": true,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "dea54526-4817-4ed5-b75d-239e4d8ae63a"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
+    },
+    "1655496769f791af6b": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Would you like to know more about this product?",
+        "content": "",
+        "button_text": "CHECK OUR FAQ PAGE",
+        "button_link": "https:\/\/gosun.zendesk.com\/hc\/en-us",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#d9e8f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "subheading": "",
+        "title": "You may also like",
+        "recommendations_count": 4,
+        "products": [
+
+        ],
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1652884753f9f03f8f": {
+      "type": "text-with-icons",
+      "blocks": {
+        "1652884753be2fdfe1-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-credit-card",
+            "custom_icon_width": 50,
+            "title": "Quick, simple financing",
+            "content": ""
+          }
+        },
+        "1652884753be2fdfe1-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-delivery-truck",
+            "custom_icon_width": 50,
+            "title": "Free Shipping over $50",
+            "content": ""
+          }
+        },
+        "1652884753be2fdfe1-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-shield",
+            "custom_icon_width": 50,
+            "title": "1-Year Warranty",
+            "content": ""
+          }
+        },
+        "1652884753be2fdfe1-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-customer-support",
+            "custom_icon_width": 50,
+            "title": "Award-winning customer service",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "1652884753be2fdfe1-0",
+        "1652884753be2fdfe1-1",
+        "1652884753be2fdfe1-2",
+        "1652884753be2fdfe1-3"
+      ],
+      "settings": {
+        "background": "#ecedef",
+        "text_color": "#424242",
+        "font_size_desktop": 16,
+        "font_size_mobile": 16
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16540172429e0f5254",
+    "1653413494c86d6524",
+    "165341340647ca592b",
+    "16552062715bf14213",
+    "product-content",
+    "16524703050d8431b4",
+    "1655496769f791af6b",
+    "product-recommendations",
+    "1652884753f9f03f8f"
+  ]
+}

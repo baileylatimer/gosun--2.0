@@ -1,0 +1,777 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "558b2ec9-dc80-41d1-9a13-de0017ea9627": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": ""
+          }
+        },
+        "f557431d-55ee-4904-af57-f75cd6400497": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/star-rating-badge\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "disabled": true,
+          "settings": {
+            "use_metafields": true,
+            "sku_tagtype": "sku",
+            "is_featured_product": false,
+            "featured_product_handle": ""
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "button_text": "",
+            "atc_button_background": "#c65824",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "#288bcc",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "e0cd8fad-2554-431f-bf92-5ab7a52d7dff": {
+          "type": "inventory",
+          "settings": {
+            "inventory_phrase": "",
+            "low_inventory_threshold": 10
+          }
+        },
+        "f4e9d67a-168f-4b6f-ae4c-3d308ba56d71": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "92dac3a7-b7f1-4aca-86fd-5e77d9be6ab5": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "558b2ec9-dc80-41d1-9a13-de0017ea9627",
+        "f557431d-55ee-4904-af57-f75cd6400497",
+        "variant_picker",
+        "buy_buttons",
+        "e0cd8fad-2554-431f-bf92-5ab7a52d7dff",
+        "f4e9d67a-168f-4b6f-ae4c-3d308ba56d71",
+        "quantity_selector",
+        "92dac3a7-b7f1-4aca-86fd-5e77d9be6ab5"
+      ],
+      "settings": {
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": true,
+        "show_sticky_add_to_cart": true,
+        "show_share_buttons": true,
+        "bold_compare_price": false,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "left",
+        "transition_effect": "slide"
+      }
+    },
+    "16540172429e0f5254": {
+      "type": "featured-collections",
+      "disabled": true,
+      "blocks": {
+        "165401724260c85ee6-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessories",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "b2f9027d-f324-4b8b-a25e-ce0ea6438e87": {
+          "type": "collection",
+          "settings": {
+            "collection": "bundles",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "6d8ae422-2bea-422f-9f29-4f6508d17b0d": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-sellers",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "165401724260c85ee6-0",
+        "b2f9027d-f324-4b8b-a25e-ce0ea6438e87",
+        "6d8ae422-2bea-422f-9f29-4f6508d17b0d"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Shop",
+        "content": "",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1653413494c86d6524": {
+      "type": "text-with-icons",
+      "blocks": {
+        "1653413494f89b2b0c-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-email",
+            "custom_icon": "shopify:\/\/shop_images\/icon_2.png",
+            "custom_icon_width": 50,
+            "title": "High Energy Capacity",
+            "content": ""
+          }
+        },
+        "1653413494f89b2b0c-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "custom_icon": "shopify:\/\/shop_images\/icon_26.png",
+            "custom_icon_width": 50,
+            "title": "9 Power Outputs",
+            "content": ""
+          }
+        },
+        "1653413494f89b2b0c-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "custom_icon": "shopify:\/\/shop_images\/icon_23.png",
+            "custom_icon_width": 50,
+            "title": "Real-Time Display",
+            "content": ""
+          }
+        },
+        "1653413494f89b2b0c-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "custom_icon": "shopify:\/\/shop_images\/icon_28.png",
+            "custom_icon_width": 50,
+            "title": "LED Light",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "1653413494f89b2b0c-3",
+        "1653413494f89b2b0c-0",
+        "1653413494f89b2b0c-1",
+        "1653413494f89b2b0c-2"
+      ],
+      "settings": {
+        "background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)",
+        "font_size_desktop": 16,
+        "font_size_mobile": 16
+      }
+    },
+    "165341330043ddaa83": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "1653413300086aa30d-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Power_550_Barn.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "Power without limits",
+            "content": "<p>With 550 watt hours of lithium ion energy, you’re equipped with reliable, silent power to meet your essential needs while off-grid - camping, events, mobile office, BBQ, etc<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1653413300086aa30d-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#288bcc",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165537701218ccd91a": {
+      "type": "multi-column",
+      "blocks": {
+        "16553770124a28f4fa-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_62.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Advanced Charging Technology",
+            "content": "<p>A built in MPPT controller automatically optimizes charging and maximizes power extraction from solar, 12V or AC power<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "left",
+            "vertical_alignment": "start"
+          }
+        },
+        "16553770124a28f4fa-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_64.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Safety Protections",
+            "content": "<p>Temperature control with incredible heat dissipation, Regulated Outlets with Voltage Stabilizing Technology, Smart BMS<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "left",
+            "vertical_alignment": "start"
+          }
+        },
+        "16553770124a28f4fa-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_63.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Brilliant LED Light",
+            "content": "<p>A 450 lumen LED is powerful enough to illuminate your camp site or your home during a power outage<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "left",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "16553770124a28f4fa-2",
+        "16553770124a28f4fa-1",
+        "16553770124a28f4fa-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "Power without limits",
+        "content": "<p>With 550 watt hours of lithium ion energy, you’re equipped with reliable, silent power to meet your essential needs while off-grid - camping, events, mobile office, BBQ, etc<\/p>",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "medium",
+        "spacing": "tight",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1654885386db47b134": {
+      "type": "image-with-text",
+      "blocks": {
+        "16548853864ae1cc08-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Power_550_Plant_Bench.png",
+            "tab_label": "",
+            "subheading": "",
+            "title": "Real-time display",
+            "content": "<p>The intuitive display shows the exact battery status regarding input and output wattage, as well as battery percentage remaining<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16548853864ae1cc08-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#d9e8f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1655378117e54f229a": {
+      "type": "multi-column",
+      "blocks": {
+        "16553781168d8f77cd-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_65.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Wall Socket",
+            "content": "<p>The included AC Charger takes about 5 hours to top off an empty Power 550<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "left",
+            "vertical_alignment": "start"
+          }
+        },
+        "16553781168d8f77cd-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_66.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Solar",
+            "content": "<p>Upgrade to solar to own a powerplant, charge in as little as 3.5hrs with the Sun<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "left",
+            "vertical_alignment": "start"
+          }
+        },
+        "16553781168d8f77cd-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_67.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "12 Volt",
+            "content": "<p>The included DC plug charges from any car, boat, truck or RV made since 1950<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "left",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "16553781168d8f77cd-0",
+        "16553781168d8f77cd-1",
+        "16553781168d8f77cd-2"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": true,
+        "subheading": "",
+        "title": "3 ways to charge",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "medium",
+        "spacing": "tight",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16553776810c80f9b7": {
+      "type": "image-with-text",
+      "blocks": {
+        "1655377681c3098327-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_69_1.png",
+            "tab_label": "Item",
+            "subheading": "VERSATILE AND EFFECTIVE",
+            "title": "More Power To You",
+            "content": "<p>Nine power outputs to meet all your needs: Features two AC outlet (110V, 600W with 1,000W Peak) and two 12V DC ports and one 12V car port, two USB-A ports, one 60W USB-C, and one 18W QC3.0 port<br\/><br\/><strong>*All run and charge times are estimated<\/strong><\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1655377681c3098327-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165537865403fcd5e6": {
+      "type": "image-with-text",
+      "blocks": {
+        "165537865407c2da0c-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_70.png",
+            "tab_label": "",
+            "subheading": "",
+            "title": "Go Lightweight and Compact",
+            "content": "<p>At just 15 LBS (7 kgs) and only 8 inches long, it's still powerful enough to power most tools like fridges, pumps and electronics<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165537865407c2da0c-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#d9e8f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16553820212c6b06c9": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/image_71.png",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "boxed",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#ffffff",
+        "overlay_opacity": 0
+      }
+    },
+    "165538212659e58475": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "POWER CAPACITY",
+        "title": "How long will it run?",
+        "content": "<p>Optimized to power GoSun’s full line of super efficient appliances that cook, cool, purify, heat, and brew - Effectively power lights, refrigerators, CPAP, computers, speakers, phones, TVs, fans and more<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1655382170e56e1f53": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/image_72.png",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "boxed",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#ffffff",
+        "overlay_opacity": 0
+      }
+    },
+    "1654886405abe2af53": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=M2yDn0zk7rQ",
+        "background_type": "full_width",
+        "video_size": "auto",
+        "autoplay": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "product-content": {
+      "type": "product-content",
+      "blocks": {
+        "38991388-db52-4dee-9e08-c8e555620c13": {
+          "type": "content",
+          "settings": {
+            "title": "Weight & Dimensions",
+            "content": "<p>{{ product.metafields.my_fields._weight_and_dimensions | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "1791f09a-7192-47bc-887e-b6a125de0664": {
+          "type": "content",
+          "settings": {
+            "title": "Tech Specs",
+            "content": "<p>{{ product.metafields.my_fields.features | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "19e6c18d-95b3-4204-bf74-a8e1b49c0623": {
+          "type": "content",
+          "settings": {
+            "title": "In the Box",
+            "content": "<p>{{ product.metafields.my_fields.in_the_box | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "e467e674-5317-4edf-9e00-58a2d1b186eb": {
+          "type": "featured_products",
+          "settings": {
+            "title": "Buy It With",
+            "products": "{{ product.metafields.my_fields.buy_it_with.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "38991388-db52-4dee-9e08-c8e555620c13",
+        "1791f09a-7192-47bc-887e-b6a125de0664",
+        "19e6c18d-95b3-4204-bf74-a8e1b49c0623",
+        "e467e674-5317-4edf-9e00-58a2d1b186eb"
+      ],
+      "settings": {
+      }
+    },
+    "16524703050d8431b4": {
+      "type": "apps",
+      "blocks": {
+        "dea54526-4817-4ed5-b75d-239e4d8ae63a": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": true,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "dea54526-4817-4ed5-b75d-239e4d8ae63a"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
+    },
+    "1655497180015eb787": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Would you like to know more about this product?",
+        "content": "",
+        "button_text": "CHECK OUR FAQ PAGE",
+        "button_link": "https:\/\/gosun.zendesk.com\/hc\/en-us",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#d9e8f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "subheading": "",
+        "title": "You may also like",
+        "recommendations_count": 4,
+        "products": [
+
+        ],
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1652884870354ee31a": {
+      "type": "faq",
+      "disabled": true,
+      "blocks": {
+        "1652884870f6b32572-0": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping"
+          }
+        },
+        "1652884870f6b32572-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "1652884870f6b32572-2": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "1652884870f6b32572-3": {
+          "type": "category",
+          "settings": {
+            "title": "Other"
+          }
+        },
+        "1652884870f6b32572-4": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1652884870f6b32572-0",
+        "1652884870f6b32572-1",
+        "1652884870f6b32572-2",
+        "1652884870f6b32572-3",
+        "1652884870f6b32572-4"
+      ],
+      "settings": {
+        "show_navigation": true,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1652884753f9f03f8f": {
+      "type": "text-with-icons",
+      "blocks": {
+        "1652884753be2fdfe1-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-credit-card",
+            "custom_icon_width": 50,
+            "title": "Quick, simple financing",
+            "content": ""
+          }
+        },
+        "1652884753be2fdfe1-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-delivery-truck",
+            "custom_icon_width": 50,
+            "title": "Free Shipping over $50",
+            "content": ""
+          }
+        },
+        "1652884753be2fdfe1-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-shield",
+            "custom_icon_width": 50,
+            "title": "1-Year Warranty",
+            "content": ""
+          }
+        },
+        "1652884753be2fdfe1-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-customer-support",
+            "custom_icon_width": 50,
+            "title": "Award-winning customer service",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "1652884753be2fdfe1-0",
+        "1652884753be2fdfe1-1",
+        "1652884753be2fdfe1-2",
+        "1652884753be2fdfe1-3"
+      ],
+      "settings": {
+        "background": "#ecedef",
+        "text_color": "#424242",
+        "font_size_desktop": 16,
+        "font_size_mobile": 16
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16540172429e0f5254",
+    "1653413494c86d6524",
+    "165341330043ddaa83",
+    "165537701218ccd91a",
+    "1654885386db47b134",
+    "1655378117e54f229a",
+    "16553776810c80f9b7",
+    "165537865403fcd5e6",
+    "16553820212c6b06c9",
+    "165538212659e58475",
+    "1655382170e56e1f53",
+    "1654886405abe2af53",
+    "product-content",
+    "16524703050d8431b4",
+    "1655497180015eb787",
+    "product-recommendations",
+    "1652884870354ee31a",
+    "1652884753f9f03f8f"
+  ]
+}

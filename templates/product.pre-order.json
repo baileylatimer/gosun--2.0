@@ -1,0 +1,113 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "71e50c1a-b534-4a36-b7ee-92cb638d9278": {
+          "type": "description",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "71e50c1a-b534-4a36-b7ee-92cb638d9278"
+      ],
+      "settings": {
+        "show_vendor": true,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_sticky_add_to_cart": true,
+        "show_share_buttons": true,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide"
+      }
+    },
+    "product-content": {
+      "type": "product-content",
+      "disabled": true,
+      "blocks": {
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "description"
+      ],
+      "settings": {
+      }
+    },
+    "1655498942bcb52aa1": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Would you like to know more about this product?",
+        "content": "",
+        "button_text": "CHECK OUR FAQ PAGE",
+        "button_link": "https:\/\/gosun.zendesk.com\/hc\/en-us",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#d9e8f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "subheading": "",
+        "title": "You may also like",
+        "recommendations_count": 4,
+        "products": [
+
+        ],
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-content",
+    "1655498942bcb52aa1",
+    "product-recommendations"
+  ]
+}

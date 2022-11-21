@@ -1,0 +1,331 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "1654712944c0e96077": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/GoSun_Fusion_how_to_page_cover_image.jpg",
+        "subheading": "",
+        "title": "Fusion How To",
+        "content": "<p>Congrats on your purchase of the Fusion and welcome to the GoSun ecosystem. Below, you'll find a quickstart video for setting up the Fusion with some tips and tricks to get started. <\/p>",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "small",
+        "text_position": "top_left",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "16611968879e7ed277": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": false,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/gosun_sporte_features.jpg",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "16552287623c956297": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "165522876256e3fb16-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gosun_sporte_electric_solar_oven_hybrid.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "PLACEHOLDER TEXT",
+            "content": "<p>ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165522876256e3fb16-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16611991742a4044c5": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "1661199174fcec7c9e-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gosun_sporte_electric_oven_solar.jpg",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "PLACEHOLDER TEXT",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1661199174fcec7c9e-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "5c3174a1-73c0-4caa-95a0-90f7ab4263dd": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Download the Manual",
+        "content": "",
+        "button_text": "Download Manual",
+        "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/GoSun_Fusion_User_Manual_101922.pdf?v=1666198576",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "f6518126-b292-4b34-a7a3-e1c56c59e9ca": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Watch How-To Video",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1663788971a86fc3bc": {
+      "type": "video",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "video_url": "https:\/\/youtu.be\/84w3NU_iOAo",
+        "image": "shopify:\/\/shop_images\/Fusion_how_to_video_cover_c44b7448-a702-4238-b013-f5eb8b4ac14c.jpg",
+        "background_type": "full_width",
+        "video_size": "auto",
+        "autoplay": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "#c4582d"
+      }
+    },
+    "278e5c8f-3172-49fb-8400-a15d221bb9a4": {
+      "type": "faq",
+      "blocks": {
+        "template--14283948032094__278e5c8f-3172-49fb-8400-a15d221bb9a4-1666195884fa1b2228-0": {
+          "type": "category",
+          "settings": {
+            "title": "General"
+          }
+        },
+        "template--14283948032094__278e5c8f-3172-49fb-8400-a15d221bb9a4-1666195884fa1b2228-1": {
+          "type": "question",
+          "settings": {
+            "title": "How do the dimensions compare?",
+            "answer": "<p>The Fusion is 14 lb (6.2kg) and the dimensions of the body are 23\" x 13\" x 13\"<\/p><p>The Grill is 30 lbs (13.6 kg) and the dimensions of the body are 25\" x 12.6\" x 18.5\"<\/p><p>The Sport is 7lbs (3.2kg) and the dimensions of the body are 24\" x 5\" x 8\"<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "template--14283948032094__278e5c8f-3172-49fb-8400-a15d221bb9a4-1666195884fa1b2228-2": {
+          "type": "question",
+          "settings": {
+            "title": "How does the cooking capacity of the Fusion compare the Sport?",
+            "answer": "<p>The Fusion’s cooking capacity is 3.01L (101 oz) which cooks for 4-6 people.<\/p><p>The Sport’s cooking capacity is 1.2 L (40 oz) which cooks for 2-3 people.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "template--14283948032094__278e5c8f-3172-49fb-8400-a15d221bb9a4-1666195884fa1b2228-4": {
+          "type": "question",
+          "settings": {
+            "title": "How many people can I feed?",
+            "answer": "<p>The Fusion’s 3.2 liter Cook Tray cooks plenty of food for five full meals.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "40cd2ea8-5f95-461c-85ed-51d2599c6960": {
+          "type": "question",
+          "settings": {
+            "title": "What are the dimensions?",
+            "answer": "<p>The Fusion weight 14 lb (6.2kg), the body is 23\" x 13\" x 13\", the cooking tray is 1.65\" x 11\", and its capacity is 3.01 L (101 oz).<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "c1afce25-e8a1-4288-96d3-3f362a823d23": {
+          "type": "question",
+          "settings": {
+            "title": "What kind of food cooks best in the Fusion?",
+            "answer": "<p>We have found that veggies, chicken strips and wings cook great in the Fusion. However, we have some really creative customers! Be sure to join our Facebook Community Kitchen to see what some of our customers are cooking in their Fusion.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "f6ed2392-ded0-495b-b64b-ec6cc04690fe": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to cook? How hot does the Fusion get?",
+            "answer": "<p>The length of cooking time depends on sun exposure, outside temperature and what exactly you are trying to cook. The Fusion’s Max temp can reach as high as 550°F (288°C).<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "8dd7fc8a-b4db-44d6-8f12-fd7a0a10de41": {
+          "type": "category",
+          "settings": {
+            "title": "Electrical"
+          }
+        },
+        "66081dee-ebed-4174-a460-90a4d3e06405": {
+          "type": "question",
+          "settings": {
+            "title": "What kind of electrical connectors are needed for the oven side and power side?",
+            "answer": "<p>If you’re out of power and sunlight, the GoSun Fusion can be powered from anything that can provide 150 Watts at 12 Volt. This includes some car batteries, solar panels, carport jacks (cigar lighter plug), boat or RV battery and much more*.<\/p><p>*Not all 12V power sources can provide 150 watts power. Please check with the manufacturer of your power source before using it with the GoSun Fusion<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "00bc9748-bdfd-4eb9-af44-5ce3884ae28d": {
+          "type": "question",
+          "settings": {
+            "title": "Can I cook at night? How long will it take to cook when using the Power 144?",
+            "answer": "<p>You can cook at night! The Power 144 allows for a little over an hour of off grid cooking power when fully charged.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "6d01707a-a33d-40d7-875c-e92094812c35": {
+          "type": "question",
+          "settings": {
+            "title": "How many watts does the electrical element draw?",
+            "answer": "<p>The GoSun Fusion integrates a 150 Watt heating element.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "091e4f2f-88cf-48dc-add2-a83d30776d59": {
+          "type": "question",
+          "settings": {
+            "title": "I have a 12v battery system, can I use these?",
+            "answer": "<p>Sure, as long as you have a standard 12 volt cigarette lighter plug with 15amp power.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14283948032094__278e5c8f-3172-49fb-8400-a15d221bb9a4-1666195884fa1b2228-0",
+        "template--14283948032094__278e5c8f-3172-49fb-8400-a15d221bb9a4-1666195884fa1b2228-1",
+        "template--14283948032094__278e5c8f-3172-49fb-8400-a15d221bb9a4-1666195884fa1b2228-2",
+        "template--14283948032094__278e5c8f-3172-49fb-8400-a15d221bb9a4-1666195884fa1b2228-4",
+        "40cd2ea8-5f95-461c-85ed-51d2599c6960",
+        "c1afce25-e8a1-4288-96d3-3f362a823d23",
+        "f6ed2392-ded0-495b-b64b-ec6cc04690fe",
+        "8dd7fc8a-b4db-44d6-8f12-fd7a0a10de41",
+        "66081dee-ebed-4174-a460-90a4d3e06405",
+        "00bc9748-bdfd-4eb9-af44-5ce3884ae28d",
+        "6d01707a-a33d-40d7-875c-e92094812c35",
+        "091e4f2f-88cf-48dc-add2-a83d30776d59"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "2e386b2b-739d-402b-afd2-9692f35d4910": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Register Your Product",
+        "content": "",
+        "button_text": "Register Here",
+        "button_link": "https:\/\/gosun.co\/pages\/register",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1654712944c0e96077",
+    "16611968879e7ed277",
+    "16552287623c956297",
+    "16611991742a4044c5",
+    "5c3174a1-73c0-4caa-95a0-90f7ab4263dd",
+    "f6518126-b292-4b34-a7a3-e1c56c59e9ca",
+    "1663788971a86fc3bc",
+    "278e5c8f-3172-49fb-8400-a15d221bb9a4",
+    "2e386b2b-739d-402b-afd2-9692f35d4910"
+  ]
+}

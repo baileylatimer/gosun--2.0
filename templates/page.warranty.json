@@ -1,0 +1,219 @@
+{
+  "sections": {
+    "165453417194d5ba13": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "GoSun",
+        "title": "Help Center",
+        "content": "<p>ONE YEAR MONEY BACK GUARANTEE<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#e7f4fd",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "1654533357242c5b7c": {
+      "type": "cb-secondary-header",
+      "blocks": {
+        "95b80f70-8ba5-44c9-a8ee-8447f8c48f5b": {
+          "type": "link",
+          "settings": {
+            "link": "shopify:\/\/pages\/new-returns-exchange",
+            "text": "Return & Exchanges"
+          }
+        },
+        "c8935e32-57a6-4cf5-a9f7-dddf15753a5a": {
+          "type": "link",
+          "disabled": true,
+          "settings": {
+            "link": "shopify:\/\/pages\/new-track-my-order",
+            "text": "Track My Order"
+          }
+        },
+        "362a80d7-1732-497f-86e7-03425475b29c": {
+          "type": "link",
+          "settings": {
+            "link": "shopify:\/\/pages\/new-warranty",
+            "text": "Warranty"
+          }
+        },
+        "af965035-41e4-438f-9fa8-5f5d8d1465d8": {
+          "type": "link",
+          "settings": {
+            "link": "shopify:\/\/pages\/new-product-manuals",
+            "text": "Product Manuals"
+          }
+        },
+        "b3b017eb-be1d-4b9b-8716-8507039160ec": {
+          "type": "link",
+          "settings": {
+            "link": "shopify:\/\/pages\/new-contact",
+            "text": "Contact"
+          }
+        }
+      },
+      "block_order": [
+        "95b80f70-8ba5-44c9-a8ee-8447f8c48f5b",
+        "c8935e32-57a6-4cf5-a9f7-dddf15753a5a",
+        "362a80d7-1732-497f-86e7-03425475b29c",
+        "af965035-41e4-438f-9fa8-5f5d8d1465d8",
+        "b3b017eb-be1d-4b9b-8716-8507039160ec"
+      ],
+      "settings": {
+        "main_text": "",
+        "main_url": "",
+        "tel": "",
+        "main_menu_alignment": "after",
+        "enable_phone_number": false,
+        "hide_secondary_menu_on_mobile": false
+      }
+    },
+    "1654533667667992d6": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Warranty Policy",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16545346727cbce48d": {
+      "type": "video",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=OBeVS_sV-8c",
+        "image": "shopify:\/\/shop_images\/OBeVS_sV-8c-HQ.jpg",
+        "background_type": "boxed",
+        "video_size": "small",
+        "autoplay": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165453487219e02a27": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "File a Claim",
+        "button_link": "mailto:support@gosun.co",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16545337407511c113": {
+      "type": "faq",
+      "blocks": {
+        "165453374047bfed24-1": {
+          "type": "question",
+          "settings": {
+            "title": "Overview",
+            "answer": "<p>GoSun Inc. extends this Warranty to the original end-use purchaser of GoSun products* (including GoSun Go, GoSun Sport, each a “Product”) or the person receiving a Product as a gift, provided that the GoSun Product was purchased from an Authorized Dealer as defined below. The Warranty does not extend to any other person or transferee. Statutory or common law may provide additional rights or remedies that vary from state to state, and country to country, which are not affected by this Warranty.<\/p><p>The Warranty is voided if product is purchased from any unauthorized reseller or non-licensed GoSun dealer.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "165453374047bfed24-2": {
+          "type": "question",
+          "settings": {
+            "title": "Definitions",
+            "answer": "<p>“Authorized Dealer” means any distributor, reseller or retailer that was duly authorized by GoSun at the time of the sale to sell authentic GoSun products in the jurisdiction where it sold the Product, and that sold the Product in new, unused condition in its original packaging.<\/p><p>“Fraud or Misrepresentation” means misrepresenting any fact related to a warranty claim to GoSun, including the nature of the defect, whether the Product was purchased from an Authorized Dealer, and the authenticity of the Product. “Intended Use” means use of the Product (a) for food preparation, (b) for private (as opposed to commercial) purposes, (c) in conformity with all applicable local, state or federal law, code or regulations, (d) in accordance with GoSun recommendations and\/or instructions in the materials and documentation that accompany the Product.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "165453374047bfed24-4": {
+          "type": "question",
+          "settings": {
+            "title": "Scope of 1-Year Warranty",
+            "answer": "<p>Product failures claimed, submitted, reviewed and approved by GoSun, within one year of original purchase, will convert into a One-Time Credit to the purchaser. The One-Time Credit is then applied to a replacement part to be sent directly to the purchaser’s address of choice. This Credit for may not be used toward any other GoSun products such as GoSun Apparel and accessories. Note that GoSun regularly changes the models, and styles of its Products and cannot guarantee the availability of an exact replacement for any Product. The Purchaser may be responsible for the cost of shipping and handling fees to receive their replacement tube. The exact cost for shipping and handling will be covered during the warranty claim process.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "556fe0de-aa0a-4084-a755-dfb3f68a51f1": {
+          "type": "question",
+          "settings": {
+            "title": "Terms & Conditions",
+            "answer": "<p>By submitting this warranty request, you agree to the following Terms and Conditions:<br\/>• In the case of Fraud or Misrepresentation, GoSun reserves the right to deny all warranty coverage or claims.<br\/>• Risk of Loss- GoSun is not responsible for any Product that is lost in shipping and not actually received by GoSun. To avoid unnecessary delays and minimize the possibility of a lost Product, we strongly suggest that you use the return label provided to you by GoSun’s online warranty system to send your Product to GoSun. No warranty will be provided for any Product not actually received by GoSun.<br\/>• GoSun reserves the right to determine, at its sole discretion, whether a defect is a manufacturing defect and what type of credit or replacement shall be issued, if any.<br\/>• All warranty Products sent to GoSun will not be returned to you for any reason. Defective Products may be subject to engineering analysis and recycling, as part of our continued commitment to improving the quality of our products and the environment.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "b8ee43d8-a4a1-4bc1-b734-f0ddad7b9cb1": {
+          "type": "question",
+          "settings": {
+            "title": "Choice of Law\/Jurisdiction",
+            "answer": "<p>This Warranty and any disputes arising out of or in connection with this Warranty (“Disputes”) shall be governed by the laws of the State of Ohio, USA, excluding conflicts of law principles and excluding the Convention for the International Sale of Goods. The courts located in the State of Ohio, USA shall have exclusive jurisdiction over any Disputes.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "2910ee5c-24e1-4327-901d-a76af5255646": {
+          "type": "question",
+          "settings": {
+            "title": "Other Rights",
+            "answer": "<p>This Warranty gives you specific legal rights, and you may also have other rights, which vary from state to state and jurisdiction to jurisdiction, and which shall not be affected by this limited warranty. this warranty extends only to you and cannot be transferred or assigned. If any provision of this Warranty is unlawful, void or unenforceable, that provision shall be deemed severable and shall not affect any remaining provisions. In case of any inconsistency between the English and other versions of this Warranty, the English version shall prevail.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165453374047bfed24-1",
+        "165453374047bfed24-2",
+        "165453374047bfed24-4",
+        "556fe0de-aa0a-4084-a755-dfb3f68a51f1",
+        "b8ee43d8-a4a1-4bc1-b734-f0ddad7b9cb1",
+        "2910ee5c-24e1-4327-901d-a76af5255646"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "165453417194d5ba13",
+    "main",
+    "1654533357242c5b7c",
+    "1654533667667992d6",
+    "16545346727cbce48d",
+    "165453487219e02a27",
+    "16545337407511c113"
+  ]
+}

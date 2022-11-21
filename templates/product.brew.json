@@ -1,0 +1,596 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "558b2ec9-dc80-41d1-9a13-de0017ea9627": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": ""
+          }
+        },
+        "f557431d-55ee-4904-af57-f75cd6400497": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/star-rating-badge\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "disabled": true,
+          "settings": {
+            "use_metafields": true,
+            "sku_tagtype": "sku",
+            "is_featured_product": false,
+            "featured_product_handle": ""
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "button_text": "",
+            "atc_button_background": "#c65824",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "#288bcc",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "e0cd8fad-2554-431f-bf92-5ab7a52d7dff": {
+          "type": "inventory",
+          "settings": {
+            "inventory_phrase": "",
+            "low_inventory_threshold": 10
+          }
+        },
+        "f4e9d67a-168f-4b6f-ae4c-3d308ba56d71": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "92dac3a7-b7f1-4aca-86fd-5e77d9be6ab5": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "558b2ec9-dc80-41d1-9a13-de0017ea9627",
+        "f557431d-55ee-4904-af57-f75cd6400497",
+        "variant_picker",
+        "buy_buttons",
+        "e0cd8fad-2554-431f-bf92-5ab7a52d7dff",
+        "f4e9d67a-168f-4b6f-ae4c-3d308ba56d71",
+        "quantity_selector",
+        "92dac3a7-b7f1-4aca-86fd-5e77d9be6ab5"
+      ],
+      "settings": {
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": true,
+        "show_sticky_add_to_cart": true,
+        "show_share_buttons": true,
+        "bold_compare_price": false,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "left",
+        "transition_effect": "slide"
+      }
+    },
+    "16540172429e0f5254": {
+      "type": "featured-collections",
+      "disabled": true,
+      "blocks": {
+        "165401724260c85ee6-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessories",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "b2f9027d-f324-4b8b-a25e-ce0ea6438e87": {
+          "type": "collection",
+          "settings": {
+            "collection": "bundles",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "6d8ae422-2bea-422f-9f29-4f6508d17b0d": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-sellers",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "165401724260c85ee6-0",
+        "b2f9027d-f324-4b8b-a25e-ce0ea6438e87",
+        "6d8ae422-2bea-422f-9f29-4f6508d17b0d"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Shop",
+        "content": "",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1653413494c86d6524": {
+      "type": "text-with-icons",
+      "blocks": {
+        "1653413494f89b2b0c-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "custom_icon": "shopify:\/\/shop_images\/icon_8.png",
+            "custom_icon_width": 50,
+            "title": "Brew beverages",
+            "content": "<p>Coffee, Tea, Cocoa, Soup, and Re-Heat<\/p>"
+          }
+        },
+        "1653413494f89b2b0c-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "custom_icon": "shopify:\/\/shop_images\/icon_9.png",
+            "custom_icon_width": 50,
+            "title": "All-In-One",
+            "content": "<p>Just add Water, Coffee Grounds, and 12V Power<\/p>"
+          }
+        },
+        "1653413494f89b2b0c-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "custom_icon": "shopify:\/\/shop_images\/icon_6.png",
+            "custom_icon_width": 50,
+            "title": "Take anywhere",
+            "content": "<p>Durable, Travel Mug is built for people on the move<\/p>"
+          }
+        },
+        "1653413494f89b2b0c-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-email",
+            "custom_icon": "shopify:\/\/shop_images\/icon-1.png",
+            "custom_icon_width": 50,
+            "title": "Solar Ready",
+            "content": "<p>Optional powerbank and solar chargers use the Sun to brew coffee anywhere<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1653413494f89b2b0c-0",
+        "1653413494f89b2b0c-1",
+        "1653413494f89b2b0c-2",
+        "1653413494f89b2b0c-3"
+      ],
+      "settings": {
+        "background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)",
+        "font_size_desktop": 16,
+        "font_size_mobile": 16
+      }
+    },
+    "165551480335daee25": {
+      "type": "videowise-product-widgets",
+      "settings": {
+        "widget_selector": "62ad22ad036543002b258c51"
+      }
+    },
+    "165341330043ddaa83": {
+      "type": "image-with-text",
+      "blocks": {
+        "1653413300086aa30d-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brew_french_table.jpg",
+            "tab_label": "",
+            "subheading": "Brew Anywhere",
+            "title": "Power to make coffee in the palm of your hand.",
+            "content": "<p>Integrated electronics brew an incredible cup of coffee or tea, from start to finish, in an all in one cup you can take anywhere.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1653413300086aa30d-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#d9e8f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1654885386db47b134": {
+      "type": "image-with-text",
+      "blocks": {
+        "16548853864ae1cc08-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ezgif-5-310c9020b2.gif",
+            "tab_label": "",
+            "subheading": "All-in-one",
+            "title": "Heater, press, and travel mug.",
+            "content": "<p>There are a bunch of appliances that become obsolete when you have the GoSun Brew. You no longer need: Grid Power, Fuel or Fire, Stove or Hot Plate or Microwave, Kettle to boil water, French press to brew coffee, Mug or cup to drink.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16548853864ae1cc08-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#d9e8f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1655513966cba278b9": {
+      "type": "press",
+      "blocks": {
+        "1655513966103cf3ec-0": {
+          "type": "item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/mashed_logo.jpg",
+            "logo_width": 100,
+            "content": "\"it enables you to make a cup of coffee in the wilderness without starting a fire or firing up a portable gas stove.\""
+          }
+        },
+        "298d7b78-b33f-4394-b716-b1c67ad9b838": {
+          "type": "item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/inhabitat_logo_db821ac5-8cc8-4c51-af36-b8f6968f2022.jpg",
+            "logo_width": 100,
+            "content": "\"In places like California, where power outages have become more and more common, the solar mug can come in handy for coffee lovers inside the home, too.\""
+          }
+        },
+        "6cdb86cb-a098-48fd-96a3-9f1eb1c11bec": {
+          "type": "item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/digital_trends_transparent.jpg",
+            "logo_width": 100,
+            "content": "\"Whether you’re a weekend warrior or a long-haul Appalachian Trail through-hiker, the GoSun Brew is a great way to keep a cup of your favorite coffee or tea on hand at all times.\""
+          }
+        }
+      },
+      "block_order": [
+        "1655513966103cf3ec-0",
+        "298d7b78-b33f-4394-b716-b1c67ad9b838",
+        "6cdb86cb-a098-48fd-96a3-9f1eb1c11bec"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "autoplay": true,
+        "cycle_speed": 5
+      }
+    },
+    "165551481138804b20": {
+      "type": "videowise-product-widgets",
+      "settings": {
+        "widget_selector": "62ad22ce036543002b25e95f"
+      }
+    },
+    "165488548892d34a4e": {
+      "type": "image-with-text",
+      "blocks": {
+        "165488548869f2110e-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_27.png",
+            "tab_label": "",
+            "subheading": "First of its kind",
+            "title": "Kettle + Press + Mug",
+            "content": "<p>With a 130W, 12V Heater and integrated French Press, this 16oz, doubled-walled mug will not only brew your drink, but it will keep your drink hot for hours. You no longer need:  Grid Power, Fuel or Fire, Stove or Hot Plate or Microwave, Kettle to boil water, French press to brew coffee, Mug or cup to drink.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165488548869f2110e-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1654886405abe2af53": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=M2yDn0zk7rQ",
+        "background_type": "full_width",
+        "video_size": "auto",
+        "autoplay": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "product-content": {
+      "type": "product-content",
+      "blocks": {
+        "38991388-db52-4dee-9e08-c8e555620c13": {
+          "type": "content",
+          "settings": {
+            "title": "Weight & Dimensions",
+            "content": "<p>{{ product.metafields.my_fields._weight_and_dimensions | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "1791f09a-7192-47bc-887e-b6a125de0664": {
+          "type": "content",
+          "settings": {
+            "title": "Tech Specs",
+            "content": "<p>{{ product.metafields.my_fields.features | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "19e6c18d-95b3-4204-bf74-a8e1b49c0623": {
+          "type": "content",
+          "settings": {
+            "title": "In the Box",
+            "content": "<p>{{ product.metafields.my_fields.in_the_box | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "e467e674-5317-4edf-9e00-58a2d1b186eb": {
+          "type": "featured_products",
+          "settings": {
+            "title": "Buy It With",
+            "products": "{{ product.metafields.my_fields.buy_it_with.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "38991388-db52-4dee-9e08-c8e555620c13",
+        "1791f09a-7192-47bc-887e-b6a125de0664",
+        "19e6c18d-95b3-4204-bf74-a8e1b49c0623",
+        "e467e674-5317-4edf-9e00-58a2d1b186eb"
+      ],
+      "settings": {
+      }
+    },
+    "16524703050d8431b4": {
+      "type": "apps",
+      "blocks": {
+        "dea54526-4817-4ed5-b75d-239e4d8ae63a": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": false,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "dea54526-4817-4ed5-b75d-239e4d8ae63a"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
+    },
+    "1655498886c6f5dbf4": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Would you like to know more about this product?",
+        "content": "",
+        "button_text": "CHECK OUR FAQ PAGE",
+        "button_link": "https:\/\/gosun.zendesk.com\/hc\/en-us",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#d9e8f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "subheading": "",
+        "title": "You may also like",
+        "recommendations_count": 4,
+        "products": [
+
+        ],
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1652884870354ee31a": {
+      "type": "faq",
+      "disabled": true,
+      "blocks": {
+        "1652884870f6b32572-0": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping"
+          }
+        },
+        "1652884870f6b32572-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "1652884870f6b32572-2": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "1652884870f6b32572-3": {
+          "type": "category",
+          "settings": {
+            "title": "Other"
+          }
+        },
+        "1652884870f6b32572-4": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1652884870f6b32572-0",
+        "1652884870f6b32572-1",
+        "1652884870f6b32572-2",
+        "1652884870f6b32572-3",
+        "1652884870f6b32572-4"
+      ],
+      "settings": {
+        "show_navigation": true,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1652884753f9f03f8f": {
+      "type": "text-with-icons",
+      "blocks": {
+        "1652884753be2fdfe1-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-credit-card",
+            "custom_icon_width": 50,
+            "title": "Quick, simple financing",
+            "content": ""
+          }
+        },
+        "1652884753be2fdfe1-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-delivery-truck",
+            "custom_icon_width": 50,
+            "title": "Free Shipping over $50",
+            "content": ""
+          }
+        },
+        "1652884753be2fdfe1-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-shield",
+            "custom_icon_width": 50,
+            "title": "1-Year Warranty",
+            "content": ""
+          }
+        },
+        "1652884753be2fdfe1-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-customer-support",
+            "custom_icon_width": 50,
+            "title": "Award-winning customer service",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "1652884753be2fdfe1-0",
+        "1652884753be2fdfe1-1",
+        "1652884753be2fdfe1-2",
+        "1652884753be2fdfe1-3"
+      ],
+      "settings": {
+        "background": "#ecedef",
+        "text_color": "#424242",
+        "font_size_desktop": 16,
+        "font_size_mobile": 16
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16540172429e0f5254",
+    "1653413494c86d6524",
+    "165551480335daee25",
+    "165341330043ddaa83",
+    "1654885386db47b134",
+    "1655513966cba278b9",
+    "165551481138804b20",
+    "165488548892d34a4e",
+    "1654886405abe2af53",
+    "product-content",
+    "16524703050d8431b4",
+    "1655498886c6f5dbf4",
+    "product-recommendations",
+    "1652884870354ee31a",
+    "1652884753f9f03f8f"
+  ]
+}

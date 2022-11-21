@@ -1,0 +1,73 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "1653938968483d14ba": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "Careers",
+        "html": "<div data-tf-widget=\"IZ8n1m0s\" data-tf-iframe-props=\"title=Resume Submittal\" data-tf-medium=\"snippet\" style=\"width:100%;height:750px;\"><\/div><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>",
+        "add_vertical_spacing": true,
+        "background_type": "boxed",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165393900754294006": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<div data-tf-widget=\"IZ8n1m0s\" data-tf-iframe-props=\"title=Resume Submittal\" data-tf-medium=\"snippet\" style=\"width:100%;height:750px;\"><\/div><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16539381015a8ecfcb": {
+      "type": "faq",
+      "blocks": {
+        "1653938101192254ac-1": {
+          "type": "question",
+          "settings": {
+            "title": "Customer Service",
+            "answer": "<p>GoSun is an innovative fast growing, fun solar product company. Please check us out at<strong>www.gosun.co<\/strong>We want an problem solving energetic professional who doesn’t mind wearing multiple hats. Experienced in handling a wide range of administrative and executive support related tasks and able to work independently with little or no supervision. Well organized, flexible and enjoy the administrative challenges of supporting an office of diverse people. Experience working with Zendesk and Shopify preferred.<\/p>"
+          }
+        },
+        "1653938101192254ac-2": {
+          "type": "question",
+          "settings": {
+            "title": "Engeneering",
+            "answer": "<p>GoSun is an innovative fast growing, fun solar product company. We want an problem solving energetic professional who doesn’t mind wearing multiple hats. Experience in Solidworks, cad software and electronics design is preferred.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1653938101192254ac-1",
+        "1653938101192254ac-2"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "Open Positions at GoSun",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1653938968483d14ba",
+    "165393900754294006",
+    "16539381015a8ecfcb"
+  ]
+}

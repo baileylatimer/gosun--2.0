@@ -1,0 +1,431 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fusion_fall_hero.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/fusion_fall_hero_mobile.jpg",
+            "text_position": "middle_right",
+            "subheading": "COOK. COOL. LIGHT. CHARGE. PURIFY.",
+            "title": "'Tis the Season for Good Energy",
+            "text_paragraph": "",
+            "button_1_text": "Early Black Friday Sale ➞",
+            "button_1_link": "shopify:\/\/collections\/todays-deals",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#c65824",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 25
+          }
+        },
+        "41334097-fc11-4e62-934a-4adbbf79d299": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/off-grid_trailer_gosun_camp365_hero.jpg",
+            "text_position": "middle_right",
+            "subheading": "Now introducing",
+            "title": "GoSun Camp365 Solar Off-Grid Trailer",
+            "text_paragraph": "",
+            "button_1_text": "Learn More ➞",
+            "button_1_link": "shopify:\/\/products\/camp365",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#c65824",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 25
+          }
+        }
+      },
+      "block_order": [
+        "slide-2",
+        "41334097-fc11-4e62-934a-4adbbf79d299"
+      ],
+      "settings": {
+        "section_height": "medium",
+        "transition_type": "reveal",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "#dae8f3"
+      }
+    },
+    "text-with-icons": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-worldwide",
+            "custom_icon": "shopify:\/\/shop_images\/Frame.png",
+            "custom_icon_width": 40,
+            "title": "100,000+ customers",
+            "content": ""
+          }
+        },
+        "item-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-credit-card",
+            "custom_icon": "shopify:\/\/shop_images\/Frame-1.png",
+            "custom_icon_width": 40,
+            "title": "Quick, simple financing",
+            "content": ""
+          }
+        },
+        "item-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-delivery-truck",
+            "custom_icon": "shopify:\/\/shop_images\/Frame-2.png",
+            "custom_icon_width": 40,
+            "title": "Free Shipping over $50",
+            "content": ""
+          }
+        },
+        "item-4": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-shield",
+            "custom_icon": "shopify:\/\/shop_images\/Frame-3.png",
+            "custom_icon_width": 40,
+            "title": "1 Year Warranty",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item-1",
+        "item-2",
+        "item-3",
+        "item-4"
+      ],
+      "settings": {
+        "background": "#ecedef",
+        "text_color": "rgba(0,0,0,0)",
+        "font_size_desktop": 16,
+        "font_size_mobile": 16
+      }
+    },
+    "1654015313c6e45a83": {
+      "type": "simple-html",
+      "settings": {
+        "custom_html": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_62768be0a9ca87002998a851\"><\/div>"
+      }
+    },
+    "1652380367ca0e8506": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Breakthrough Solar Products",
+        "content": "<p>GoSun builds solar appliances to help you live with more independence and resilience. Using only the Sun, now you can cook (day or night), cool, charge, light or purify water.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1653908791b385bdfe": {
+      "type": "multi-column",
+      "blocks": {
+        "165390879125ddd933-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/collection-image-1_5d909d54-92a8-456c-8ab9-c137796ec2c0.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Solar Ovens",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/solar-ovens",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "165390879125ddd933-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/collection-image_8e2701ef-c471-4216-9745-d353d2b9f28c.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Portable Fridges",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/solar-coolers",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "165390879125ddd933-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/collection-image-2_29dc3eb6-44a8-4d52-9b1a-c50d2b68a7b0.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Solar Chargers",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/solar-chargers",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "165390879125ddd933-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/collection-image_3a838df0-105e-4886-9091-64bcbeb97001.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Water Purification",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/water",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "5cccc9a3-5ffb-4318-b87c-7eeb5c7a7edb": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/collection-image-4_fb72ea32-24bc-401d-97c2-28a432fdb52c.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Shop Accessories",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/accessories",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "165390879125ddd933-0",
+        "165390879125ddd933-1",
+        "165390879125ddd933-2",
+        "165390879125ddd933-3",
+        "5cccc9a3-5ffb-4318-b87c-7eeb5c7a7edb"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "medium",
+        "spacing": "normal",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165358289622ec07dc": {
+      "type": "shop-the-look",
+      "blocks": {
+        "1653582896382f7a19-0": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Solar_Kitchen_Still.Griffin_Christensen.Keihe_Lunch._1.17.1.jpg",
+            "dot_type": "normal",
+            "product_1": "fusion",
+            "product_1_horizontal_position": 29,
+            "product_1_vertical_position": 69,
+            "product_1_horizontal_position_mobile": 30,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "flow-pro",
+            "product_2_horizontal_position": 52,
+            "product_2_vertical_position": 48,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "solartable-60",
+            "product_3_horizontal_position": 62,
+            "product_3_vertical_position": 88,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        }
+      },
+      "block_order": [
+        "1653582896382f7a19-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "label": "Solar Kitchen"
+      }
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "todays-deals",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection-1"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Best Selling Gear",
+        "content": "",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1653414141f3490711": {
+      "type": "press",
+      "blocks": {
+        "165341414100207f05-0": {
+          "type": "item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/CES.png",
+            "logo_width": 115,
+            "content": "GoSun won Climate Change Innovation Award (2019) and Small Business of the Year Award (2017)."
+          }
+        },
+        "e0eadfb5-495d-46f9-a8c6-5ada0c60d102": {
+          "type": "item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/recognition_07.png",
+            "logo_width": 125,
+            "content": "People can now improve their quality of life without requiring the use of fossil fuels or deforestation."
+          }
+        },
+        "434c7e7e-89d8-4d33-9473-209411c22c29": {
+          "type": "item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/recognition_08.png",
+            "logo_width": 130,
+            "content": "The GoSun is a stunning, tube-shaped portable oven powerful enough to bake, fry or broil a meal in as little as 10 minutes."
+          }
+        },
+        "bd958361-bb34-4c8e-aada-fbd1b50dba40": {
+          "type": "item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Top-Chef.png",
+            "logo_width": 125,
+            "content": "José Andrés challenges contestants to cook with GoSun solar-powered stoves."
+          }
+        },
+        "810ae126-fc14-4bf0-9b3c-8be850c1ca41": {
+          "type": "item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Tech_Crunch.png",
+            "logo_width": 100,
+            "content": "Fire is for prehistoric man. The modern man uses the sustainable and renewable energy to cook meats and veggies – like the GoSun Stove ."
+          }
+        },
+        "2c2b448c-650f-4b5f-8406-f40e903cef53": {
+          "type": "item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/recognition_09.png",
+            "logo_width": 125,
+            "content": "\"For simmering our sauces, we used GoSun Stoves, which are smaller and more compact but still have incredible power.\" - José Andrés"
+          }
+        }
+      },
+      "block_order": [
+        "165341414100207f05-0",
+        "e0eadfb5-495d-46f9-a8c6-5ada0c60d102",
+        "434c7e7e-89d8-4d33-9473-209411c22c29",
+        "bd958361-bb34-4c8e-aada-fbd1b50dba40",
+        "810ae126-fc14-4bf0-9b3c-8be850c1ca41",
+        "2c2b448c-650f-4b5f-8406-f40e903cef53"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "background": "#ecedef",
+        "text_color": "rgba(0,0,0,0)",
+        "autoplay": true,
+        "cycle_speed": 5
+      }
+    },
+    "16524470938de26369": {
+      "type": "image-with-text",
+      "blocks": {
+        "1652447093fb8a2f41-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Invest_In_GoSun_edit-670-380-2_3feccff9-11f3-43e0-8057-ec941a54b1e7.png",
+            "tab_label": "",
+            "subheading": "",
+            "title": "Join Over 3,000 Investors",
+            "content": "<p>GoSun is growing and needs capital to become the World's Best Clean Tech Brand. Become part of our journey through our Equity Crowdfunding on StartEngine now.<\/p>",
+            "button_text": "Learn More",
+            "button_link": "https:\/\/www.startengine.com\/gosun"
+          }
+        }
+      },
+      "block_order": [
+        "1652447093fb8a2f41-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "boxed",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#ecedef",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "settings": {
+        "reveal_on_scroll": false,
+        "image": "shopify:\/\/shop_images\/Ativo_2back.png",
+        "subheading": "Subscribe to our newsletter",
+        "content": "<p>New products, deals, and solar living - directly to your inbox<\/p>",
+        "text_position": "center",
+        "text_alignment": "left",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "text-with-icons",
+    "1654015313c6e45a83",
+    "1652380367ca0e8506",
+    "1653908791b385bdfe",
+    "165358289622ec07dc",
+    "featured-collections",
+    "1653414141f3490711",
+    "16524470938de26369",
+    "newsletter"
+  ]
+}

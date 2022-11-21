@@ -1,0 +1,287 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "1654712944c0e96077": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/GoSun_Chill_how_to_page_cover_image.jpg",
+        "subheading": "",
+        "title": "Chill How To",
+        "content": "<p>Congrats on your purchase of the Chill and welcome to the GoSun ecosystem. Below, you'll find a quickstart video for setting up the Chill with some tips and tricks to get started.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "small",
+        "text_position": "top_left",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "16611968879e7ed277": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": false,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/gosun_sporte_features.jpg",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "16552287623c956297": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "165522876256e3fb16-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gosun_sporte_electric_solar_oven_hybrid.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "PLACEHOLDER TEXT",
+            "content": "<p>ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165522876256e3fb16-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16611991742a4044c5": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "1661199174fcec7c9e-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gosun_sporte_electric_oven_solar.jpg",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "PLACEHOLDER TEXT",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1661199174fcec7c9e-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165522967161c0c067": {
+      "type": "cb-secondary-header",
+      "disabled": true,
+      "settings": {
+        "main_text": "",
+        "main_url": "",
+        "tel": "+1 888.868.6154",
+        "main_menu_alignment": "after",
+        "enable_phone_number": true,
+        "hide_secondary_menu_on_mobile": true
+      }
+    },
+    "5d8f0886-2fe0-4a14-947d-3f35a4dfb0e9": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Download the Manual",
+        "content": "",
+        "button_text": "Download Manual",
+        "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/Chill_User_Manual_102022.pdf?v=1666278609",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "3966126f-fca7-494a-88a2-0c4a53d3a84a": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Watch How-To Video",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1663788971a86fc3bc": {
+      "type": "video",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "video_url": "https:\/\/youtu.be\/46PsHz0_5kI",
+        "image": "shopify:\/\/shop_images\/Chill_how_to_video_cover_2.jpg",
+        "background_type": "full_width",
+        "video_size": "auto",
+        "autoplay": false,
+        "background": "#ffffff",
+        "text_color": "#c4582d"
+      }
+    },
+    "53b29df6-1553-4e4a-a3f1-1d20eb7c7847": {
+      "type": "faq",
+      "blocks": {
+        "template--14276740055134__53b29df6-1553-4e4a-a3f1-1d20eb7c7847-16661931792a317826-0": {
+          "type": "category",
+          "settings": {
+            "title": "General"
+          }
+        },
+        "template--14276740055134__53b29df6-1553-4e4a-a3f1-1d20eb7c7847-16661931792a317826-1": {
+          "type": "question",
+          "settings": {
+            "title": "How long does it take to charge the Power 144 with the Solar Panel 30?",
+            "answer": "<p>This is definitely weather dependent and it will help if you're able to adjust the solar panel to be perpendicular to the sun every hour or so. Under full sunlight you should be able to recharge a depleted battery in three to four hours.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "template--14276740055134__53b29df6-1553-4e4a-a3f1-1d20eb7c7847-16661931792a317826-2": {
+          "type": "question",
+          "settings": {
+            "title": "Can I use my Chill in my car?",
+            "answer": "<p>The GoSun Chill is able to be powered by typical 12 V cigarette ports in the car, boat or RV or with the portable PowerBank. It can also be run with the included AC adapter. The Chill has three modes for battery protection to prevent depletion through an integrated LVD (low voltage disconnect). The H setting is for when you are connected to your car. The M is if you were to connect to a lead acid battery. The L is for lithium, so when you are powering your cooler from one of our PowerBanks.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "template--14276740055134__53b29df6-1553-4e4a-a3f1-1d20eb7c7847-16661931792a317826-4": {
+          "type": "question",
+          "settings": {
+            "title": "How does the Chill work?",
+            "answer": "<p>The GoSun Chill works similar to your household fridge, but much more efficient. A brushless compressor circulates refrigerant through a condenser coil (hot side) and an evaporator coil (cold side) which is embedded in an insulated chamber.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "e0cdc00c-55a5-44b7-ad0c-c5c1d0caa0ea": {
+          "type": "question",
+          "settings": {
+            "title": "How much electricity does it use?",
+            "answer": "<p>The Chill uses only about 40 watts when the compressor is running. The compressor cycles on and off depending on three main factors: 1) your pre-set temperature 2) the temperature and mass of the contents inside 3) the outside ambient temperature See the 'Powerbank Runtime' graphic above for more details.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "df1d3a64-65b8-40e2-b76e-25f2a245a38a": {
+          "type": "question",
+          "settings": {
+            "title": "How long does the Chill run with a fully charged Power 144Wh?",
+            "answer": "<p>The Power 144 can run the Chill with cold drinks (42°F) on one charge for 14 hours at an outside temperature of 80°F. Generally, when using our Solar Panel or Solar Table, you can maintain charge in the battery.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14276740055134__53b29df6-1553-4e4a-a3f1-1d20eb7c7847-16661931792a317826-0",
+        "template--14276740055134__53b29df6-1553-4e4a-a3f1-1d20eb7c7847-16661931792a317826-1",
+        "template--14276740055134__53b29df6-1553-4e4a-a3f1-1d20eb7c7847-16661931792a317826-2",
+        "template--14276740055134__53b29df6-1553-4e4a-a3f1-1d20eb7c7847-16661931792a317826-4",
+        "e0cdc00c-55a5-44b7-ad0c-c5c1d0caa0ea",
+        "df1d3a64-65b8-40e2-b76e-25f2a245a38a"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "6e8184de-3203-4eec-a4d5-42fba6a98e81": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Register Your Product",
+        "content": "",
+        "button_text": "Register Here",
+        "button_link": "https:\/\/gosun.co\/pages\/register",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1654712944c0e96077",
+    "16611968879e7ed277",
+    "16552287623c956297",
+    "16611991742a4044c5",
+    "165522967161c0c067",
+    "5d8f0886-2fe0-4a14-947d-3f35a4dfb0e9",
+    "3966126f-fca7-494a-88a2-0c4a53d3a84a",
+    "1663788971a86fc3bc",
+    "53b29df6-1553-4e4a-a3f1-1d20eb7c7847",
+    "6e8184de-3203-4eec-a4d5-42fba6a98e81"
+  ]
+}

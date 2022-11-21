@@ -1,0 +1,47 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "165393875737884197": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Product Registration",
+        "content": "<p>Thanks for your recent GoSun purchase! If you haven't yet done so, we'd like to invite you to join our GoSun Community Kitchen group on Facebook. As a part of the GoSun community, you'll have the chance to learn from fellow GoSun solar chefs, share favorite recipes and photos, and ask your questions to the group! Glad to have another friend involved in the Fuel Free Cooking Revolution. <br\/><br\/>Please complete the form below, to register your product. Once submitted, you'll receive an automated email, which confirms that we have received your registration. Thanks again! Time to get cookin' with the sun.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165393922127ccc267": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<div class=\"typeform-widget\" data-url=\"https:\/\/form.typeform.com\/to\/kZaiWm7r?typeform-medium=embed-snippet\" data-transparency=\"100\" data-hide-headers=\"true\" style=\"width: 100%; height: 500px;\"><\/div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id=\"typef_orm\", b=\"https:\/\/embed.typeform.com\/\"; if(!gi.call(d,id)) { js=ce.call(d,\"script\"); js.id=id; js.src=b+\"embed.js\"; q=gt.call(d,\"script\")[0]; q.parentNode.insertBefore(js,q) } })() <\/script>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "165393875737884197",
+    "165393922127ccc267"
+  ]
+}

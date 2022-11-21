@@ -1,0 +1,294 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "1654712944c0e96077": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/GoSun_Flow_how_to_page_cover_image.jpg",
+        "subheading": "",
+        "title": "Flow How To",
+        "content": "<p>Congrats on your purchase of the Flow and welcome to the GoSun ecosystem. Below, you'll find a quickstart video for setting up the Flow with some tips and tricks to get started. <\/p>",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "small",
+        "text_position": "top_left",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "16611968879e7ed277": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": false,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/gosun_sporte_features.jpg",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "16552287623c956297": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "165522876256e3fb16-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gosun_sporte_electric_solar_oven_hybrid.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "PLACEHOLDER TEXT",
+            "content": "<p>ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165522876256e3fb16-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16611991742a4044c5": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "1661199174fcec7c9e-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gosun_sporte_electric_oven_solar.jpg",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "PLACEHOLDER TEXT",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1661199174fcec7c9e-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165522967161c0c067": {
+      "type": "cb-secondary-header",
+      "disabled": true,
+      "settings": {
+        "main_text": "",
+        "main_url": "",
+        "tel": "+1 888.868.6154",
+        "main_menu_alignment": "after",
+        "enable_phone_number": true,
+        "hide_secondary_menu_on_mobile": true
+      }
+    },
+    "5d8f0886-2fe0-4a14-947d-3f35a4dfb0e9": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Download the Manual",
+        "content": "",
+        "button_text": "Download Manual",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "b203268e-4d08-4c48-af26-1f3753e12783": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Watch How-To Video",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1663788971a86fc3bc": {
+      "type": "video",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=p-a2wQwkDBk",
+        "image": "shopify:\/\/shop_images\/Flow_how_to_video_cover.jpg",
+        "background_type": "full_width",
+        "video_size": "auto",
+        "autoplay": false,
+        "background": "#c4582d",
+        "text_color": "#c4582d"
+      }
+    },
+    "53b29df6-1553-4e4a-a3f1-1d20eb7c7847": {
+      "type": "faq",
+      "blocks": {
+        "template--14276740055134__53b29df6-1553-4e4a-a3f1-1d20eb7c7847-16661931792a317826-0": {
+          "type": "category",
+          "settings": {
+            "title": "Filter"
+          }
+        },
+        "template--14276740055134__53b29df6-1553-4e4a-a3f1-1d20eb7c7847-16661931792a317826-1": {
+          "type": "question",
+          "settings": {
+            "title": "How well does the filter work?",
+            "answer": "<p>Our cutting-edge 3-stage cartridge filter removes 99.99% of pathogens. First, a polypropylene filter disc removes large particles like dirt, rust, and sand. Second, a high-efficiency carbon filter absorbs hazardous chemicals and heavy metals. Finally, a nano aluminum fiber filter creates an electropositive charge in a labyrinth of fibers to trap and remove the tiniest particles and organisms from your water. The BCS lab test report for the GoSun Flow is available on this link: <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/BCS_Lab_test_report.jpg?v=1643304318\">https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/BCS_Lab_test_report.jpg?v=1643304318<\/a><\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "template--14276740055134__53b29df6-1553-4e4a-a3f1-1d20eb7c7847-16661931792a317826-2": {
+          "type": "question",
+          "settings": {
+            "title": "How long does the filter last?",
+            "answer": "<p>The filter lasts for 1,000 liters of filtration and can be easily replaced. For replacement filters, please check <a href=\"https:\/\/gosun.co\/products\/flow-filter-single-replacement\">https:\/\/gosun.co\/products\/flow-filter-single-replacement<\/a><\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "template--14276740055134__53b29df6-1553-4e4a-a3f1-1d20eb7c7847-16661931792a317826-4": {
+          "type": "question",
+          "settings": {
+            "title": "Will this filter salt water?",
+            "answer": "<p>The Flow can purify brackish water, river water, lake water, rain water. It cannot remove salt. We are currently investigating this technology.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "d9a5f4ff-b163-4847-828e-5feca4a01139": {
+          "type": "category",
+          "settings": {
+            "title": "Flow"
+          }
+        },
+        "e0cdc00c-55a5-44b7-ad0c-c5c1d0caa0ea": {
+          "type": "question",
+          "settings": {
+            "title": "Is the Flow BPA-free and food safe?",
+            "answer": "<p>Yes!<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "df1d3a64-65b8-40e2-b76e-25f2a245a38a": {
+          "type": "question",
+          "settings": {
+            "title": "How can you take a hot shower or wash dishes in hot water?",
+            "answer": "<p>The Flow pairs with the Fusion to create a hot shower, check out our video here: <a href=\"https:\/\/www.youtube.com\/watch?v=PTgp1S8k5v8&t=21s\">https:\/\/www.youtube.com\/watch?v=PTgp1S8k5v8&t=21s<\/a><\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14276740055134__53b29df6-1553-4e4a-a3f1-1d20eb7c7847-16661931792a317826-0",
+        "template--14276740055134__53b29df6-1553-4e4a-a3f1-1d20eb7c7847-16661931792a317826-1",
+        "template--14276740055134__53b29df6-1553-4e4a-a3f1-1d20eb7c7847-16661931792a317826-2",
+        "template--14276740055134__53b29df6-1553-4e4a-a3f1-1d20eb7c7847-16661931792a317826-4",
+        "d9a5f4ff-b163-4847-828e-5feca4a01139",
+        "e0cdc00c-55a5-44b7-ad0c-c5c1d0caa0ea",
+        "df1d3a64-65b8-40e2-b76e-25f2a245a38a"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "6e8184de-3203-4eec-a4d5-42fba6a98e81": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Register Your Product",
+        "content": "",
+        "button_text": "Register Here",
+        "button_link": "https:\/\/gosun.co\/pages\/register",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1654712944c0e96077",
+    "16611968879e7ed277",
+    "16552287623c956297",
+    "16611991742a4044c5",
+    "165522967161c0c067",
+    "5d8f0886-2fe0-4a14-947d-3f35a4dfb0e9",
+    "b203268e-4d08-4c48-af26-1f3753e12783",
+    "1663788971a86fc3bc",
+    "53b29df6-1553-4e4a-a3f1-1d20eb7c7847",
+    "6e8184de-3203-4eec-a4d5-42fba6a98e81"
+  ]
+}

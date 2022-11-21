@@ -1,0 +1,485 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "1654712944c0e96077": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/solar_oven_sport_hybrid_cookstove_hero.jpg",
+        "subheading": "",
+        "title": "PLACEHOLDER TEXT FOR BACKPACK HOW TO",
+        "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<br\/>  <\/p>",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "small",
+        "text_position": "bottom_left",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "16611968879e7ed277": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": false,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/gosun_sporte_features.jpg",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "166135126488bff9c7": {
+      "type": "multi-column",
+      "blocks": {
+        "1661351264713512d8-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sport_E_Features_Left_Column_081922_4x_Scale.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "left",
+            "vertical_alignment": "start"
+          }
+        },
+        "1661351264713512d8-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sport_E_Features_Right_Column_081922_4x_Scale.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "right",
+            "vertical_alignment": "start"
+          }
+        },
+        "1661351264713512d8-2": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Column 1",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "1661351264713512d8-3": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Column 1",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "1661351264713512d8-0",
+        "1661351264713512d8-1",
+        "1661351264713512d8-2",
+        "1661351264713512d8-3"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "large",
+        "spacing": "loose",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1661195902e1b50f71": {
+      "type": "apps",
+      "blocks": {
+        "e708aa91-8ecd-4494-9abd-1284cb563d43": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "WCn6gz"
+          }
+        }
+      },
+      "block_order": [
+        "e708aa91-8ecd-4494-9abd-1284cb563d43"
+      ],
+      "settings": {
+        "include_horizontal_margins": false,
+        "include_vertical_margins": false
+      }
+    },
+    "165464854476f413b1": {
+      "type": "press",
+      "blocks": {
+        "1654648544493a89da-0": {
+          "type": "item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Website_Color_Yellow.png",
+            "logo_width": 100,
+            "content": "The Sport has been a pleasure to use. Straight out of the box, we have been producing a steady stream of meals ranging from sourdough muffins to a classic potato and bacon bake - Kris V"
+          }
+        },
+        "5e5caaaa-f161-48d7-8e43-37c43e6bcfef": {
+          "type": "item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Website_Color_Yellow.png",
+            "logo_width": 100,
+            "content": "The GoSun Sport is a huge success! I used it for the first time a couple of days ago and instantly fell in love. The GoSun Sport cooked my root vegetables and perogies to perfection! - Tina T"
+          }
+        }
+      },
+      "block_order": [
+        "1654648544493a89da-0",
+        "5e5caaaa-f161-48d7-8e43-37c43e6bcfef"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "autoplay": true,
+        "cycle_speed": 10
+      }
+    },
+    "1661197243c11e317e": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/Sport_E_Exploded_View_Both_Columns_081922_4x_Scale.jpg",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "165522874839212ede": {
+      "type": "image-with-text-block",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "Subheading",
+        "title": "Image with text block",
+        "content": "<p>Use block text to give your customers insight into your brand. Select impactful text that relates to your brand and story.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1661352006c87cb884": {
+      "type": "multi-column",
+      "blocks": {
+        "1661352006b5c67abd-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sport_E_Exploded_View_Left_Column_081922_4x_Scale.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "1661352006b5c67abd-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sport_E_Exploded_View_Right_Column_081922_4x_Scale.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "1661352006b5c67abd-2": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Column 1",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "1661352006b5c67abd-3": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Column 1",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "1661352006b5c67abd-0",
+        "1661352006b5c67abd-1",
+        "1661352006b5c67abd-2",
+        "1661352006b5c67abd-3"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "large",
+        "spacing": "tight",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16552287623c956297": {
+      "type": "image-with-text",
+      "blocks": {
+        "165522876256e3fb16-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gosun_sporte_electric_solar_oven_hybrid.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "PLACEHOLDER TEXT",
+            "content": "<p>ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165522876256e3fb16-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165522967161c0c067": {
+      "type": "cb-secondary-header",
+      "disabled": true,
+      "settings": {
+        "main_text": "",
+        "main_url": "",
+        "tel": "+1 888.868.6154",
+        "main_menu_alignment": "after",
+        "enable_phone_number": true,
+        "hide_secondary_menu_on_mobile": true
+      }
+    },
+    "1655229689f26cc263": {
+      "type": "text-with-icons",
+      "disabled": true,
+      "blocks": {
+        "1655229689bb9f4aa4-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "custom_icon": "shopify:\/\/shop_images\/Frame.png",
+            "custom_icon_width": 50,
+            "title": "100,000+ customers",
+            "content": ""
+          }
+        },
+        "1655229689bb9f4aa4-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "custom_icon": "shopify:\/\/shop_images\/Frame-1.png",
+            "custom_icon_width": 50,
+            "title": "Quick, simple financing",
+            "content": ""
+          }
+        },
+        "1655229689bb9f4aa4-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "custom_icon": "shopify:\/\/shop_images\/Frame-2.png",
+            "custom_icon_width": 50,
+            "title": "Free Shipping over $50",
+            "content": ""
+          }
+        },
+        "1655229689bb9f4aa4-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-email",
+            "custom_icon": "shopify:\/\/shop_images\/Frame-3.png",
+            "custom_icon_width": 50,
+            "title": "1 Year Warranty",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "1655229689bb9f4aa4-0",
+        "1655229689bb9f4aa4-1",
+        "1655229689bb9f4aa4-2",
+        "1655229689bb9f4aa4-3"
+      ],
+      "settings": {
+        "background": "#ecedef",
+        "text_color": "rgba(0,0,0,0)",
+        "font_size_desktop": 16,
+        "font_size_mobile": 16
+      }
+    },
+    "16611991742a4044c5": {
+      "type": "image-with-text",
+      "blocks": {
+        "1661199174fcec7c9e-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gosun_sporte_electric_oven_solar.jpg",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "PLACEHOLDER TEXT",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1661199174fcec7c9e-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "166119883091d91c51": {
+      "type": "apps",
+      "blocks": {
+        "2775cac1-7482-45d0-a321-4b8b81ad40cc": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "WCn6gz"
+          }
+        }
+      },
+      "block_order": [
+        "2775cac1-7482-45d0-a321-4b8b81ad40cc"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1654712944c0e96077",
+    "16611968879e7ed277",
+    "166135126488bff9c7",
+    "1661195902e1b50f71",
+    "165464854476f413b1",
+    "1661197243c11e317e",
+    "165522874839212ede",
+    "1661352006c87cb884",
+    "16552287623c956297",
+    "165522967161c0c067",
+    "1655229689f26cc263",
+    "16611991742a4044c5",
+    "166119883091d91c51"
+  ]
+}

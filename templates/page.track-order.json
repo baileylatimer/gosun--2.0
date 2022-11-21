@@ -1,0 +1,109 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "1654534240893b291a": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "GoSun",
+        "title": "Help Center",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#e7f4fd",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16545342803a394e00": {
+      "type": "cb-secondary-header",
+      "blocks": {
+        "754942b8-972a-46d1-9693-2ac91eb91533": {
+          "type": "link",
+          "settings": {
+            "link": "shopify:\/\/pages\/new-returns-exchange",
+            "text": "Returns & Exchanges"
+          }
+        },
+        "7a2b6848-fe9e-4412-bdbb-e2c74f0023e5": {
+          "type": "link",
+          "disabled": true,
+          "settings": {
+            "link": "shopify:\/\/pages\/new-track-my-order",
+            "text": "Track My Order"
+          }
+        },
+        "70845c15-e76f-4705-b4b6-f516f45e80fe": {
+          "type": "link",
+          "settings": {
+            "link": "shopify:\/\/pages\/new-warranty",
+            "text": "Warranty"
+          }
+        },
+        "56903728-cdb2-42fa-8642-fd1e47372643": {
+          "type": "link",
+          "settings": {
+            "link": "shopify:\/\/pages\/new-product-manuals",
+            "text": "Product Manuals"
+          }
+        },
+        "41d1c1a4-db40-4329-b1d8-8d2361c75a1e": {
+          "type": "link",
+          "settings": {
+            "link": "shopify:\/\/pages\/new-contact",
+            "text": "Contact"
+          }
+        }
+      },
+      "block_order": [
+        "754942b8-972a-46d1-9693-2ac91eb91533",
+        "7a2b6848-fe9e-4412-bdbb-e2c74f0023e5",
+        "70845c15-e76f-4705-b4b6-f516f45e80fe",
+        "56903728-cdb2-42fa-8642-fd1e47372643",
+        "41d1c1a4-db40-4329-b1d8-8d2361c75a1e"
+      ],
+      "settings": {
+        "main_text": "",
+        "tel": "",
+        "main_menu_alignment": "after",
+        "enable_phone_number": false,
+        "hide_secondary_menu_on_mobile": false
+      }
+    },
+    "1654534605895a6b2b": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Track My Order",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1654534240893b291a",
+    "16545342803a394e00",
+    "1654534605895a6b2b"
+  ]
+}

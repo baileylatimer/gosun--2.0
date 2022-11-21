@@ -1,0 +1,385 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "1654712944c0e96077": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/GoSun_Go_how_to_page_cover_image_sport_e.jpg",
+        "subheading": "",
+        "title": "Sport E How To",
+        "content": "<p>Congrats on your purchase of the Sport-E and welcome to the GoSun ecosystem. Below, you'll find a User's Manual for the Sport-E with some tips and tricks to get started.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "small",
+        "text_position": "top_left",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "0d822592-0643-4d80-9288-61eda0f73410": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Download the Manual",
+        "content": "",
+        "button_text": "Download Manual",
+        "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/GoSun_Sport_E_User_Manual_111622.pdf?v=1668619259",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "c42279dd-1a5c-4b8e-ac2e-180669dc38b0": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "Watch How-To Video",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "9d573557-08e1-4a1f-8e03-c7b9eb29d971": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=p-a2wQwkDBk",
+        "image": "shopify:\/\/shop_images\/Flow_how_to_video_cover.jpg",
+        "background_type": "full_width",
+        "video_size": "auto",
+        "autoplay": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "#c4582d"
+      }
+    },
+    "93eeeaf1-02f2-4ab8-b492-976ce08c0729": {
+      "type": "faq",
+      "blocks": {
+        "template--14275008036958__93eeeaf1-02f2-4ab8-b492-976ce08c0729-1666276584fec17611-0": {
+          "type": "category",
+          "settings": {
+            "title": "General"
+          }
+        },
+        "template--14275008036958__93eeeaf1-02f2-4ab8-b492-976ce08c0729-1666276584fec17611-1": {
+          "type": "question",
+          "settings": {
+            "title": "Is the GoSun Sport-E TSA compliant?",
+            "answer": "<p>Packing into a 7lb clamshell, just collapse the Sport's legs and reflectors to go anywhere. Impervious to water, dirt and extreme temperatures, the Sport can be attached to any boat or bag and survive the elements for years to come. <\/p><p>The GoSun Sport is typically accepted within carry-on and check baggage on all domestic and international flights. To prevent damage when flying, pad your tube and the aluminum bracket with foam harvested from your original packaging or use a similar blanket or towel. This wrapping will help to keep impacts from the reflectors or bracket from making their way to the tube. If transported as a carry-on our carrying case will do just the trick!<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "template--14275008036958__93eeeaf1-02f2-4ab8-b492-976ce08c0729-1666276584fec17611-2": {
+          "type": "question",
+          "settings": {
+            "title": "How long does the GoSun Sport-E take to set up?",
+            "answer": "<p>Just unfold the legs, add food, and aim towards the Sun. It's that simple!<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "template--14275008036958__93eeeaf1-02f2-4ab8-b492-976ce08c0729-1666276584fec17611-4": {
+          "type": "question",
+          "settings": {
+            "title": "What can my GoSun Sport-E Cook?",
+            "answer": "<p>Bake, roast, steam and fry, the GoSun Sport is a versatile cooker! For some culinary inspiration check out the <a href=\"https:\/\/www.gosunstove.com\/blogs\/recipes\" title=\"GoSun Recipe Blog\">GoSun Recipe Blog<\/a>.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "79b75a01-0091-4b5b-b0cd-4ba67ad84ecf": {
+          "type": "question",
+          "settings": {
+            "title": "Can kids use the GoSun Sport-E?",
+            "answer": "<p>The GoSun technology is perfect for teaching kids the power of the Sun. Staying cool to touch even when roasting hot on the inside, the solar vacuum tube displays key principles of thermodynamics and electromagnetism with every use. Plus, it's a ton of fun to play around with!<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "8f74bc8f-7d42-46d9-b49f-204fafebbc4d": {
+          "type": "question",
+          "settings": {
+            "title": "How can I boil water with the GoSun Sport-E?",
+            "answer": "<p>Boiling water with the GoSun Sport is a breeze with the <a href=\"https:\/\/www.gosun.co\/collections\/accessories\/products\/gosun-brew-boil-water-using-the-sun\" target=\"_blank\">GoSun Kettle<\/a> accessory. Just heating water for rice or other staple grains? Just add your dried food to the tray and insert it into the stove to reduce the chance to spilling water. With the tray cracked open a couple inches, add in your water, then close.  <\/p><p>Keep in mind the Sport and Go will not rapidly boil water like a standard stovetop. Instead, it will bring water to a gradual boil (approx. 35 minutes of full sunlight for 2 cups of coffee). The GoSun technology cooks food more rapidly than it boils water due to the comparatively high density of liquids over food.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14275008036958__93eeeaf1-02f2-4ab8-b492-976ce08c0729-1666276584fec17611-0",
+        "template--14275008036958__93eeeaf1-02f2-4ab8-b492-976ce08c0729-1666276584fec17611-1",
+        "template--14275008036958__93eeeaf1-02f2-4ab8-b492-976ce08c0729-1666276584fec17611-2",
+        "template--14275008036958__93eeeaf1-02f2-4ab8-b492-976ce08c0729-1666276584fec17611-4",
+        "79b75a01-0091-4b5b-b0cd-4ba67ad84ecf",
+        "8f74bc8f-7d42-46d9-b49f-204fafebbc4d"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "f48bc1c8-85b8-4aa8-b330-b06c0551e22b": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Register Your Product",
+        "content": "",
+        "button_text": "Register Here",
+        "button_link": "https:\/\/gosun.co\/pages\/register",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16611968879e7ed277": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": false,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/gosun_sporte_features.jpg",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "1661195902e1b50f71": {
+      "type": "apps",
+      "settings": {
+        "include_horizontal_margins": false,
+        "include_vertical_margins": false
+      }
+    },
+    "1661197243c11e317e": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/Sport_E_Exploded_View_Both_Columns_081922_4x_Scale.jpg",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "165522874839212ede": {
+      "type": "image-with-text-block",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "Subheading",
+        "title": "Image with text block",
+        "content": "<p>Use block text to give your customers insight into your brand. Select impactful text that relates to your brand and story.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1661352006c87cb884": {
+      "type": "multi-column",
+      "blocks": {
+        "1661352006b5c67abd-2": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Column 1",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "1661352006b5c67abd-3": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Column 1",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "1661352006b5c67abd-2",
+        "1661352006b5c67abd-3"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "large",
+        "spacing": "tight",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165522967161c0c067": {
+      "type": "cb-secondary-header",
+      "disabled": true,
+      "settings": {
+        "main_text": "",
+        "main_url": "",
+        "tel": "+1 888.868.6154",
+        "main_menu_alignment": "after",
+        "enable_phone_number": true,
+        "hide_secondary_menu_on_mobile": true
+      }
+    },
+    "1655229689f26cc263": {
+      "type": "text-with-icons",
+      "disabled": true,
+      "blocks": {
+        "1655229689bb9f4aa4-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "custom_icon": "shopify:\/\/shop_images\/Frame.png",
+            "custom_icon_width": 50,
+            "title": "100,000+ customers",
+            "content": ""
+          }
+        },
+        "1655229689bb9f4aa4-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "custom_icon": "shopify:\/\/shop_images\/Frame-1.png",
+            "custom_icon_width": 50,
+            "title": "Quick, simple financing",
+            "content": ""
+          }
+        },
+        "1655229689bb9f4aa4-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "custom_icon": "shopify:\/\/shop_images\/Frame-2.png",
+            "custom_icon_width": 50,
+            "title": "Free Shipping over $50",
+            "content": ""
+          }
+        },
+        "1655229689bb9f4aa4-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-email",
+            "custom_icon": "shopify:\/\/shop_images\/Frame-3.png",
+            "custom_icon_width": 50,
+            "title": "1 Year Warranty",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "1655229689bb9f4aa4-0",
+        "1655229689bb9f4aa4-1",
+        "1655229689bb9f4aa4-2",
+        "1655229689bb9f4aa4-3"
+      ],
+      "settings": {
+        "background": "#ecedef",
+        "text_color": "rgba(0,0,0,0)",
+        "font_size_desktop": 16,
+        "font_size_mobile": 16
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1654712944c0e96077",
+    "0d822592-0643-4d80-9288-61eda0f73410",
+    "c42279dd-1a5c-4b8e-ac2e-180669dc38b0",
+    "9d573557-08e1-4a1f-8e03-c7b9eb29d971",
+    "93eeeaf1-02f2-4ab8-b492-976ce08c0729",
+    "f48bc1c8-85b8-4aa8-b330-b06c0551e22b",
+    "16611968879e7ed277",
+    "1661195902e1b50f71",
+    "1661197243c11e317e",
+    "165522874839212ede",
+    "1661352006c87cb884",
+    "165522967161c0c067",
+    "1655229689f26cc263"
+  ]
+}

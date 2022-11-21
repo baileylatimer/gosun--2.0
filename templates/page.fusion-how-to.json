@@ -1,0 +1,181 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "1654712944c0e96077": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/solar_oven_sport_hybrid_cookstove_hero.jpg",
+        "subheading": "",
+        "title": "Fusion How to",
+        "content": "<p>Congrats on your purchase of the Flow Pro and welcome to the GoSun ecosystem. Below, you'll find a quickstart video for setting up the Flow Pro with some tips and tricks to get started. <\/p>",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "small",
+        "text_position": "bottom_left",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "16611968879e7ed277": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": false,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/gosun_sporte_features.jpg",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "16552287623c956297": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "165522876256e3fb16-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gosun_sporte_electric_solar_oven_hybrid.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "PLACEHOLDER TEXT",
+            "content": "<p>ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165522876256e3fb16-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165522967161c0c067": {
+      "type": "cb-secondary-header",
+      "settings": {
+        "main_text": "",
+        "main_url": "",
+        "tel": "+1 888.868.6154",
+        "main_menu_alignment": "after",
+        "enable_phone_number": true,
+        "hide_secondary_menu_on_mobile": true
+      }
+    },
+    "16611991742a4044c5": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "1661199174fcec7c9e-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gosun_sporte_electric_oven_solar.jpg",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "PLACEHOLDER TEXT",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1661199174fcec7c9e-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1663788971a86fc3bc": {
+      "type": "video",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=p-a2wQwkDBk",
+        "background_type": "full_width",
+        "video_size": "small",
+        "autoplay": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16637886540dc0d4be": {
+      "type": "faq",
+      "blocks": {
+        "16637886545d81abd8-1": {
+          "type": "question",
+          "settings": {
+            "title": "Flow Pro Manual",
+            "answer": "",
+            "button_text": "Download Manual",
+            "button_link": "https:\/\/drive.google.com\/file\/d\/18szB-ESE4MoPETCUgDVUiqxdV-Nd5toy\/view"
+          }
+        }
+      },
+      "block_order": [
+        "16637886545d81abd8-1"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "Download the Manual",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1654712944c0e96077",
+    "16611968879e7ed277",
+    "16552287623c956297",
+    "165522967161c0c067",
+    "16611991742a4044c5",
+    "1663788971a86fc3bc",
+    "16637886540dc0d4be"
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "1653933468c937dd0d": {
+      "type": "image-with-text",
+      "blocks": {
+        "1653933468f41cd5b5-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sport_Paddleboard.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "Partners",
+            "content": "<p>Explore our programs below and become a GoSun partner today.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1653933468f41cd5b5-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#d9e8f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1653933475520ceb27": {
+      "type": "multi-column",
+      "blocks": {
+        "1653933475a4568658-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_6.png",
+            "image_width": 100,
+            "image_border": "#e7e7e7",
+            "title": "Dealer",
+            "content": "<p>Become a stocking dealer of the GoSun solar cooker product line. We've already sold directly into 50+ countries throughout the world. Partner with us to manage GoSun sales in your area!<\/p>",
+            "link_text": "Learn More",
+            "link_url": "mailto:sales@gosun.co",
+            "link_style": "link",
+            "text_alignment": "left",
+            "vertical_alignment": "start"
+          }
+        },
+        "84591996-1dd7-41eb-b830-d98ba87399ff": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_5.png",
+            "image_width": 100,
+            "image_border": "#e7e7e7",
+            "title": "Empowerment",
+            "content": "<p>Are you inspired to change the world with clean, renewable cooking technologies? You're just the type of person we'd LOVE to partner with! We have solutions for your community.<\/p>",
+            "link_text": "Learn More",
+            "link_url": "shopify:\/\/pages\/empowerment",
+            "link_style": "link",
+            "text_alignment": "left",
+            "vertical_alignment": "start"
+          }
+        },
+        "1653933475a4568658-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_8.png",
+            "image_width": 100,
+            "image_border": "#e7e7e7",
+            "title": "Ambassador",
+            "content": "<p>Add $20 to your order and we'll include 250 business cards, along with a unique promo code to share with friends and family. Whenever someone buys using your promo code, they will save 15%, and you'll earn 15%! Your earnings are unlimited and paid out quarterly.<\/p>",
+            "link_text": "Learn More",
+            "link_url": "shopify:\/\/products\/ambassador-cards-250-pack",
+            "link_style": "link",
+            "text_alignment": "left",
+            "vertical_alignment": "start"
+          }
+        },
+        "4d9a2650-0d95-45be-87c0-b20917e46b99": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/download_1.png",
+            "image_width": 100,
+            "image_border": "#e7e7e7",
+            "title": "Affiliate",
+            "content": "<p>Share GoSun online with your own custom URL. Earn commissions from all sales generated from your link and purchases on our site. The GoSun Affiliate Program is managed Through Avantlink<\/p>",
+            "link_text": "Learn More",
+            "link_url": "shopify:\/\/pages\/new-affiliate",
+            "link_style": "link",
+            "text_alignment": "left",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "1653933475a4568658-0",
+        "84591996-1dd7-41eb-b830-d98ba87399ff",
+        "1653933475a4568658-1",
+        "4d9a2650-0d95-45be-87c0-b20917e46b99"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "stack_items": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "medium",
+        "spacing": "normal",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1653935045b9c0e97a": {
+      "type": "text-with-icons",
+      "blocks": {
+        "1653935045d9a07e71-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-credit-card",
+            "custom_icon_width": 50,
+            "title": "Quick, simple financing",
+            "content": ""
+          }
+        },
+        "1653935045d9a07e71-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-delivery-truck",
+            "custom_icon_width": 50,
+            "title": "Free shipping over $50",
+            "content": ""
+          }
+        },
+        "1653935045d9a07e71-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-shield",
+            "custom_icon_width": 50,
+            "title": "1-year warranty",
+            "content": ""
+          }
+        },
+        "1653935045d9a07e71-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-customer-support",
+            "custom_icon_width": 50,
+            "title": "Award-winning customer service",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "1653935045d9a07e71-0",
+        "1653935045d9a07e71-1",
+        "1653935045d9a07e71-2",
+        "1653935045d9a07e71-3"
+      ],
+      "settings": {
+        "background": "#ecedef",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1653935061372d8d90": {
+      "type": "newsletter",
+      "settings": {
+        "reveal_on_scroll": false,
+        "image": "shopify:\/\/shop_images\/Ativo_2back.png",
+        "subheading": "Take the lead.",
+        "content": "<p>Subscribe for tips, tricks, recipes, and special deals.<\/p>",
+        "text_position": "center",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1653933468c937dd0d",
+    "1653933475520ceb27",
+    "1653935045b9c0e97a",
+    "1653935061372d8d90"
+  ]
+}

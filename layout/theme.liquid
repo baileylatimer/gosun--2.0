@@ -1,0 +1,241 @@
+{%- comment -%}
+------------------------------------------------------------------------------------------------------------------------
+NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing this theme as much as we did for
+  developing it. We have put a lot of work to make this theme as developer friendly as possible by offering you
+  hooks to integrate into critical parts of the theme. You will find the complete technical documentation (including
+  all events, dependencies...) in the "custom.js" file, located in the Assets folder.
+------------------------------------------------------------------------------------------------------------------------
+{%- endcomment -%}
+<!doctype html>
+{%- assign direction = 'ltr' -%}
+{%- case request.locale.iso_code -%}
+  {%- when 'ar' or 'arc' or 'dv' or 'fa' or 'ha' or 'he' or 'kwh' or 'ks' or 'ku' or 'ps' or 'ur' or 'yi' -%}
+    {%- assign direction = 'rtl' -%}
+{%- endcase -%}
+
+<html class="no-js" lang="{{ request.locale.iso_code }}" dir="{{ direction }}">
+  <head>{% if template == 'index' %}{% render 'spdn' %}{% endif %}{% if request.path == '/products/camp365' or request.path == '/collections/todays-deals' or request.path == '/products/go-pro-pack-1' %}{% render 'camp365spdn' %}{% endif %}
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PWMKVPR');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Start VWO Async SmartCode -->
+    {% unless template contains "index" %}<script type='text/javascript'>
+    window._vwo_code = window._vwo_code || (function(){
+    var account_id=580606,
+    settings_tolerance=2000,
+    library_tolerance=2500,
+    use_existing_jquery=false,
+    is_spa=1,
+    hide_element='body',
+    
+    /* DO NOT EDIT BELOW THIS LINE */
+    f=false,d=document,code={use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){
+    window.settings_timer=setTimeout(function () {_vwo_code.finish() },settings_tolerance);var a=d.createElement('style'),b=hide_element?hide_element+'{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}':'',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('https://dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&f='+(+is_spa)+'&r='+Math.random());return settings_timer; }};window._vwo_settings_timer = code.init(); return code; }());
+    </script>{% endunless %}
+    <!-- End VWO Async SmartCode -->
+    
+	<!-- Added by AVADA SEO Suite -->
+	{% include 'avada-seo' %}
+	<!-- /Added by AVADA SEO Suite -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="theme-color" content="{{ settings.header_background }}">
+    <meta name="HandheldFriendly" content="true"/> 
+    <meta name="MobileOptimized" content="320"/>
+
+    <title>{% if page_title == blank %}{{ shop.name }}{% else %}{{ page_title }}{% if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif %}{% endif %}</title>
+
+    {%- if page_description -%}
+      <meta name="description" content="{{ page_description | escape }}">
+    {%- endif -%}
+
+    <link rel="canonical" href="{{ canonical_url }}">
+
+    {%- if settings.favicon -%}
+      <link rel="shortcut icon" href="{{ settings.favicon | img_url: '96x96' }}" type="image/png">
+    {%- endif -%}
+
+    {%- comment -%}Few prefech to increase performance on commonly used third-parties{%- endcomment -%}
+    {% unless template contains "index" %}
+    <link rel="preconnect" href="https://cdn.shopify.com">
+    <link rel="dns-prefetch" href="https://productreviews.shopifycdn.com">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    {% endunless %}
+
+    {%- unless settings.heading_font.system? and settings.text_font.system? -%}
+      {% unless template contains "index" %}<link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>{% endunless %}
+    {%- endunless -%}
+
+    {%- comment -%}Preload important resources{%- endcomment -%}
+    <link rel="preload" as="style" href="{{ 'theme.css' | asset_url }}">
+    <link rel="preload" as="script" href="{{ 'vendor.js' | asset_url }}">
+    <link rel="preload" as="script" href="{{ 'theme.js' | asset_url }}">
+
+    {%- comment -%}
+      IMPLEMENTATION NOTE: for improving performance, Focal tries to preload images on known pages (such as blog page,
+      product or collection pages). In order to keep a main JS file size minimal, the theme also lazyloads non-essential
+      libraries (such as PhotoSwipe or Flickity) and only loads them on demand.
+    {%- endcomment -%}
+    {%- if request.page_type == 'product' -%}
+      {%- assign selected_media = product.selected_variant.featured_media | default: product.featured_media -%}
+
+      <link rel="preload" as="fetch" href="{{ product.url }}.js" crossorigin>
+      <link rel="preload" as="image" imagesizes="(max-width: 999px) calc(100vw - 48px), 640px" imagesrcset="{% render 'image-attributes', image: selected_media, sizes: '400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800', sizes_only: true %}">
+
+      {%- if product.media.size > 1 -%}
+        <link rel="preload" as="script" href="{{ 'flickity.js' | asset_url }}">
+      {%- endif -%}
+    {%- elsif request.page_type == 'collection' and collection.image -%}
+      <link rel="preload" as="image" media="(max-width: 740px)" imagesizes="100vw" imagesrcset="{% render 'image-attributes', image: collection.image, sizes: '400,500,600,700,800,900,1000', height_constraint: 600, crop: 'center', sizes_only: true %}">
+      <link rel="preload" as="image" media="(min-width: 741px)" imagesizes="100vw" imagesrcset="{% render 'image-attributes', image: collection.image, sizes: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600', sizes_only: true %}">
+    {%- endif -%}
+
+    {% render 'social-meta-tags' %}
+    {% render 'microdata-schema' %}
+    {% render 'css-variables', direction: direction %}
+    {% render 'js-variables', direction: direction %}
+
+    <link rel="stylesheet" href="{{ 'theme.css' | asset_url }}">
+
+    {% if request.path == '/products/camp365' or request.path == '/collections/todays-deals' or request.path == '/products/go-pro-pack-1'  %}
+     <link rel="preload" as="style" href="https://api.fastbundle.co/react-src/static/css/main.min.css">
+     <link rel="preload" as="style" href="https://cdn.shopify.com/extensions/ca1f3f09-b815-4c34-b437-16e493fb2d0c/1.1.0/assets/app.css">
+     <link rel="preload" as="style" href="https://cdn.shopify.com/s/files/1/0789/1333/t/240/compiled_assets/styles.css">
+     <link rel="preload" as="style" href="https://api.fastbundle.co/react-src/static/css/main.min.css?rgn=344364">
+    {% endif %}
+
+    <script src="{{ 'vendor.js' | asset_url }}" defer></script>
+    <script src="{{ 'theme.js' | asset_url }}" defer></script>
+    <script src="{{ 'custom.js' | asset_url }}" defer></script>
+    
+    {% comment %} Please do not edit this section. It is automatically generated by Videowise{% endcomment %}  	
+    <link rel="preload" as="style" href="https://doui4jqs03un3.cloudfront.net/style.css.gz">
+    <link rel="stylesheet" href="https://doui4jqs03un3.cloudfront.net/style.css.gz">  	
+    <link rel="preload" as="script" href="https://doui4jqs03un3.cloudfront.net/vendors.js.gz">
+    <script src="https://doui4jqs03un3.cloudfront.net/vendors.js.gz"></script> 
+    <script src="https://doui4jqs03un3.cloudfront.net/client.js.gz" defer="defer"></script>  
+    {% comment %} End Videowise section.{% endcomment %}
+
+    {{ content_for_header }}
+
+  {% unless template contains "index" %}  
+    <script>
+    window.mlvedaShopCurrency = "{{ shop.currency }}";
+    window.shopCurrency = "{{ shop.currency }}";
+    window.supported_currencies = "{{ settings.mlvedaACS_supportedCurrencies }}";
+    </script>
+  {% endunless %}
+
+
+  {% if content_for_header contains 'fastbundle.co' %}
+      {% unless template contains "index" %}{% render 'fast_bundle_service' %}{% endunless %}
+  {% endif %}
+
+</head>
+
+  {%- assign feature_classes = '' -%}
+
+  {%- if settings.show_image_zoom -%}
+    {% assign feature_classes = feature_classes | append: ' features--image-zoom' %}
+  {%- endif -%}
+
+  <body class="no-focus-outline {{ feature_classes }}" data-instant-allow-query-string>
+    {%- comment -%}Common SVG definitions that we are re-using in several places{%- endcomment -%}
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWMKVPR"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <svg class="visually-hidden">
+      <linearGradient id="rating-star-gradient-half">
+        <stop offset="50%" stop-color="rgb(var(--product-star-rating))" />
+        <stop offset="50%" stop-color="rgb(var(--product-star-rating))" stop-opacity="0.4" />
+      </linearGradient>
+    </svg>
+
+    <a href="#main" class="visually-hidden skip-to-content">{{ 'general.accessibility.skip_to_content' | t }}</a>
+    <loading-bar class="loading-bar"></loading-bar>
+
+    {%- if request.page_type != 'gift_card' and request.page_type != 'password' -%}
+      {%- section 'announcement-bar' -%}
+      {%- section 'popup' -%}
+      {%- section 'cb-secondary-header' -%}
+      {%- section 'header' -%}
+
+      {%- unless settings.cart_type == 'page' or request.page_type == 'cart' -%}
+        {%- section 'mini-cart' -%}
+      {%- endunless -%}
+    {%- endif -%}
+
+    <div id="main" role="main" class="anchor">
+      {%- comment -%}
+      IMPLEMENTATION NOTE: on collection and search page, the theme was designed to show on mobile the filter bar and/or sort
+        by at the very top of the page. However, due to the fact that sections are isolated, I had to move the code
+        here. Then, the collection section, based on the selected settings, will eventually hide those elements in CSS
+      {%- endcomment -%}
+      {%- if request.page_type == 'collection' or request.page_type == 'search' -%}
+        {%- assign active_filters_count = 0 -%}
+
+        {%- if request.page_type == 'collection' -%}
+          {%- assign filters = collection.filters -%}
+        {%- else -%}
+          {%- assign filters = search.filters -%}
+        {%- endif -%}
+
+        {%- for filter in filters -%}
+          {%- if filter.type == 'list' -%}
+            {%- assign active_filters_count = active_filters_count | plus: filter.active_values.size -%}
+          {%- elsif filter.type == 'price_range' and filter.min_value.value or filter.max_value.value -%}
+            {%- assign active_filters_count = active_filters_count | plus: 1 -%}
+          {%- endif -%}
+        {%- endfor -%}
+
+        {%- assign is_toolbar_collapsed = false -%}
+
+        {%- if request.page_type == 'search' and search.results.first.object_type != 'product' and search.results_count > 0 -%}
+          {%- assign is_toolbar_collapsed = true -%}
+        {%- endif -%}
+
+        <div id="mobile-facet-toolbar" class="mobile-toolbar {% if is_toolbar_collapsed %}is-collapsed{% endif %} hidden-lap-and-up">
+          <button is="toggle-button" class="mobile-toolbar__item mobile-toolbar__item--filters {% if active_filters_count > 0 %}has-filters{% endif %}" aria-expanded="false" aria-controls="facet-filters" style="display: none">
+            {%- render 'icon' with 'filters' -%}
+            <span class="mobile-toolbar__item-label">{{- 'collection.general.filters' | t -}}</span>
+          </button>
+
+          <button is="toggle-button" class="mobile-toolbar__item mobile-toolbar__item--sort" aria-expanded="false" aria-controls="sort-by-popover" style="display: none">
+            <span class="mobile-toolbar__item-label">{{- 'collection.general.sort_by' | t -}}</span>
+            {%- render 'icon' with 'chevron' -%}
+          </button>
+        </div>
+      {%- endif -%}
+
+      {{ content_for_layout }}
+
+      {%- unless request.page_type == 'index' or request.page_type == 'password' or request.page_type == 'gift_card' -%}
+        {%- section 'static-text-with-icons' -%}
+        {%- section 'static-newsletter' -%}
+      {%- endunless -%}
+    </div>
+
+    {%- if request.page_type != 'gift_card' and request.page_type != 'password' -%}
+      {%- section 'footer' -%}
+    {%- endif -%}
+    {% unless template contains "index" %}
+      {% include 'mlveda-currencies-switcher' %}
+      {% include 'mlveda-currencies' %}
+      {% include 'mlveda-flag' %}	
+     {% endunless %}
+    {% render 'flits_snippet' %}
+    {% if product %}
+     <script type="text/javascript">
+     var _learnq = _learnq || [];
+  	document.getElementById("AddToCart").addEventListener('click',function (){
+   		_learnq.push(['track', 'Added to Cart', item]);
+  	});</script>
+    {% endif %}
+{% if template == 'index' %}{% render 'spdn2' %}{% endif %}{% if request.path == '/products/camp365' or request.path == '/collections/todays-deals' or request.path == '/products/go-pro-pack-1'  %}{% render 'camp365spdn2' %}{% endif %}</body>
+</html>

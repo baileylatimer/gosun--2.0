@@ -1,0 +1,61 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "b1e36b35-e973-41cf-9c0a-db15c8e0c054": {
+          "type": "category",
+          "settings": {
+            "title": "Common Questions"
+          }
+        },
+        "4a5237fd-0e6f-4552-86da-722f713e9f84": {
+          "type": "question",
+          "settings": {
+            "title": "How much sun do I need to cook?",
+            "answer": "<p>You might be surprised how little Sun is needed to finish a meal. As a rule of thumb, the stove will cook quickly if you can see a defined shadow from your hand even when overcast, windy and in some cases rainy. If thick clouds are spotty, cooking is still possible, though it will take longer as the stove builds up heat during the sunny periods. We suggest using a weather tracking app like My Radar to help plan and set you up for success!<\/p>"
+          }
+        },
+        "30cf9843-6741-4f11-b443-3b1b8185820d": {
+          "type": "question",
+          "settings": {
+            "title": "Is the GoSun stove fragile?",
+            "answer": "<p>No, GoSun is not considered very fragile. It's designed to be able to quickly fold up and take with you... wherever the sun shines! It will withstand normal use day in and day out. Normal use consists of unfolding the legs, adjusting reflector base, tons of cooking, sliding the tray in and out, folding the cooker back up when done, and taking it on the go. We cannot guarantee the GoSun will survive if you <a href=\"http:\/\/www.youtube.com\/watch?v=QrxPuk0JefA\">drop it out of an airplane and into a pig pen<\/a> -- but otherwise you should be good!! <\/p><p>The cooking tube is made of borosilicate glass, which is much more durable than the type of glass many people use in the kitchen daily.<\/p><p>As a part of our limited warranties, the GoSun glass cooking tube is covered for one years. So if the tube breaks, we will provide you with a new one free of charge - you only pay shipping.<\/p><p>For extra protection, the <a href=\"http:\/\/www.gosunstove.com\/shop\/gosun-stove-pro\/\" target=\"_blank\">GoSun Pro Pack<\/a> comes with a GoSun carrying case - which can fit your GoSun Sport cooker, plus an extra cooking tray, spork, and other accessories.<\/p><p>Our packaging is also quite durable. <a href=\"http:\/\/www.youtube.com\/watch?v=bxgQGdIrXpI\" target=\"_blank\">Watch this video<\/a> we made to show you all the mayhem the GoSun packaging can withstand...<\/p>"
+          }
+        },
+        "57e01361-5907-46df-9923-5d236860649e": {
+          "type": "question",
+          "settings": {
+            "title": "About your shop",
+            "answer": "<p>Write content to help your customers to better understand your products or policies.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "b1e36b35-e973-41cf-9c0a-db15c8e0c054",
+        "4a5237fd-0e6f-4552-86da-722f713e9f84",
+        "30cf9843-6741-4f11-b443-3b1b8185820d",
+        "57e01361-5907-46df-9923-5d236860649e"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "faq"
+  ]
+}

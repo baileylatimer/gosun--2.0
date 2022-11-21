@@ -1,0 +1,126 @@
+{
+  "sections": {
+    "165453417194d5ba13": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "GoSun",
+        "title": "Help Center",
+        "content": "<p>ONE YEAR MONEY BACK GUARANTEE<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#e7f4fd",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "1654533357242c5b7c": {
+      "type": "cb-secondary-header",
+      "blocks": {
+        "95b80f70-8ba5-44c9-a8ee-8447f8c48f5b": {
+          "type": "link",
+          "settings": {
+            "link": "shopify:\/\/pages\/new-returns-exchange",
+            "text": "Return & Exchanges"
+          }
+        },
+        "c8935e32-57a6-4cf5-a9f7-dddf15753a5a": {
+          "type": "link",
+          "disabled": true,
+          "settings": {
+            "link": "shopify:\/\/pages\/new-track-my-order",
+            "text": "Track My Order"
+          }
+        },
+        "362a80d7-1732-497f-86e7-03425475b29c": {
+          "type": "link",
+          "settings": {
+            "link": "shopify:\/\/pages\/new-warranty",
+            "text": "Warranty"
+          }
+        },
+        "af965035-41e4-438f-9fa8-5f5d8d1465d8": {
+          "type": "link",
+          "settings": {
+            "link": "shopify:\/\/pages\/new-product-manuals",
+            "text": "Product Manuals"
+          }
+        },
+        "b3b017eb-be1d-4b9b-8716-8507039160ec": {
+          "type": "link",
+          "settings": {
+            "link": "shopify:\/\/pages\/new-contact",
+            "text": "Contact"
+          }
+        }
+      },
+      "block_order": [
+        "95b80f70-8ba5-44c9-a8ee-8447f8c48f5b",
+        "c8935e32-57a6-4cf5-a9f7-dddf15753a5a",
+        "362a80d7-1732-497f-86e7-03425475b29c",
+        "af965035-41e4-438f-9fa8-5f5d8d1465d8",
+        "b3b017eb-be1d-4b9b-8716-8507039160ec"
+      ],
+      "settings": {
+        "main_text": "",
+        "main_url": "",
+        "tel": "",
+        "main_menu_alignment": "after",
+        "enable_phone_number": false,
+        "hide_secondary_menu_on_mobile": false
+      }
+    },
+    "1654535569a95f1e75": {
+      "type": "contact-form",
+      "settings": {
+        "title": "Contact Us",
+        "content": "",
+        "text_1_heading": "",
+        "text_1_text": "",
+        "text_2_heading": "",
+        "text_2_text": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1654533667667992d6": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p><strong>We are open M-F, 9am - 5pm.<\/strong> <br\/>If contact forms aren't your thing, you can also reach us through the channels below. <br\/><strong>Phone:<\/strong> <a href=\"tel:18888686154\">1-888-868-6154 <\/a><br\/><strong>Email:<\/strong> <a href=\"mailto:support@gosun.co\">support@gosun.co<br\/><\/a>Corporate Address: 1217 Ellis St, Cincinnati, OH 45223<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "small",
+        "text_position": "center",
+        "text_alignment": "left",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "165453417194d5ba13",
+    "main",
+    "1654533357242c5b7c",
+    "1654535569a95f1e75",
+    "1654533667667992d6"
+  ]
+}

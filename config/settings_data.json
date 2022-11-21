@@ -1,0 +1,992 @@
+{
+  "current": {
+    "button_border_radius": 30,
+    "block_border_radius": "small",
+    "vertical_spacing": "medium",
+    "heading_color": "#0b225a",
+    "text_color": "#424242",
+    "secondary_background": "#f5f5f5",
+    "success_color": "#2e9e7b",
+    "error_color": "#de2a2a",
+    "header_background": "#ffffff",
+    "header_text_color": "#0b225a",
+    "footer_background": "#1b3550",
+    "footer_text_color": "#e7e7e7",
+    "primary_button_background": "#c65824",
+    "secondary_button_background": "#288bcc",
+    "secondary_button_text_color": "#ffffff",
+    "product_rating_color": "#c65824",
+    "product_on_sale_accent": "#c65824",
+    "product_custom_label_background": "#405de6",
+    "product_custom_label_2_background": "#f3ff34",
+    "product_in_stock_text_color": "#2e9e7b",
+    "product_low_stock_text_color": "#de2a2a",
+    "heading_font": "helvetica_n7",
+    "heading_font_size": "small",
+    "heading_text_transform": "normal",
+    "text_font": "open_sans_n4",
+    "text_font_size": 15,
+    "currency_code_enabled": false,
+    "show_image_zoom": false,
+    "stagger_products_apparition": false,
+    "stagger_blog_posts_apparition": false,
+    "reveal_product_media": false,
+    "round_color_swatches": true,
+    "show_vendor": false,
+    "show_secondary_image": true,
+    "show_product_rating": true,
+    "product_color_display": "count",
+    "product_image_size": "square",
+    "cart_type": "message",
+    "cart_show_free_shipping_threshold": true,
+    "social_facebook": "https:\/\/www.facebook.com\/gosun.co\/",
+    "social_twitter": "https:\/\/twitter.com\/gosun",
+    "social_pinterest": "https:\/\/www.pinterest.com\/gosun\/_created\/",
+    "social_instagram": "https:\/\/www.instagram.com\/gosun\/",
+    "social_youtube": "https:\/\/www.youtube.com\/user\/sunwindworker",
+    "social_tiktok": "tiktok.com\/@go.sun?lang=en",
+    "social_linkedin": "https:\/\/www.linkedin.com\/company\/gosun-stove",
+    "favicon": "shopify:\/\/shop_images\/3_Medium_a482a7f7-585b-4dfb-93a0-27baa13a5034.png",
+    "checkout_header_image": "shopify:\/\/shop_images\/Ativo_2back.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logogosun.png",
+    "checkout_logo_position": "center",
+    "checkout_sidebar_background_color": "#1b3550",
+    "checkout_accent_color": "#282828",
+    "checkout_button_color": "#288bcc",
+    "checkout_error_color": "#c65824",
+    "mlvedaACS_roundDecimal": false,
+    "mlvedaACS_positionTop": false,
+    "mlvedaACS_positionRight": false,
+    "mlvedaACS_positionLeft": "0px",
+    "mlvedaACS_defaultCurrency": "USD",
+    "accent_color": "#405de6",
+    "mlvedaACS_positionBottom": "0px",
+    "mlvedaACS_position": "bottom_with_left",
+    "mlvedaACS_enable": true,
+    "mlvedaACS_supportedCurrencies": "AUD CAD EUR GBP JPY USD",
+    "mlvedaACS_hideDecimal": false,
+    "mlvedaACS_currencyFormat": "money_with_currency_format",
+    "mlvedaACS_displayFlag": true,
+    "sections": {
+      "popup": {
+        "type": "popup",
+        "settings": {
+          "enable": false,
+          "apparition_delay": 5,
+          "show_only_on_index": true,
+          "show_only_for_visitors": true,
+          "show_only_once": true,
+          "image": "shopify:\/\/shop_images\/5_85afc4a6-0283-4a7c-b85e-9e45800c839e.png",
+          "image_position": "left",
+          "title": "Get 15% off",
+          "content": "<p>Subscribe and receive a special <br\/><strong>15% OFF discount code!<\/strong><\/p>"
+        }
+      },
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "message-1": {
+            "type": "message",
+            "settings": {
+              "text": "BLACK FRIDAY DEALS HERE",
+              "learn_more_text": "Learn more",
+              "title": "",
+              "content": "",
+              "button_text": "BLACK FRIDAY DEALS HERE",
+              "button_link": "shopify:\/\/collections\/todays-deals"
+            }
+          }
+        },
+        "block_order": [
+          "message-1"
+        ],
+        "settings": {
+          "announcement_bar_position": "non_sticky",
+          "announcement_text_size": "normal",
+          "autoplay": true,
+          "cycle_speed": 5,
+          "background": "#288bcc",
+          "text_color": "#ffffff",
+          "button_background": "#1b3550",
+          "button_text_color": "#ffffff"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "links": {
+            "type": "links",
+            "settings": {
+              "menu": "products-footer"
+            }
+          },
+          "65e5436c-a605-459d-b970-4e67a1b50e61": {
+            "type": "links",
+            "settings": {
+              "menu": "company-1"
+            }
+          },
+          "0775a5f2-95f2-411c-8123-8877391f6159": {
+            "type": "links",
+            "settings": {
+              "menu": "help-center"
+            }
+          },
+          "bec4a703-2fc6-45da-93a3-c86cf3bd9ab6": {
+            "type": "social_media",
+            "settings": {
+              "title": "Follow us",
+              "content": ""
+            }
+          },
+          "6aa3b11e-ba0c-4971-aedb-9d9b609ef814": {
+            "type": "contact",
+            "settings": {
+              "title": "Contact",
+              "phone": "<p><a href=\"tel:+18888686154\">+1 888.868.6154<\/a><\/p>",
+              "mail": "<p><a href=\"mailto:support@gosun.co\">support@gosun.co<\/a><\/p>",
+              "opening_hours": "<p>Mon-Fri | 9AM-5PM ET<\/p>",
+              "address": "<p>1217 Ellis St, Cincinnati, OH 45223, USA<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "links",
+          "65e5436c-a605-459d-b970-4e67a1b50e61",
+          "0775a5f2-95f2-411c-8123-8877391f6159",
+          "bec4a703-2fc6-45da-93a3-c86cf3bd9ab6",
+          "6aa3b11e-ba0c-4971-aedb-9d9b609ef814"
+        ],
+        "settings": {
+          "show_payment_icons": true,
+          "show_country_selector": true,
+          "show_locale_selector": true,
+          "show_cookie_bar": false,
+          "cookie_bar_title": "Cookie policy",
+          "cookie_bar_content": "<p>I agree to the processing of my data in accordance with the conditions set out in the policy of Privacy.<\/p>"
+        }
+      },
+      "mini-cart": {
+        "type": "mini-cart",
+        "settings": {
+          "show_order_note": true,
+          "show_checkout_button": true,
+          "empty_button_link": "shopify:\/\/collections\/all",
+          "show_recommendations": true,
+          "recommendations_title": "You may also like"
+        }
+      },
+      "static-text-with-icons": {
+        "type": "static-text-with-icons",
+        "blocks": {
+          "static-text-with-icons-0": {
+            "type": "item",
+            "settings": {
+              "icon": "picto-box",
+              "custom_icon_width": 50,
+              "title": "Free shipping",
+              "content": "<p>Free worldwide shipping and returns - customs and duties taxes included<\/p>"
+            }
+          },
+          "static-text-with-icons-1": {
+            "type": "item",
+            "settings": {
+              "icon": "picto-phone",
+              "custom_icon_width": 50,
+              "title": "Customer service",
+              "content": "<p>We are available from monday to friday to answer your questions.<\/p>"
+            }
+          },
+          "static-text-with-icons-2": {
+            "type": "item",
+            "settings": {
+              "icon": "picto-lock",
+              "custom_icon_width": 50,
+              "title": "Secure payment",
+              "content": "<p>Your payment information is processed securely.<\/p>"
+            }
+          },
+          "static-text-with-icons-3": {
+            "type": "item",
+            "settings": {
+              "icon": "picto-email",
+              "custom_icon_width": 50,
+              "title": "Contact us",
+              "content": "<p>Need to contact us ? Just send us an e-mail at info@yourstore.com<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "static-text-with-icons-0",
+          "static-text-with-icons-1",
+          "static-text-with-icons-2",
+          "static-text-with-icons-3"
+        ],
+        "settings": {
+          "show_section": false,
+          "background": "rgba(0,0,0,0)",
+          "text_color": "rgba(0,0,0,0)"
+        }
+      },
+      "header": {
+        "type": "header",
+        "blocks": {
+          "decaad17-c7f1-4155-b899-a65e1f04bce5": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "Ovens",
+              "images_position": "right",
+              "image_1": "shopify:\/\/shop_images\/GoSun_Mega_Menu_Fusion_1d213568-8c25-4f04-98bd-b03cb9675d1b.jpg",
+              "image_1_heading": "Fusion",
+              "image_1_text": "",
+              "image_1_link": "shopify:\/\/products\/fusion",
+              "image_2": "shopify:\/\/shop_images\/GoSun_Mega_Menu_Sport_Pro_1b3b07d1-dabd-402b-9e48-8d38b48576f4.jpg",
+              "image_2_heading": "Sport Pro",
+              "image_2_text": "",
+              "image_2_link": "shopify:\/\/products\/sport-pro-pack",
+              "image_3": "shopify:\/\/shop_images\/GoSun_Mega_Menu_Go_Pro_Pack_285d302d-59b4-4d42-b150-d76c028fe0c0.jpg",
+              "image_3_heading": "Go Pro Pack",
+              "image_3_text": "",
+              "image_3_link": "shopify:\/\/products\/go-pro-pack-1",
+              "image_4": "shopify:\/\/shop_images\/GoSun_Mega_Menu_All_Ovens_77c799fe-888b-4554-b0e7-448882a7eb5d.jpg",
+              "image_4_heading": "All Ovens",
+              "image_4_text": "",
+              "image_4_link": "shopify:\/\/collections\/solar-ovens",
+              "image_5_heading": "",
+              "image_5_text": "",
+              "image_5_link": "",
+              "image_6_heading": "",
+              "image_6_text": "",
+              "image_6_link": ""
+            }
+          },
+          "2bb9d3b5-0865-41cf-ac4e-9bd34f4acefd": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "Coolers",
+              "images_position": "right",
+              "image_1": "shopify:\/\/shop_images\/GoSun_Mega_Menu_Chillest_2cb28f4c-1561-4db6-be7a-870a66f9d238.jpg",
+              "image_1_heading": "Chillest",
+              "image_1_text": "",
+              "image_1_link": "shopify:\/\/products\/chillest",
+              "image_2": "shopify:\/\/shop_images\/GoSun_Mega_Menu_Chill_2e12bf6a-8953-4a96-ba58-5b3675075fa2.jpg",
+              "image_2_heading": "Chill",
+              "image_2_text": "",
+              "image_2_link": "shopify:\/\/products\/chill",
+              "image_3": "shopify:\/\/shop_images\/GoSun_Mega_Menu_Solar_Kitchen_Pro_f2ee4015-118d-4bdd-8cb3-52a4793a47c9.jpg",
+              "image_3_heading": "Solar Kitchen Pro",
+              "image_3_text": "",
+              "image_3_link": "shopify:\/\/products\/solar-kitchen-2022-pro",
+              "image_4": "shopify:\/\/shop_images\/GoSun_Mega_Menu_All_Coolers_fe7fbe2e-1885-4ab5-80ea-fb9f4db46223.jpg",
+              "image_4_heading": "All Coolers",
+              "image_4_text": "",
+              "image_4_link": "shopify:\/\/collections\/solar-coolers",
+              "image_5_heading": "",
+              "image_5_text": "",
+              "image_5_link": "",
+              "image_6_heading": "",
+              "image_6_text": "",
+              "image_6_link": ""
+            }
+          },
+          "eca2ee0f-850e-4abc-8221-cc408e3ad63f": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "Power",
+              "images_position": "right",
+              "image_1": "shopify:\/\/shop_images\/GoSun_Mega_Menu_Solar_Panel_100_e9822468-4755-4cb1-84e1-c838f72f0083.jpg",
+              "image_1_heading": "Solar Panel 100",
+              "image_1_text": "",
+              "image_1_link": "shopify:\/\/products\/solarpanel-100",
+              "image_2": "shopify:\/\/shop_images\/GoSun_Mega_Menu_Power_266_b2063d72-641a-4360-a4bf-088af615d42d.jpg",
+              "image_2_heading": "Power 266",
+              "image_2_text": "",
+              "image_2_link": "shopify:\/\/products\/power-266",
+              "image_3": "shopify:\/\/shop_images\/GoSun_Mega_Menu_Power_550_561f5507-7cbf-434e-9ae4-778d65bc1a10.jpg",
+              "image_3_heading": "Power 550",
+              "image_3_text": "",
+              "image_3_link": "shopify:\/\/products\/power-550",
+              "image_4": "shopify:\/\/shop_images\/GoSun_Mega_Menu_Solar_Table_60_e820fa70-0ad7-46ce-a823-1b6849fcc382.jpg",
+              "image_4_heading": "Solar Table 60",
+              "image_4_text": "",
+              "image_4_link": "shopify:\/\/products\/solartable-60",
+              "image_5_heading": "All Power Products",
+              "image_5_text": "",
+              "image_5_link": "shopify:\/\/collections\/solar-chargers",
+              "image_6": "shopify:\/\/shop_images\/GoSun_Mega_Menu_All_Power_Products_3bbd842c-a1fb-4bf0-9a4a-7694f9a456c9.jpg",
+              "image_6_heading": "All Power Products",
+              "image_6_text": "",
+              "image_6_link": "shopify:\/\/collections\/solar-chargers"
+            }
+          },
+          "8e81f2c5-f689-4f80-9f6b-9ccf3e757875": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "Water",
+              "images_position": "right",
+              "image_1": "shopify:\/\/shop_images\/GoSun_Mega_Menu_Brew.jpg",
+              "image_1_heading": "Brew",
+              "image_1_text": "",
+              "image_1_link": "shopify:\/\/products\/brew",
+              "image_2": "shopify:\/\/shop_images\/GoSun_Mega_Menu_Flow.jpg",
+              "image_2_heading": "Flow",
+              "image_2_text": "",
+              "image_2_link": "shopify:\/\/products\/flow",
+              "image_3": "shopify:\/\/shop_images\/GoSun_Mega_Menu_Flow_Pro.jpg",
+              "image_3_heading": "Flow Pro",
+              "image_3_text": "",
+              "image_3_link": "shopify:\/\/products\/flow-pro",
+              "image_4_heading": "",
+              "image_4_text": "",
+              "image_4_link": "",
+              "image_5_heading": "",
+              "image_5_text": "",
+              "image_5_link": "",
+              "image_6": "shopify:\/\/shop_images\/GoSun_Mega_Menu_All_Water_Products.jpg",
+              "image_6_heading": "All Water Products",
+              "image_6_text": "",
+              "image_6_link": "shopify:\/\/collections\/water"
+            }
+          },
+          "faab1618-1e40-4fc1-bbe0-7363baf77d68": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "Trailer",
+              "images_position": "right",
+              "image_1": "shopify:\/\/shop_images\/GoSun_Mega_Menu_Camp365_Closed.jpg",
+              "image_1_heading": "Closed",
+              "image_1_text": "",
+              "image_1_link": "shopify:\/\/products\/camp365",
+              "image_2": "shopify:\/\/shop_images\/GoSun_Mega_Menu_Camp365_Open.jpg",
+              "image_2_heading": "Open",
+              "image_2_text": "",
+              "image_2_link": "shopify:\/\/products\/camp365",
+              "image_3_heading": "",
+              "image_3_text": "",
+              "image_3_link": "",
+              "image_4_heading": "",
+              "image_4_text": "",
+              "image_4_link": "",
+              "image_5_heading": "",
+              "image_5_text": "",
+              "image_5_link": "",
+              "image_6_heading": "",
+              "image_6_text": "",
+              "image_6_link": ""
+            }
+          },
+          "90841beb-0f29-42d0-899d-014a8ec5d8df": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "Accessories",
+              "images_position": "right",
+              "image_1": "shopify:\/\/shop_images\/GoSun_Mega_Menu_Flatware_d019c6a6-ca61-4ef0-8cba-4610bbdfeb6b.jpg",
+              "image_1_heading": "Flatware",
+              "image_1_text": "",
+              "image_1_link": "shopify:\/\/products\/flatware",
+              "image_2": "shopify:\/\/shop_images\/GoSun_Mega_Menu_Solar_Lamp_50_99ef2d45-f8ab-4218-b4d5-0a31478924de.jpg",
+              "image_2_heading": "Solar Lamp 50",
+              "image_2_text": "",
+              "image_2_link": "shopify:\/\/products\/solarlamp-50",
+              "image_3": "shopify:\/\/shop_images\/GoSun_Mega_Menu_T_Shirt_f7cb1522-6de4-4d69-9e2c-92b3a34fe347.jpg",
+              "image_3_heading": "T-Shirt",
+              "image_3_text": "",
+              "image_3_link": "shopify:\/\/products\/product-shirt",
+              "image_4": "shopify:\/\/shop_images\/GoSun_Mega_Menu_Breeze_3e523549-d199-4aed-86b9-5cf91c4d60a5.jpg",
+              "image_4_heading": "Breeze",
+              "image_4_text": "",
+              "image_4_link": "shopify:\/\/products\/breeze-fan",
+              "image_5": "shopify:\/\/shop_images\/GoSun_Mega_Menu_All_Accessories.jpg",
+              "image_5_heading": "All Accessories",
+              "image_5_text": "",
+              "image_5_link": "shopify:\/\/collections\/accessories",
+              "image_6_heading": "",
+              "image_6_text": "",
+              "image_6_link": ""
+            }
+          },
+          "7636905b-523c-4841-939f-db49f2869d2c": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "Bundles",
+              "images_position": "right",
+              "image_1": "shopify:\/\/shop_images\/GoSun_Mega_Menu_Sport_Pro_d40b2936-cca5-4f1a-96d3-723578fb3e52.jpg",
+              "image_1_heading": "Sport Pro",
+              "image_1_text": "",
+              "image_1_link": "shopify:\/\/products\/sport-pro-pack",
+              "image_2": "shopify:\/\/shop_images\/GoSun_Mega_Menu_Fusion_Pro.jpg",
+              "image_2_heading": "Fusion Pro",
+              "image_2_text": "",
+              "image_2_link": "shopify:\/\/products\/fusion-pro",
+              "image_3": "shopify:\/\/shop_images\/GoSun_Mega_Menu_Chill_Solar_Panel_30.jpg",
+              "image_3_heading": "Chill + Solar Panel 30",
+              "image_3_text": "",
+              "image_3_link": "shopify:\/\/products\/chill-solarpanel-30",
+              "image_4": "shopify:\/\/shop_images\/GoSun_Mega_Menu_Solar_Kitchen_Pro_b235e37b-e2ec-4f02-b4e9-b19d0bff221e.jpg",
+              "image_4_heading": "Solar Kitchen Pro",
+              "image_4_text": "",
+              "image_4_link": "shopify:\/\/products\/solar-kitchen-2022-pro",
+              "image_5_heading": "",
+              "image_5_text": "",
+              "image_5_link": "",
+              "image_6": "shopify:\/\/shop_images\/GoSun_Mega_Menu_All_Bundles.jpg",
+              "image_6_heading": "All Bundles",
+              "image_6_text": "",
+              "image_6_link": "shopify:\/\/collections\/bundles"
+            }
+          }
+        },
+        "block_order": [
+          "decaad17-c7f1-4155-b899-a65e1f04bce5",
+          "2bb9d3b5-0865-41cf-ac4e-9bd34f4acefd",
+          "eca2ee0f-850e-4abc-8221-cc408e3ad63f",
+          "8e81f2c5-f689-4f80-9f6b-9ccf3e757875",
+          "faab1618-1e40-4fc1-bbe0-7363baf77d68",
+          "90841beb-0f29-42d0-899d-014a8ec5d8df",
+          "7636905b-523c-4841-939f-db49f2869d2c"
+        ],
+        "settings": {
+          "enable_sticky_header": true,
+          "logo": "shopify:\/\/shop_images\/logogosun.png",
+          "logo_max_width": 115,
+          "mobile_logo_max_width": 100,
+          "navigation_menu": "main-menu",
+          "sidebar_navigation_menu": "",
+          "sale_button_text": "Sale",
+          "sale_button_link": "shopify:\/\/collections\/todays-deals",
+          "header_layout": "logo_left_navigation_center",
+          "show_icons": true,
+          "reduce_desktop_padding": true,
+          "show_locale_selector": true,
+          "show_country_selector": false,
+          "enable_transparent_header": false,
+          "transparent_header_text_color": "#ffffff",
+          "search_menu": ""
+        }
+      },
+      "cb-secondary-header": {
+        "type": "cb-secondary-header",
+        "blocks": {
+          "ed986e13-0e21-4c4c-bf1f-a5499a9dfc67": {
+            "type": "link",
+            "settings": {
+              "link": "shopify:\/\/pages\/new-help-center",
+              "text": "Support"
+            }
+          },
+          "211ea984-0046-4ac0-8c4c-ab64c8d54092": {
+            "type": "link",
+            "settings": {
+              "link": "shopify:\/\/blogs\/news",
+              "text": "Blog"
+            }
+          },
+          "f55961ee-de47-41c8-9fc3-2f1322ecdbe9": {
+            "type": "link",
+            "settings": {
+              "link": "shopify:\/\/blogs\/recipes",
+              "text": "Recipes"
+            }
+          },
+          "8307a7ca-f12d-488f-bd7c-ef093401b50d": {
+            "type": "link",
+            "settings": {
+              "link": "shopify:\/\/pages\/new-about",
+              "text": "Our Story"
+            }
+          }
+        },
+        "block_order": [
+          "ed986e13-0e21-4c4c-bf1f-a5499a9dfc67",
+          "211ea984-0046-4ac0-8c4c-ab64c8d54092",
+          "f55961ee-de47-41c8-9fc3-2f1322ecdbe9",
+          "8307a7ca-f12d-488f-bd7c-ef093401b50d"
+        ],
+        "settings": {
+          "main_text": "INVEST IN A SOLAR FUTURE",
+          "main_url": "https:\/\/www.startengine.com\/gosun",
+          "tel": "+1 888.868.6154",
+          "main_menu_alignment": "after",
+          "enable_phone_number": true,
+          "hide_secondary_menu_on_mobile": true
+        }
+      },
+      "static-newsletter": {
+        "type": "static-newsletter",
+        "settings": {
+          "show_section": false,
+          "reveal_on_scroll": true,
+          "subheading": "Subscribe to our newsletter",
+          "content": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>",
+          "text_position": "right",
+          "text_alignment": "left",
+          "text_background": "rgba(0,0,0,0)",
+          "text_color": "rgba(0,0,0,0)",
+          "button_background": "rgba(0,0,0,0)",
+          "button_text_color": "rgba(0,0,0,0)"
+        }
+      }
+    },
+    "content_for_index": [
+
+    ],
+    "blocks": {
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
+  },
+  "presets": {
+    "Ivory": {
+      "block_border_radius": "small",
+      "text_font": "avenir_next_n4",
+      "footer_background": "#56112a",
+      "product_color_display": "count",
+      "heading_color": "#1a1a1a",
+      "heading_font": "itc_caslon_no_224_n5",
+      "round_color_swatches": true,
+      "checkout_sidebar_background_color": "#f6f3ed",
+      "cart_type": "drawer",
+      "button_border_radius": 4,
+      "product_low_stock_text_color": "#de2a2a",
+      "product_on_sale_accent": "#913b59",
+      "text_font_size": 15,
+      "accent_color": "#405de6",
+      "footer_text_color": "#ffffff",
+      "product_in_stock_text_color": "#2e9e7b",
+      "primary_button_text_color": "#ffffff",
+      "heading_font_size": "medium",
+      "show_secondary_image": true,
+      "checkout_error_color": "#de2a2a",
+      "product_custom_label_2_background": "#f3e5b6",
+      "primary_button_background": "#56112a",
+      "success_color": "#2e9e7b",
+      "heading_text_transform": "normal",
+      "product_image_size": "natural",
+      "secondary_background": "#f5f1ec",
+      "header_text_color": "#ffffff",
+      "secondary_button_background": "#f7aea6",
+      "checkout_accent_color": "#353535",
+      "stagger_products_apparition": true,
+      "sections": {
+        "announcement-bar": {
+          "settings": {
+            "button_background": "#56112a",
+            "button_text_color": "#ffffff",
+            "cycle_speed": 5,
+            "background": "#f7aea6",
+            "announcement_bar_position": "non_sticky",
+            "announcement_text_size": "small",
+            "text_color": "#56112a",
+            "autoplay": true
+          },
+          "blocks": {
+            "message-1": {
+              "settings": {
+              },
+              "type": "message"
+            }
+          },
+          "type": "announcement-bar",
+          "block_order": [
+            "message-1"
+          ]
+        },
+        "footer": {
+          "settings": {
+          },
+          "blocks": {
+            "newsletter": {
+              "settings": {
+              },
+              "type": "newsletter"
+            },
+            "links": {
+              "settings": {
+                "menu": "footer"
+              },
+              "type": "links"
+            },
+            "text": {
+              "settings": {
+              },
+              "type": "text"
+            },
+            "social_media": {
+              "settings": {
+              },
+              "type": "social_media"
+            }
+          },
+          "type": "footer",
+          "block_order": [
+            "text",
+            "links",
+            "newsletter",
+            "social_media"
+          ]
+        },
+        "header": {
+          "settings": {
+            "enable_transparent_header": false,
+            "navigation_menu": "main-menu",
+            "header_layout": "logo_center_navigation_inline",
+            "enable_sticky_header": true,
+            "transparent_header_text_color": "#ffffff",
+            "show_icons": false,
+            "reduce_desktop_padding": false
+          },
+          "type": "header"
+        }
+      },
+      "show_vendor": false,
+      "product_custom_label_background": "#405de6",
+      "error_color": "#de2a2a",
+      "header_background": "#56112a",
+      "text_color": "#1a1a1a",
+      "checkout_button_color": "#353535",
+      "secondary_button_text_color": "#56112a"
+    },
+    "Sapphire": {
+      "block_border_radius": "none",
+      "text_font": "trade_gothic_n4",
+      "footer_background": "#0c1b54",
+      "product_color_display": "hide",
+      "icon_stroke_width": 1.2,
+      "heading_color": "#0c1b54",
+      "heading_font": "chong_modern_n4",
+      "round_color_swatches": true,
+      "checkout_sidebar_background_color": "#f5f5f5",
+      "cart_type": "message",
+      "button_border_radius": 0,
+      "product_low_stock_text_color": "#d2545a",
+      "product_on_sale_accent": "#d2545a",
+      "text_font_size": 15,
+      "accent_color": "#405de6",
+      "footer_text_color": "#ffffff",
+      "product_in_stock_text_color": "#2e9e7b",
+      "heading_font_size": "large",
+      "show_secondary_image": true,
+      "checkout_error_color": "#de2a2a",
+      "product_custom_label_2_background": "#f3ff34",
+      "primary_button_background": "#0c1b54",
+      "success_color": "#708a7d",
+      "heading_text_transform": "normal",
+      "product_image_size": "natural",
+      "secondary_background": "#f7f7f7",
+      "secondary_button_background": "#f7f7f7",
+      "checkout_accent_color": "#282828",
+      "show_product_rating": true,
+      "stagger_products_apparition": true,
+      "sections": {
+        "announcement-bar": {
+          "settings": {
+            "button_background": "#0c1b54",
+            "button_text_color": "#ffffff",
+            "cycle_speed": 5,
+            "background": "#ffe5db",
+            "announcement_bar_position": "non_sticky",
+            "announcement_text_size": "small",
+            "text_color": "#0c1b54",
+            "autoplay": true
+          },
+          "blocks": {
+            "message-1": {
+              "settings": {
+              },
+              "type": "message"
+            }
+          },
+          "type": "announcement-bar",
+          "block_order": [
+            "message-1"
+          ]
+        },
+        "footer": {
+          "settings": {
+          },
+          "blocks": {
+            "newsletter": {
+              "settings": {
+              },
+              "type": "newsletter"
+            },
+            "links": {
+              "settings": {
+                "menu": "footer"
+              },
+              "type": "links"
+            },
+            "text": {
+              "settings": {
+              },
+              "type": "text"
+            },
+            "social_media": {
+              "settings": {
+              },
+              "type": "social_media"
+            }
+          },
+          "type": "footer",
+          "block_order": [
+            "text",
+            "links",
+            "newsletter",
+            "social_media"
+          ]
+        },
+        "header": {
+          "settings": {
+            "enable_transparent_header": true,
+            "navigation_menu": "main-menu",
+            "header_layout": "logo_center_navigation_inline",
+            "enable_sticky_header": true,
+            "transparent_header_text_color": "#ffffff",
+            "show_icons": true,
+            "reduce_desktop_padding": false
+          },
+          "type": "header"
+        }
+      },
+      "show_vendor": true,
+      "product_custom_label_background": "#405de6",
+      "background": "#ffffff",
+      "error_color": "#d2545a",
+      "header_background": "#0c1b54",
+      "text_color": "#0c1b54",
+      "checkout_button_color": "#405de6",
+      "product_rating_color": "#a48156",
+      "secondary_button_text_color": "#0c1b54"
+    },
+    "Quartz": {
+      "block_border_radius": "none",
+      "text_font": "din_next_n4",
+      "footer_background": "#ffffff",
+      "product_color_display": "hide",
+      "icon_stroke_width": 1.3,
+      "heading_color": "#0d0d0d",
+      "heading_font": "futura_n3",
+      "round_color_swatches": false,
+      "checkout_sidebar_background_color": "#f5f5f5",
+      "cart_type": "drawer",
+      "button_border_radius": 0,
+      "product_low_stock_text_color": "#de2b2b",
+      "product_on_sale_accent": "#de2b2b",
+      "text_font_size": 15,
+      "accent_color": "#405de6",
+      "footer_text_color": "#2e2e2e",
+      "product_in_stock_text_color": "#2e9e7b",
+      "cart_icon": "tote_bag",
+      "primary_button_text_color": "#ffffff",
+      "heading_font_size": "medium",
+      "show_secondary_image": true,
+      "checkout_error_color": "#de2a2a",
+      "product_custom_label_2_background": "#2e9e7b",
+      "primary_button_background": "#051e38",
+      "success_color": "#3c6e71",
+      "heading_text_transform": "uppercase",
+      "product_sold_out_accent": "#5b5b5b",
+      "product_image_size": "natural",
+      "secondary_background": "#f5f5f5",
+      "header_text_color": "#2e2e2e",
+      "secondary_button_background": "#dfdfdf",
+      "checkout_accent_color": "#051e38",
+      "vertical_spacing": "medium",
+      "stagger_products_apparition": true,
+      "sections": {
+        "announcement-bar": {
+          "settings": {
+            "button_background": "#ffffff",
+            "button_text_color": "#051e38",
+            "cycle_speed": 5,
+            "background": "#051e38",
+            "announcement_bar_position": "non_sticky",
+            "announcement_text_size": "small",
+            "text_color": "#ffffff",
+            "autoplay": true
+          },
+          "blocks": {
+            "message-1": {
+              "settings": {
+              },
+              "type": "message"
+            }
+          },
+          "type": "announcement-bar",
+          "block_order": [
+            "message-1"
+          ]
+        },
+        "footer": {
+          "settings": {
+          },
+          "blocks": {
+            "newsletter": {
+              "settings": {
+              },
+              "type": "newsletter"
+            },
+            "links": {
+              "settings": {
+                "menu": "footer"
+              },
+              "type": "links"
+            },
+            "text": {
+              "settings": {
+              },
+              "type": "text"
+            },
+            "social_media": {
+              "settings": {
+              },
+              "type": "social_media"
+            }
+          },
+          "type": "footer",
+          "block_order": [
+            "text",
+            "links",
+            "newsletter",
+            "social_media"
+          ]
+        },
+        "header": {
+          "settings": {
+            "enable_transparent_header": true,
+            "navigation_menu": "main-menu",
+            "header_layout": "logo_center_navigation_inline",
+            "enable_sticky_header": true,
+            "transparent_header_text_color": "#ffffff",
+            "show_icons": true,
+            "reduce_desktop_padding": false
+          },
+          "type": "header"
+        }
+      },
+      "show_vendor": false,
+      "product_custom_label_background": "#051e38",
+      "background": "#ffffff",
+      "error_color": "#de2a2a",
+      "header_background": "#ffffff",
+      "text_color": "#2e2e2e",
+      "checkout_button_color": "#051e38",
+      "secondary_button_text_color": "#2e2e2e"
+    },
+    "Carbon": {
+      "block_border_radius": "none",
+      "text_font": "zurich_n4",
+      "footer_background": "#282828",
+      "currency_code_enabled": false,
+      "product_color_display": "count",
+      "heading_color": "#282828",
+      "heading_font": "zurich_extended_n8",
+      "round_color_swatches": false,
+      "checkout_sidebar_background_color": "#f5f5f5",
+      "cart_type": "message",
+      "button_border_radius": 0,
+      "product_low_stock_text_color": "#de2a2a",
+      "product_on_sale_accent": "#de2a2a",
+      "text_font_size": 15,
+      "accent_color": "#405de6",
+      "footer_text_color": "#ffffff",
+      "product_in_stock_text_color": "#2e9e7b",
+      "heading_font_size": "medium",
+      "show_secondary_image": true,
+      "checkout_error_color": "#de2a2a",
+      "product_custom_label_2_background": "#f3ff34",
+      "primary_button_background": "#405de6",
+      "success_color": "#2e9e7b",
+      "heading_text_transform": "uppercase",
+      "product_image_size": "natural",
+      "secondary_background": "#f5f5f5",
+      "secondary_button_background": "#f3ff34",
+      "checkout_accent_color": "#282828",
+      "show_product_rating": false,
+      "stagger_products_apparition": true,
+      "sections": {
+        "announcement-bar": {
+          "settings": {
+            "button_background": "#282828",
+            "button_text_color": "#ffffff",
+            "cycle_speed": 5,
+            "background": "#f3ff34",
+            "announcement_bar_position": "non_sticky",
+            "announcement_text_size": "normal",
+            "text_color": "#282828",
+            "autoplay": true
+          },
+          "blocks": {
+            "message-1": {
+              "settings": {
+              },
+              "type": "message"
+            }
+          },
+          "type": "announcement-bar",
+          "block_order": [
+            "message-1"
+          ]
+        },
+        "footer": {
+          "settings": {
+          },
+          "blocks": {
+            "newsletter": {
+              "settings": {
+              },
+              "type": "newsletter"
+            },
+            "links": {
+              "settings": {
+                "menu": "footer"
+              },
+              "type": "links"
+            },
+            "text": {
+              "settings": {
+              },
+              "type": "text"
+            },
+            "social_media": {
+              "settings": {
+              },
+              "type": "social_media"
+            }
+          },
+          "type": "footer",
+          "block_order": [
+            "text",
+            "links",
+            "newsletter",
+            "social_media"
+          ]
+        },
+        "header": {
+          "settings": {
+            "enable_transparent_header": false,
+            "navigation_menu": "main-menu",
+            "header_layout": "logo_left_navigation_center",
+            "enable_sticky_header": true,
+            "transparent_header_text_color": "#ffffff",
+            "show_icons": false,
+            "reduce_desktop_padding": false
+          },
+          "type": "header"
+        }
+      },
+      "show_vendor": false,
+      "product_custom_label_background": "#405de6",
+      "error_color": "#de2a2a",
+      "header_background": "#282828",
+      "text_color": "#282828",
+      "cart_show_free_shipping_threshold": true,
+      "checkout_button_color": "#405de6",
+      "secondary_button_text_color": "#282828"
+    }
+  }
+}

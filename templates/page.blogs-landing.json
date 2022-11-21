@@ -1,0 +1,159 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "16541042141408df19": {
+      "type": "image-with-text",
+      "blocks": {
+        "16541042147c91e3aa-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Blog_picture.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "GoSun News",
+            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+            "button_text": "Check Blog",
+            "button_link": "shopify:\/\/blogs\/news"
+          }
+        }
+      },
+      "block_order": [
+        "16541042147c91e3aa-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#dae8f3",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1654104378e8e59a4d": {
+      "type": "blog-posts",
+      "settings": {
+        "blog": "news",
+        "subheading": "News",
+        "title": "Blog posts",
+        "articles_count": 3,
+        "stack_mobile": false,
+        "show_category": true,
+        "show_excerpt": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16541042319c995f54": {
+      "type": "image-with-text",
+      "blocks": {
+        "16541042319b0c6aac-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/20170721-GoSunSport_Camping_CuttingFoodPicknick2.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "Recipes",
+            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+            "button_text": "Check Blog",
+            "button_link": "shopify:\/\/blogs\/recipes"
+          }
+        }
+      },
+      "block_order": [
+        "16541042319b0c6aac-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1654104333f1adbb0b": {
+      "type": "blog-posts",
+      "settings": {
+        "blog": "recipes",
+        "subheading": "Recipes",
+        "title": "Blog posts",
+        "articles_count": 3,
+        "stack_mobile": false,
+        "show_category": true,
+        "show_excerpt": false,
+        "background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1654104322c252cf31": {
+      "type": "image-with-text",
+      "blocks": {
+        "165410432224661d9f-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Fusion_Beach.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "40 Days of Sunshine",
+            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+            "button_text": "Check Blog",
+            "button_link": "shopify:\/\/blogs\/40-days-of-sunshine"
+          }
+        }
+      },
+      "block_order": [
+        "165410432224661d9f-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#dae8f3",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16541043500752ee20": {
+      "type": "blog-posts",
+      "settings": {
+        "blog": "40-days-of-sunshine",
+        "subheading": "40 Days of Sunshine",
+        "title": "Blog posts",
+        "articles_count": 3,
+        "stack_mobile": false,
+        "show_category": true,
+        "show_excerpt": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16541042141408df19",
+    "1654104378e8e59a4d",
+    "16541042319c995f54",
+    "1654104333f1adbb0b",
+    "1654104322c252cf31",
+    "16541043500752ee20"
+  ]
+}

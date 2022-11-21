@@ -1,0 +1,603 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "558b2ec9-dc80-41d1-9a13-de0017ea9627": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": ""
+          }
+        },
+        "f557431d-55ee-4904-af57-f75cd6400497": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/star-rating-badge\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "disabled": true,
+          "settings": {
+            "use_metafields": true,
+            "sku_tagtype": "sku",
+            "is_featured_product": false,
+            "featured_product_handle": ""
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "button_text": "",
+            "atc_button_background": "#c65824",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "#288bcc",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "e0cd8fad-2554-431f-bf92-5ab7a52d7dff": {
+          "type": "inventory",
+          "settings": {
+            "inventory_phrase": "",
+            "low_inventory_threshold": 10
+          }
+        },
+        "f4e9d67a-168f-4b6f-ae4c-3d308ba56d71": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "92dac3a7-b7f1-4aca-86fd-5e77d9be6ab5": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "558b2ec9-dc80-41d1-9a13-de0017ea9627",
+        "f557431d-55ee-4904-af57-f75cd6400497",
+        "variant_picker",
+        "buy_buttons",
+        "e0cd8fad-2554-431f-bf92-5ab7a52d7dff",
+        "f4e9d67a-168f-4b6f-ae4c-3d308ba56d71",
+        "quantity_selector",
+        "92dac3a7-b7f1-4aca-86fd-5e77d9be6ab5"
+      ],
+      "settings": {
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": true,
+        "show_sticky_add_to_cart": true,
+        "show_share_buttons": true,
+        "bold_compare_price": false,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "left",
+        "transition_effect": "slide"
+      }
+    },
+    "16540172429e0f5254": {
+      "type": "featured-collections",
+      "disabled": true,
+      "blocks": {
+        "165401724260c85ee6-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessories",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "b2f9027d-f324-4b8b-a25e-ce0ea6438e87": {
+          "type": "collection",
+          "settings": {
+            "collection": "bundles",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "6d8ae422-2bea-422f-9f29-4f6508d17b0d": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-sellers",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "165401724260c85ee6-0",
+        "b2f9027d-f324-4b8b-a25e-ce0ea6438e87",
+        "6d8ae422-2bea-422f-9f29-4f6508d17b0d"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Shop",
+        "content": "",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1653413494c86d6524": {
+      "type": "text-with-icons",
+      "blocks": {
+        "1653413494f89b2b0c-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "custom_icon": "shopify:\/\/shop_images\/icon_0d9173fa-ae3a-4df1-b1aa-027bde3ecdaf.png",
+            "custom_icon_width": 50,
+            "title": "Temp. Control",
+            "content": "<p>Touch-screen gives you control from -4°F to 68°F<\/p>"
+          }
+        },
+        "1653413494f89b2b0c-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "custom_icon": "shopify:\/\/shop_images\/icon_1.png",
+            "custom_icon_width": 50,
+            "title": "Make ice",
+            "content": "<p>Use the sun to make ice, not melt it<\/p>"
+          }
+        },
+        "1653413494f89b2b0c-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "custom_icon": "shopify:\/\/shop_images\/icon_2.png",
+            "custom_icon_width": 50,
+            "title": "Charge Devices",
+            "content": "<p>PowerBank+ can charge your phone, tablet, and laptop.<\/p>"
+          }
+        },
+        "1653413494f89b2b0c-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-email",
+            "custom_icon": "shopify:\/\/shop_images\/icon_3.png",
+            "custom_icon_width": 50,
+            "title": "14+ hour runtime",
+            "content": "<p>Power 144 will keep Chill cool for 14 hours on an 80°F day<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1653413494f89b2b0c-0",
+        "1653413494f89b2b0c-1",
+        "1653413494f89b2b0c-2",
+        "1653413494f89b2b0c-3"
+      ],
+      "settings": {
+        "background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)",
+        "font_size_desktop": 16,
+        "font_size_mobile": 16
+      }
+    },
+    "165552012236976866": {
+      "type": "videowise-product-widgets",
+      "settings": {
+        "widget_selector": "6241e8e4b2f18b00298b892b"
+      }
+    },
+    "165341330043ddaa83": {
+      "type": "image-with-text",
+      "blocks": {
+        "1653413300086aa30d-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Chill_Boat_927478e1-6e9e-4181-9272-8e4befdd4111.jpg",
+            "tab_label": "",
+            "subheading": "POWER WITHOUT LIMITS",
+            "title": "Say goodbye to ice forever.",
+            "content": "<p>The Chill is more than a cooler, it's an off-grid refrigerator without the noisy generator. The SolarTable 60 charges the Power 144 to keep you cooling day and night. The efficient brushless DC compressor draws only 40 watts of power - letting it keep your goods cool without using too much energy. It’s not thermoelectric so the Chill is also quiet, fully controllable, and extremely durable.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1653413300086aa30d-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#d9e8f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1654877885041d3361": {
+      "type": "image-with-text",
+      "blocks": {
+        "1654877885163a4502-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_24.png",
+            "tab_label": "Recharge",
+            "subheading": "What sets the Chill + SolarTable 60 apart?",
+            "title": "Recharge with the sun.",
+            "content": "",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "a38b13f5-4512-444d-aa6c-7b97cfd8ce15": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Chill_Pool.jpg",
+            "tab_label": "Shade",
+            "subheading": "What sets the Chill + SolarTable 60 apart?",
+            "title": "Surface + shade.",
+            "content": "",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1654877885163a4502-0",
+        "a38b13f5-4512-444d-aa6c-7b97cfd8ce15"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#d9e8f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1654888342035cac9f": {
+      "type": "multi-column",
+      "disabled": true,
+      "blocks": {
+        "1654888341d2edf2bf-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_25.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Surface + shade.",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "1654888341d2edf2bf-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_24.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Recharge with the sun.",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "1654888341d2edf2bf-0",
+        "1654888341d2edf2bf-1"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": true,
+        "subheading": "",
+        "title": "What sets the Chill + SolarTable 60 apart?",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "large",
+        "spacing": "loose",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1653414092fd41c26d": {
+      "type": "press",
+      "blocks": {
+        "1653414092e9b48df3-0": {
+          "type": "item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/engadget_transparent.jpg",
+            "logo_width": 100,
+            "content": "\"With no ice required, you’ll have more space for your favorite refreshments, but if you want to keep a few cubes handy, the chest can keep them frozen solid.\""
+          }
+        },
+        "5ab0b2e4-9ddb-4f23-84d2-0fbd66e72074": {
+          "type": "item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/gear_junkie.jpg",
+            "logo_width": 100,
+            "content": "\"This is the perfect product for people looking for modern luxury but who still want to maintain a sustainable lifestyle.\""
+          }
+        },
+        "1bbbf339-948a-4edd-822b-76cab085e858": {
+          "type": "item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/digital_trends_transparent.jpg",
+            "logo_width": 100,
+            "content": "\"While it’s similar in size to a standard cooler, the 40-liter cooler can fit 40% more food and drink inside, since there’s no ice using up valuable internal space.\""
+          }
+        }
+      },
+      "block_order": [
+        "1653414092e9b48df3-0",
+        "5ab0b2e4-9ddb-4f23-84d2-0fbd66e72074",
+        "1bbbf339-948a-4edd-822b-76cab085e858"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background": "#ecedef",
+        "text_color": "rgba(0,0,0,0)",
+        "autoplay": true,
+        "cycle_speed": 5
+      }
+    },
+    "165341340647ca592b": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "background_type": "full_width",
+        "video_size": "auto",
+        "autoplay": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1655520127d9421918": {
+      "type": "videowise-product-widgets",
+      "settings": {
+        "widget_selector": "62ad1124036543002bf00184"
+      }
+    },
+    "16555202628c3a42a0": {
+      "type": "image-with-text",
+      "blocks": {
+        "1655520262facfd0a5-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/solar_cooler_compare.jpg",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "Solar cooler gives you more room to chill.",
+            "content": "<p>Whether it’s camping, bbq, fishing, or just relaxing in the Sun, we love the outdoors.  Nothing kills the trip like rotten food, soggy bread, or warm beer. To keep the adventure going, the Chill minimizes space needed for ice and fuel and maximizes space for fresh food, cold drinks, and fun times. It's like having a fridge on wheels.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1655520262facfd0a5-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "product-content": {
+      "type": "product-content",
+      "blocks": {
+        "38991388-db52-4dee-9e08-c8e555620c13": {
+          "type": "content",
+          "settings": {
+            "title": "Weight & Dimensions",
+            "content": "<p>{{ product.metafields.my_fields._weight_and_dimensions | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "1791f09a-7192-47bc-887e-b6a125de0664": {
+          "type": "content",
+          "settings": {
+            "title": "Tech Specs",
+            "content": "<p>{{ product.metafields.my_fields.features | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "19e6c18d-95b3-4204-bf74-a8e1b49c0623": {
+          "type": "content",
+          "settings": {
+            "title": "In the Box",
+            "content": "<p>{{ product.metafields.my_fields.in_the_box | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "e467e674-5317-4edf-9e00-58a2d1b186eb": {
+          "type": "featured_products",
+          "settings": {
+            "title": "Buy It With",
+            "products": "{{ product.metafields.my_fields.buy_it_with.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "38991388-db52-4dee-9e08-c8e555620c13",
+        "1791f09a-7192-47bc-887e-b6a125de0664",
+        "19e6c18d-95b3-4204-bf74-a8e1b49c0623",
+        "e467e674-5317-4edf-9e00-58a2d1b186eb"
+      ],
+      "settings": {
+      }
+    },
+    "16524703050d8431b4": {
+      "type": "apps",
+      "blocks": {
+        "dea54526-4817-4ed5-b75d-239e4d8ae63a": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": true,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "dea54526-4817-4ed5-b75d-239e4d8ae63a"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
+    },
+    "16554985881714b049": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Would you like to know more about this product?",
+        "content": "",
+        "button_text": "CHECK OUR FAQ PAGE",
+        "button_link": "https:\/\/gosun.zendesk.com\/hc\/en-us",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#d9e8f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "subheading": "",
+        "title": "You may also like",
+        "recommendations_count": 4,
+        "products": [
+
+        ],
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1652884753f9f03f8f": {
+      "type": "text-with-icons",
+      "blocks": {
+        "1652884753be2fdfe1-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-credit-card",
+            "custom_icon_width": 50,
+            "title": "Quick, simple financing",
+            "content": ""
+          }
+        },
+        "1652884753be2fdfe1-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-delivery-truck",
+            "custom_icon_width": 50,
+            "title": "Free Shipping over $50",
+            "content": ""
+          }
+        },
+        "1652884753be2fdfe1-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-shield",
+            "custom_icon_width": 50,
+            "title": "1-Year Warranty",
+            "content": ""
+          }
+        },
+        "1652884753be2fdfe1-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-customer-support",
+            "custom_icon_width": 50,
+            "title": "Award-winning customer service",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "1652884753be2fdfe1-0",
+        "1652884753be2fdfe1-1",
+        "1652884753be2fdfe1-2",
+        "1652884753be2fdfe1-3"
+      ],
+      "settings": {
+        "background": "#ecedef",
+        "text_color": "#424242",
+        "font_size_desktop": 16,
+        "font_size_mobile": 16
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16540172429e0f5254",
+    "1653413494c86d6524",
+    "165552012236976866",
+    "165341330043ddaa83",
+    "1654877885041d3361",
+    "1654888342035cac9f",
+    "1653414092fd41c26d",
+    "165341340647ca592b",
+    "1655520127d9421918",
+    "16555202628c3a42a0",
+    "product-content",
+    "16524703050d8431b4",
+    "16554985881714b049",
+    "product-recommendations",
+    "1652884753f9f03f8f"
+  ]
+}

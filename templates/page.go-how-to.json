@@ -1,0 +1,307 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "1654712944c0e96077": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/GoSun_Go_how_to_page_cover_image_d4c3ebcf-9ca4-460c-a697-df5c8db0648f.jpg",
+        "subheading": "",
+        "title": "GoSun Go How To",
+        "content": "<p>Congrats on your purchase of the Go and welcome to the GoSun ecosystem. Below, you'll find a quickstart video for setting up the Go with some tips and tricks to get started.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "small",
+        "text_position": "top_left",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 22
+      }
+    },
+    "16611968879e7ed277": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": false,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/gosun_sporte_features.jpg",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "16552287623c956297": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "165522876256e3fb16-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gosun_sporte_electric_solar_oven_hybrid.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "PLACEHOLDER TEXT",
+            "content": "<p>ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165522876256e3fb16-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16611991742a4044c5": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "1661199174fcec7c9e-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gosun_sporte_electric_oven_solar.jpg",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "PLACEHOLDER TEXT",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1661199174fcec7c9e-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165522967161c0c067": {
+      "type": "cb-secondary-header",
+      "disabled": true,
+      "settings": {
+        "main_text": "",
+        "main_url": "",
+        "tel": "+1 888.868.6154",
+        "main_menu_alignment": "after",
+        "enable_phone_number": true,
+        "hide_secondary_menu_on_mobile": true
+      }
+    },
+    "5d8f0886-2fe0-4a14-947d-3f35a4dfb0e9": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Download the Manual",
+        "content": "",
+        "button_text": "Download Manual",
+        "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/Go_Users_Manual_102022.pdf?v=1666284382",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "184bc3bc-9bb8-4e41-98bf-6d3d50915516": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Watch How-To Video",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1663788971a86fc3bc": {
+      "type": "video",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "video_url": "https:\/\/youtu.be\/kXWfmN1wMhs",
+        "image": "shopify:\/\/shop_images\/Gosun_Go_how_to_video_cover.jpg",
+        "background_type": "full_width",
+        "video_size": "auto",
+        "autoplay": false,
+        "background": "#ffffff",
+        "text_color": "#ffffff"
+      }
+    },
+    "53b29df6-1553-4e4a-a3f1-1d20eb7c7847": {
+      "type": "faq",
+      "blocks": {
+        "template--14276740055134__53b29df6-1553-4e4a-a3f1-1d20eb7c7847-16661931792a317826-0": {
+          "type": "category",
+          "settings": {
+            "title": "General"
+          }
+        },
+        "template--14276740055134__53b29df6-1553-4e4a-a3f1-1d20eb7c7847-16661931792a317826-1": {
+          "type": "question",
+          "settings": {
+            "title": "How much sun do I need to cook?",
+            "answer": "<p>You might be surprised how little Sun is needed to finish a meal. As a rule of thumb, the Go will cook quickly if you can see a defined shadow from your hand even when overcast, windy and in some cases rainy. If thick clouds are spotty, cooking is still possible, though it will take longer as the stove builds up heat during the sunny periods. We suggest using a weather tracking app like My Radar to help plan and set you up for success!<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "template--14276740055134__53b29df6-1553-4e4a-a3f1-1d20eb7c7847-16661931792a317826-2": {
+          "type": "question",
+          "settings": {
+            "title": "How long will the GoSun Go keep my food hot?",
+            "answer": "<p>You can keep food and drinks hot and ready for as long as 12 hours. The vacuum tube is like a Thermos®, so just keep the stove closed until the time is right!<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "template--14276740055134__53b29df6-1553-4e4a-a3f1-1d20eb7c7847-16661931792a317826-4": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it last? How do I get replacement parts?",
+            "answer": "<p>When used properly, the solar vacuum tube has a life expectancy of about 25 years. However if something does happen, the tube and attached parts will be available for purchase and can be easily replaced.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "e0cdc00c-55a5-44b7-ad0c-c5c1d0caa0ea": {
+          "type": "question",
+          "settings": {
+            "title": "Can I take the GoSun Go as a carry-on?",
+            "answer": "<p>Yes you can! All GoSun products are FAA compliant, meaning you can bring the Go wherever you go! Tested and confirmed by members of our team. Try doing that with propane!... but don't really.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "df1d3a64-65b8-40e2-b76e-25f2a245a38a": {
+          "type": "question",
+          "settings": {
+            "title": "How long does the GoSun Go take to set up?",
+            "answer": "<p>Just unzip and aim towards the Sun. It's that simple!<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "a8e86778-39cf-4243-9dc0-f9497af8436e": {
+          "type": "question",
+          "settings": {
+            "title": "Can I cook during the winter?",
+            "answer": "<p>Yes, GoSun can cook in the winter as long as it's sunny. In fact, the GoSun can even cook on a sunny day in the arctic! The sun is powerful enough to create heat within the GoSun tube, and the tube is designed to keep the heat in and the arctic cold out.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "d0f0ed53-3af2-4b80-9081-02e6b77490c6": {
+          "type": "question",
+          "settings": {
+            "title": "I don’t really go camping, can the GoSun Go work for me?",
+            "answer": "<p>GoSuns are not just for camping and off grid living, they're also an incredibly easy way to cook anytime. Just insert food and relax! Cooking evenly, there's no need to stir, and food comes out rich and delicious. Countless sailors, RVers and backyard chefs around the world have adopted GoSun for its ease of use and reliability. Visit our Facebook Community Kitchen Group to hear their story.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14276740055134__53b29df6-1553-4e4a-a3f1-1d20eb7c7847-16661931792a317826-0",
+        "template--14276740055134__53b29df6-1553-4e4a-a3f1-1d20eb7c7847-16661931792a317826-1",
+        "template--14276740055134__53b29df6-1553-4e4a-a3f1-1d20eb7c7847-16661931792a317826-2",
+        "template--14276740055134__53b29df6-1553-4e4a-a3f1-1d20eb7c7847-16661931792a317826-4",
+        "e0cdc00c-55a5-44b7-ad0c-c5c1d0caa0ea",
+        "df1d3a64-65b8-40e2-b76e-25f2a245a38a",
+        "a8e86778-39cf-4243-9dc0-f9497af8436e",
+        "d0f0ed53-3af2-4b80-9081-02e6b77490c6"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "6e8184de-3203-4eec-a4d5-42fba6a98e81": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Register Your Product",
+        "content": "",
+        "button_text": "Register Here",
+        "button_link": "https:\/\/gosun.co\/pages\/register",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1654712944c0e96077",
+    "16611968879e7ed277",
+    "16552287623c956297",
+    "16611991742a4044c5",
+    "165522967161c0c067",
+    "5d8f0886-2fe0-4a14-947d-3f35a4dfb0e9",
+    "184bc3bc-9bb8-4e41-98bf-6d3d50915516",
+    "1663788971a86fc3bc",
+    "53b29df6-1553-4e4a-a3f1-1d20eb7c7847",
+    "6e8184de-3203-4eec-a4d5-42fba6a98e81"
+  ]
+}
