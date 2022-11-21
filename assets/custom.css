@@ -1,3 +1,7 @@
+:root {
+  --color-contrast-higher: #1B3550;
+}
+
 @import url("//hello.myfonts.net/count/39f5e2");
 
 @font-face {
@@ -54,11 +58,13 @@ html, body,
   font-feature-settings: "pnum" on, "lnum" on, "ss01" on !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: var(--color-contrast-higher)
 }
 
 h1, h2, h3, h4 {
   font-weight: 900 !important;
   letter-spacing: -0.03em !important;
+  color: var(--color-contrast-higher)
 }
 
 
@@ -68,6 +74,11 @@ h1, h2, h3, h4 {
   }
 }
 
-/* .product-item-meta__title {
-  font-
-} */
+.product-item-meta h3 {
+  margin-bottom: 0;
+}
+
+.gift-card__amount, .price--highlight{
+  color: var(--color-contrast-higher);
+  font-weight: 700;
+}
