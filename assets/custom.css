@@ -155,6 +155,10 @@ font-weight: 900 !important;
 letter-spacing: -0.03em !important;
 }
 
+.heading--small {
+  letter-spacing: -0.03em !important;
+}
+
 .gradient-text {
   background: -webkit-linear-gradient(#59d5f9, var(--color-primary));
   -webkit-background-clip: text;
