@@ -101,7 +101,7 @@
                 {%- endif -%}
 
               {%- when 'social_media' -%}
-                {%- if block.settings.title != blank -%}
+                <!-- {%- if block.settings.title != blank -%}
                   <p class="footer__item-title heading heading--small">{{ block.settings.title | escape }}</p>
                 {%- endif -%}
 
@@ -111,7 +111,7 @@
                   {%- endif -%}
 
                   {%- render 'social-media' -%}
-                </div>
+                </div> -->
 
               {%- when 'newsletter' -%}
                 {%- if block.settings.title != blank -%}
@@ -158,7 +158,7 @@
         {%- endfor -%}
       </div>
 
-      <div class="footer__aside">
+      <div class="footer__aside flex flex-column lg:flex-row justify-between">
         {%- if section.settings.show_country_selector and localization.available_countries.size > 1 -%}
           {%- assign country_selector = true -%}
         {%- endif -%}
@@ -243,7 +243,9 @@
           {%- endform -%}
         {%- endif -%}
 
-        <span class="footer__copyright text--xsmall text--subdued">{{ shop.name }} <span class="square-separator square-separator--block square-separator--subdued"></span> </span>
+        <!-- <span class="footer__copyright text--xsmall text--subdued">{{ shop.name }} <span class="square-separator square-separator--block square-separator--subdued"></span> </span> -->
+
+        {%- render 'social-media' -%}
 
         {%- if section.settings.show_payment_icons and shop.enabled_payment_types.size > 0 -%}
           <div class="footer__payment-methods">
