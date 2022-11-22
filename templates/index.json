@@ -6,7 +6,7 @@
         "slide-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/fusion_fall_hero.jpg",
+            "image": "shopify:\/\/shop_images\/fusion_fall_hero_1.jpg",
             "mobile_image": "shopify:\/\/shop_images\/fusion_fall_hero_mobile.jpg",
             "text_position": "middle_left",
             "subheading": "COOK. COOL. LIGHT. CHARGE. PURIFY.",
@@ -482,8 +482,8 @@
         "margin_btm": false,
         "padding_top": false,
         "padding_btm": false,
-        "mob_image": "shopify:\/\/shop_images\/gosun_sport_solar_oven_grill_mobile.jpg",
-        "image": "shopify:\/\/shop_images\/gosun_sport_solar_oven_grill_mobile.jpg",
+        "mob_image": "shopify:\/\/shop_images\/GoSun_Fusion_how_to_page_cover_image.jpg",
+        "image": "shopify:\/\/shop_images\/GoSun_Fusion_how_to_page_cover_image.jpg",
         "natural_img": true,
         "enable_custom_banner": false,
         "custom_banner_url": "",

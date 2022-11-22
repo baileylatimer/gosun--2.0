@@ -348,6 +348,41 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "ea9c5572-4935-44ab-87ae-0a42f00fc4a5": {
+      "type": "ld-feature-row",
+      "disabled": true,
+      "settings": {
+        "width": "full-width",
+        "bg_color": "",
+        "text_color": "",
+        "margin_top": true,
+        "margin_btm": true,
+        "padding_top": false,
+        "padding_btm": false,
+        "mob_image": "shopify:\/\/shop_images\/GoSun_Go_how_to_page_cover_image_sport_e.jpg",
+        "image": "shopify:\/\/shop_images\/GoSun_Go_how_to_page_cover_image_sport_e.jpg",
+        "natural_img": true,
+        "enable_custom_banner": false,
+        "custom_banner_url": "",
+        "custom_banner_autoplay": true,
+        "custom_banner_loop": true,
+        "custom_banner_mute": false,
+        "portrait": false,
+        "parallax": true,
+        "layout": "left",
+        "image_height": "40vw",
+        "title": "Boil water with the sun.",
+        "text": "",
+        "text_display": false,
+        "button_label": "",
+        "button_link": "",
+        "btn_color": "",
+        "btn_text_color": "",
+        "btn_hover_color": "",
+        "btn_text_hover_color": "",
+        "newsletter": false
+      }
+    },
     "16582554898e879719": {
       "type": "videowise-product-widgets",
       "settings": {
@@ -676,6 +711,7 @@
     "16548896571634f97a",
     "1654886254f056124a",
     "1654886212579ce6e0",
+    "ea9c5572-4935-44ab-87ae-0a42f00fc4a5",
     "16582554898e879719",
     "1653414092fd41c26d",
     "16548900511b0ce881",
