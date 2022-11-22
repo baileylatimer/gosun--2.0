@@ -224,6 +224,10 @@
     flex-direction: row
   }
 
+  .lg\:justify-start {
+    justify-content: flex-start
+  }
+
   .lg\:text-left {
     text-align: left
   }

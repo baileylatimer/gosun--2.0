@@ -76,7 +76,7 @@
             {% endif %}
 
             {% if section.settings.button_label != blank and section.settings.button_link != blank %}
-            <div class="mt-8 flex">
+            <div class="mt-8 flex justify-center lg:justify-start">
               <a href="{{ section.settings.button_link }}" class="button button--primary" style="background-color: {{ section.settings.btn_color }}; color: {{ section.settings.btn_text_color }}; max-width: 305px">
                 {{ section.settings.button_label | escape }}
               </a>
