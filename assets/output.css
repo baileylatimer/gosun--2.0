@@ -130,6 +130,10 @@
   justify-content: center
 }
 
+.gap-0 {
+  gap: 0px
+}
+
 .truncate {
   overflow: hidden;
   text-overflow: ellipsis;

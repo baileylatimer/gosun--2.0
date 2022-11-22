@@ -370,6 +370,7 @@
     },
     "16524470938de26369": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "1652447093fb8a2f41-0": {
           "type": "item",
@@ -389,7 +390,7 @@
       ],
       "settings": {
         "reveal_on_scroll": true,
-        "background_type": "boxed",
+        "background_type": "full_width",
         "background_overlap": "image",
         "image_position": "right",
         "text_alignment": "left",
@@ -416,13 +417,47 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "f4519436-ae32-4142-a6ad-a724092fb5bb": {
+      "type": "ld-feature-row",
+      "settings": {
+        "width": "full-width",
+        "bg_color": "",
+        "text_color": "",
+        "margin_top": true,
+        "margin_btm": false,
+        "padding_top": false,
+        "padding_btm": false,
+        "mob_image": "shopify:\/\/shop_images\/Invest_In_GoSun_edit-670-380-2_600x_e608c361-bc9b-479b-8b2d-5060433fa644.webp",
+        "image": "shopify:\/\/shop_images\/Invest_In_GoSun_edit-670-380-2_600x_e608c361-bc9b-479b-8b2d-5060433fa644.webp",
+        "natural_img": true,
+        "enable_custom_banner": false,
+        "custom_banner_url": "",
+        "custom_banner_autoplay": true,
+        "custom_banner_loop": true,
+        "custom_banner_mute": false,
+        "portrait": false,
+        "parallax": true,
+        "layout": "right",
+        "image_height": "40vw",
+        "title": "Join Over 3,000 Investors",
+        "text": "GoSun is growing and needs capital to become the World's Best Clean Tech Brand. Become part of our journey through our Equity Crowdfunding on StartEngine now.",
+        "text_display": false,
+        "button_label": "Learn More",
+        "button_link": "https:\/\/www.startengine.com\/gosun",
+        "btn_color": "rgba(0,0,0,0)",
+        "btn_text_color": "",
+        "btn_hover_color": "",
+        "btn_text_hover_color": "",
+        "newsletter": false
+      }
+    },
     "c4d9d867-7d0f-4fe4-b5c1-d32d888d53ce": {
       "type": "ld-feature-row",
       "settings": {
         "width": "full-width",
         "bg_color": "#d9e8f2",
         "text_color": "",
-        "margin_top": true,
+        "margin_top": false,
         "margin_btm": false,
         "padding_top": false,
         "padding_btm": false,
@@ -462,6 +497,7 @@
     "1653414141f3490711",
     "16524470938de26369",
     "newsletter",
+    "f4519436-ae32-4142-a6ad-a724092fb5bb",
     "c4d9d867-7d0f-4fe4-b5c1-d32d888d53ce"
   ]
 }

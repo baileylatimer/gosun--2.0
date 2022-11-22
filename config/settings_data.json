@@ -158,7 +158,7 @@
           "6aa3b11e-ba0c-4971-aedb-9d9b609ef814"
         ],
         "settings": {
-          "show_payment_icons": true,
+          "show_payment_icons": false,
           "show_country_selector": true,
           "show_locale_selector": true,
           "show_cookie_bar": false,

@@ -36,7 +36,7 @@
   }
 
   {% if section.settings.btn_hover_color != blank %}
-  .feature-row .homepage-featured-box-btn:hover {
+  .feature-row .button button--primary:hover {
       background-color: {{section.settings.btn_hover_color}} !important;
     }
   {% endif %}
@@ -60,7 +60,7 @@
   <div class="{% if section.settings.width != "full-width" %} container mx-auto{% endif %}" >
     <div class="{% if section.settings.padding_top != blank %}pt-8{% endif %} {% if section.settings.padding_btm != blank %} pb-8{% endif %}" style="background-color: {{ section.settings.bg_color }};">
     {% if section.settings.layout == 'right' %}
-      <div class="feature-row  feature-row-1 columns-1 lg:columns-2 feature-row__text--{{ section.settings.layout }}"  style=" overflow: hidden;">
+      <div class="feature-row  feature-row-1 columns-1 lg:columns-2 gap-0 feature-row__text--{{ section.settings.layout }}"  style=" overflow: hidden;">
 
         <div class="grid__item  flex flex-col items-center justify-center"  style="margin-top: 0; padding-top: 30px; padding-bottom: 30px;   height: 100%;" >
 
@@ -77,7 +77,7 @@
 
             {% if section.settings.button_label != blank and section.settings.button_link != blank %}
             <div class="mt-8 flex">
-              <a href="{{ section.settings.button_link }}" class="homepage-featured-box-btn" style="background-color: {{ section.settings.btn_color }}; color: {{ section.settings.btn_text_color }}; max-width: 305px">
+              <a href="{{ section.settings.button_link }}" class="button button--primary" style="background-color: {{ section.settings.btn_color }}; color: {{ section.settings.btn_text_color }}; max-width: 305px">
                 {{ section.settings.button_label | escape }}
               </a>
             </div>
@@ -167,7 +167,7 @@
     {% endif %}
 
     {% if section.settings.layout == 'left' %}
-      <div class="feature-row feature-row-2 columns-1 lg:columns-2 feature-row__text--{{ section.settings.layout }}" style=" overflow: hidden;">
+      <div class="feature-row feature-row-2 columns-1 lg:columns-2 gap-0 feature-row__text--{{ section.settings.layout }}" style=" overflow: hidden;">
 
         <div class=" height-100% {% if section.settings.portrait != blank %} flex items-center justify-center {% endif %}" style=" background-size: cover;  padding-left: 0; height: 100%">
 
@@ -214,7 +214,7 @@
 
             {% if section.settings.button_label != blank and section.settings.button_link != blank %}
               <div class="mt-8 flex">
-                <a href="{{ section.settings.button_link }}" class="homepage-featured-box-btn" style="background-color: {{ section.settings.btn_color }}; color: {{ section.settings.btn_text_color }}; max-width: 305px">
+                <a href="{{ section.settings.button_link }}" class="button button--primary" style="background-color: {{ section.settings.btn_color }}; color: {{ section.settings.btn_text_color }}; max-width: 305px">
                   {{ section.settings.button_label | escape }}
                 </a>
               </div>
