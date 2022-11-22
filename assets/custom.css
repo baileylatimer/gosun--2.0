@@ -150,7 +150,9 @@ h1, h2, h3, h4 {
 .vw-cmp__top-heading--title {
   font-family: "cp", Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 font-feature-settings: "pnum" on, "lnum" on, "ss01" on !important;
-font-size: var(--heading-h2-font-size);
+font-size: var(--heading-h2-font-size) !important;
+font-weight: 900 !important;
+letter-spacing: -0.03em !important;
 }
 
 .gradient-text {
