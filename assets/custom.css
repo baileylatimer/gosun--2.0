@@ -158,3 +158,10 @@ font-size: var(--heading-h2-font-size);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+/* Support
+=========== */
+.mobile-hide-template--14303051219038__1654533357242c5b7c {
+  display: flex !important;
+  justify-content: center;
+}

@@ -1,5 +1,30 @@
 {
   "sections": {
+    "8a391399-8083-4b02-87f3-5d1ab8ecfdb2": {
+      "type": "simple-html",
+      "settings": {
+        "custom_html": "<h1 class=\"text-center text-6xl\">GoSun is a team of <span class=\"gradient-text\">designers<\/span>,<span class=\"gradient-text\"> engineers<\/span>, and <span class=\"gradient-text\">change-makers<\/span>, intent on serving the world with unparalleled <span class=\"gradient-text\">clean energy<\/span> solutions.<\/h1>"
+      }
+    },
+    "2c4304e5-9069-4b74-9fba-78af6b162a04": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "Subheading",
+        "title": "GoSun is a team of designers, engineers, and change-makers, intent on serving the world with unparalleled clean energy solutions.",
+        "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -10,6 +35,7 @@
     },
     "165288547857595783": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "1652885478e77ce6f3-0": {
           "type": "item",
@@ -98,8 +124,8 @@
         "text_width": "medium",
         "text_position": "center",
         "text_alignment": "center",
-        "background": "#288bcc",
-        "text_color": "#ffffff",
+        "background": "#d9e8f2",
+        "text_color": "#1b3550",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
       }
@@ -214,8 +240,8 @@
         "mobile_item_size": "medium",
         "desktop_item_size": "large",
         "spacing": "normal",
-        "background": "#288bcc",
-        "text_color": "#ffffff"
+        "background": "#d9e8f2",
+        "text_color": "#1b3550"
       }
     },
     "1653916948c0c8c979": {
@@ -524,6 +550,8 @@
     }
   },
   "order": [
+    "8a391399-8083-4b02-87f3-5d1ab8ecfdb2",
+    "2c4304e5-9069-4b74-9fba-78af6b162a04",
     "main",
     "165288547857595783",
     "16528854965b8c1e75",
