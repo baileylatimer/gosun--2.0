@@ -152,3 +152,9 @@ h1, h2, h3, h4 {
 font-feature-settings: "pnum" on, "lnum" on, "ss01" on !important;
 font-size: var(--heading-h2-font-size);
 }
+
+.gradient-text {
+  background: -webkit-linear-gradient(#59d5f9, var(--color-primary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
