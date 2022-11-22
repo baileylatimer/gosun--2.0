@@ -1,0 +1,486 @@
+
+{% capture section_width %}
+    {% if section.settings.layout == "full-width" %} section__full-width {% endif %}
+{% endcapture %}
+
+
+<style>
+  {% if section.settings.image != blank %}
+    {% capture selector %}.homepage-content--{{ section.id }} .img{% endcapture %}
+    {% include 'responsive-background-image' with section.settings.image, selector: selector %}
+
+    .homepage-content--{{ section.id }} .img {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  {% endif %}
+
+  .homepage-content--{{ section.id }} .img,
+  .homepage-content--{{ section.id }} .img .icon--placeholder {
+      height: {{ section.settings.image_height }};
+    }
+
+    @media only screen and (min-width: 768px) {
+        .homepage-content--{{ section.id }} .rellax.img {
+            height: {{ section.settings.image_height | remove:'vw' | times:1.5 | append:'vw' }};
+            margin-top: {{ section.settings.image_height | remove:'vw' | times:-0.25 | append:'vw' }};
+        }
+        .homepage-content--{{ section.id }} .img .icon--placeholder {
+            height: {{ section.settings.image_height | remove:'vw' | times:1.5 | append:'vw' }};
+        }
+    }
+
+  .parallax.parallax--{{ section.id }} {
+    height: {{ section.settings.image_height }};
+  }
+
+  {% if section.settings.btn_hover_color != blank %}
+  .feature-row .homepage-featured-box-btn:hover {
+      background-color: {{section.settings.btn_hover_color}} !important;
+    }
+  {% endif %}
+
+  {% if section.settings.btn_text_hover_color != blank %}
+    .feature-row a:hover {
+      color: {{section.settings.btn_text_hover_color}} !important;
+    }
+  {% endif %}
+
+{% if section.settings.natural_img != blank %}
+    .desktop-img img {
+      min-height: 460px;
+      object-fit: cover;
+  }
+{% endif %}
+</style>
+
+
+<section class="{% if section.settings.margin_top != blank %}mt-8{% endif %} {% if section.settings.margin_btm != blank %} mb-8{% endif %} " >
+  <div class="{% if section.settings.width != "full-width" %} container mx-auto{% endif %}" >
+    <div class="{% if section.settings.padding_top != blank %}pt-8{% endif %} {% if section.settings.padding_btm != blank %} pb-8{% endif %}" style="background-color: {{ section.settings.bg_color }};">
+    {% if section.settings.layout == 'right' %}
+      <div class="feature-row  feature-row-1 columns-1 lg:columns-2 feature-row__text--{{ section.settings.layout }}"  style=" overflow: hidden;">
+
+        <div class="grid__item  flex flex-col items-center justify-center"  style="margin-top: 0; padding-top: 30px; padding-bottom: 30px;   height: 100%;" >
+
+          <div class="feature-row-content" style="max-width: 420px; flex-direction: column">
+            {% if section.settings.title != blank %}
+            <div class="sitewide--title-wrapper" style="margin: 0 !important; padding: 0 !important;">
+              <h3 class="text-center lg:text-left heading h3 {% if section.settings.text_display != blank %}text--lg{% endif %}" style="margin: 0 !important; padding: 0 !important; color: {{ section.settings.text_color }}">{{ section.settings.title | escape }}</h3>
+            </div>
+            {% endif %}
+
+            {% if section.settings.text != blank %}
+              <p class="rte featured-row__subtext textarea mt-4 {% if section.settings.text_display != blank %}text--display{% endif %}" style="color: {{ section.settings.text_color }};">{{ section.settings.text }}</p>
+            {% endif %}
+
+            {% if section.settings.button_label != blank and section.settings.button_link != blank %}
+            <div class="mt-8 flex">
+              <a href="{{ section.settings.button_link }}" class="homepage-featured-box-btn" style="background-color: {{ section.settings.btn_color }}; color: {{ section.settings.btn_text_color }}; max-width: 305px">
+                {{ section.settings.button_label | escape }}
+              </a>
+            </div>
+            {% endif %}
+            {% if section.settings.newsletter != blank %}
+            {%- assign newsletter_id = 'newsletter-' | append: section.id -%}
+
+            {%- form 'customer', id: newsletter_id, class: 'form newsletter__form' -%}
+              {%- if form.posted_successfully? -%}
+                <script>
+                  window.addEventListener('DOMContentLoaded', () => {
+                    if (history.scrollRestoration) {
+                      history.scrollRestoration = 'manual'; // Prevent the browser to scroll on captcha page
+                    }
+
+                    document.getElementById('shopify-section-{{ section.id }}').scrollIntoView();
+                  });
+                </script>
+
+                <div class="form__banner banner banner--success">
+                  <span class="banner__ribbon">{% render 'icon' with 'form-success' %}</span>
+                  <p class="banner__content">{{ 'general.newsletter.success' | t }}</p>
+                </div>
+              {%- else -%}
+                {%- if form.errors -%}
+                  <div class="form__banner banner banner--error">
+                    <span class="banner__ribbon">{% render 'icon' with 'form-error' %}</span>
+                    <p class="banner__content">{{ form.errors.messages['email'] }}</p>
+                  </div>
+                {%- endif -%}
+
+                <input type="hidden" name="contact[tags]" value="newsletter">
+                <input type="hidden" name="contact[context]" value="{{ newsletter_id }}">
+
+                <div class="input-row">
+                  <div class="input">
+                    <input type="email" id="newsletter[{{ section.id }}][contact][email]" name="contact[email]" class="input__field" required>
+                    <label for="newsletter[{{ section.id }}][contact][email]" class="input__label">{{ 'general.newsletter.email' | t }}</label>
+                  </div>
+
+                  <div class="input">
+                    <button type="submit" is="loader-button" class="button button--primary">{{ 'general.newsletter.subscribe' | t }}</button>
+                  </div>
+                </div>
+              {%- endif -%}
+            {%- endform -%}
+          {%- endif -%}
+
+
+            </div>
+        </div>
+
+        <div class=" height-100%   {% if section.settings.portrait != blank %}px-8 flex items-center justify-center {% endif %}" style=" background-size: cover; padding-left: 0;  height: 100%">
+
+        {% if section.settings.custom_banner_url != blank  %}
+          {% if section.settings.custom_banner_url contains '.mp4' %}
+        
+          <video id="custom-video" class="custom-video {% if section.settings.portrait != blank %} portrait-video {% endif %}" {% if block.settings.custom_banner_autoplay %}autoplay="true"{% endif %} {% if block.settings.custom_banner_loop %}loop="true"{% endif %} {% if block.settings.custom_banner_mute %}muted="true"{% endif %}  style="width: 100%; " playsinline controls>
+            <source src="{{section.settings.custom_banner_url}}" type="video/mp4">
+        </video>
+          
+          {% comment %} Fallback script if video does not loop {% endcomment %}
+            <script>
+            var vid = document.getElementById("custom-video");
+            if (vid){
+              vid.loop = true;
+              vid.play();
+            }
+            </script>
+            {% else %}
+          <img loading="lazy" decoding="async" src="{{section.settings.custom_banner_url}}"/> 
+          {% endif %}
+          {% else %}
+          {% if  section.settings.mob_image != blank %} 
+            <img class="mobile-img" src="{{ section.settings.mob_image | img_url: '480x' }}"/>
+          {% endif %}
+          <div class="desktop-img">
+            <img class="desktop-img" src="{{ section.settings.mob_image | img_url: '760x' }}"/>
+          </div>
+        {% endif %}
+
+
+
+        </div>
+
+      </div>
+    {% endif %}
+
+    {% if section.settings.layout == 'left' %}
+      <div class="feature-row feature-row-2 columns-1 lg:columns-2 feature-row__text--{{ section.settings.layout }}" style=" overflow: hidden;">
+
+        <div class=" height-100% {% if section.settings.portrait != blank %} flex items-center justify-center {% endif %}" style=" background-size: cover;  padding-left: 0; height: 100%">
+
+          {% if section.settings.custom_banner_url != blank  %}
+            {% if section.settings.custom_banner_url contains '.mp4' %}
+          
+            <video id="custom-video" class="custom-video {% if section.settings.portrait != blank %} portrait-video {% endif %}" {% if block.settings.custom_banner_autoplay %}autoplay="true"{% endif %} {% if block.settings.custom_banner_loop %}loop="true"{% endif %} {% if block.settings.custom_banner_mute %}muted="true"{% endif %}  style="width: 100%; " playsinline>
+              <source src="{{section.settings.custom_banner_url}}" type="video/mp4">
+          </video>
+            
+            {% comment %} Fallback script if video does not loop {% endcomment %}
+              <script>
+              var vid = document.getElementById("custom-video");
+              if (vid){
+                vid.loop = true;
+                vid.play();
+              }
+              </script>
+              {% else %}
+            <img loading="lazy" decoding="async" src="{{section.settings.custom_banner_url}}"/> 
+            {% endif %}
+            {% else %}
+            {% if  section.settings.mob_image != blank %} 
+              <img class="mobile-img" src="{{ section.settings.mob_image | img_url: '480x' }}"/>
+            {% endif %}
+            <div class="desktop-img">
+              <img class="desktop-img" src="{{ section.settings.mob_image | img_url: '760x' }}"/>
+            </div>
+          {% endif %}
+        </div>
+        
+        <div class="grid__item  flex flex-col items-center justify-center px-8"  style="margin-top: 0; padding-top: 30px; padding-bottom: 30px;   height: 100%">
+
+          <div class="feature-row-content"  style="max-width: 420px; flex-direction: column">
+            {% if section.settings.title != blank %}
+            <div class="sitewide--title-wrapper" style="margin: 0 !important; padding: 0 !important; color: {{ section.settings.text_color }} !important;">
+              <h3 class="text-center lg:text-left heading h3 {% if section.settings.text_display != blank %}text--lg{% endif %}" style="margin: 0 !important; padding: 0 !important;">{{ section.settings.title | escape }}</h3>
+            </div>
+            {% endif %}
+
+            {% if section.settings.text != blank %}
+              <p class="rte featured-row__subtext textarea mt-4 text-center lg:text-left {% if section.settings.text_display != blank %}text--display{% endif %}" style="color: {{ section.settings.text_color }} !important;">{{ section.settings.text }}</p>
+            {% endif %}
+
+            {% if section.settings.button_label != blank and section.settings.button_link != blank %}
+              <div class="mt-8 flex">
+                <a href="{{ section.settings.button_link }}" class="homepage-featured-box-btn" style="background-color: {{ section.settings.btn_color }}; color: {{ section.settings.btn_text_color }}; max-width: 305px">
+                  {{ section.settings.button_label | escape }}
+                </a>
+              </div>
+            {% endif %}
+
+            {% if section.settings.newsletter != blank %}
+              {%- assign newsletter_id = 'newsletter-' | append: section.id -%}
+
+              {%- form 'customer', id: newsletter_id, class: 'form newsletter__form' -%}
+                {%- if form.posted_successfully? -%}
+                  <script>
+                    window.addEventListener('DOMContentLoaded', () => {
+                      if (history.scrollRestoration) {
+                        history.scrollRestoration = 'manual'; // Prevent the browser to scroll on captcha page
+                      }
+
+                      document.getElementById('shopify-section-{{ section.id }}').scrollIntoView();
+                    });
+                  </script>
+
+                  <div class="form__banner banner banner--success">
+                    <span class="banner__ribbon">{% render 'icon' with 'form-success' %}</span>
+                    <p class="banner__content">{{ 'general.newsletter.success' | t }}</p>
+                  </div>
+                {%- else -%}
+                  {%- if form.errors -%}
+                    <div class="form__banner banner banner--error">
+                      <span class="banner__ribbon">{% render 'icon' with 'form-error' %}</span>
+                      <p class="banner__content">{{ form.errors.messages['email'] }}</p>
+                    </div>
+                  {%- endif -%}
+
+                  <input type="hidden" name="contact[tags]" value="newsletter">
+                  <input type="hidden" name="contact[context]" value="{{ newsletter_id }}">
+
+                  <div class="input-row">
+                    <div class="input">
+                      <input type="email" id="newsletter[{{ section.id }}][contact][email]" name="contact[email]" class="input__field" required>
+                      <label for="newsletter[{{ section.id }}][contact][email]" class="input__label">{{ 'general.newsletter.email' | t }}</label>
+                    </div>
+
+                    <div class="input">
+                      <button type="submit" is="loader-button" class="button button--primary">{{ 'general.newsletter.subscribe' | t }}</button>
+                    </div>
+                  </div>
+                {%- endif -%}
+              {%- endform -%}
+            {%- endif -%}
+
+          </div>
+        </div>
+
+      </div>
+    {% endif %}
+
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "LD - Feature row - Half",
+  "class": "image-with-text-wrapper",
+  "settings": [
+  {
+    "type": "radio",
+    "id": "width",
+    "label": "Width",
+    "options": [
+      {
+        "value": "fixed",
+        "label": "Fixed"
+      },
+      {
+        "value": "full-width",
+        "label": "Full width"
+      }
+    ],
+    "default": "full-width"
+  },
+  {
+    "type": "color",
+    "id": "bg_color",
+    "label": "Background Color"
+		},
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color"
+    },
+    {
+      "type": "checkbox",
+      "id": "margin_top",
+      "label": "Enable top margin",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "margin_btm",
+      "label": "Enable bottom margin",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "padding_top",
+      "label": "Enable top padding",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "padding_btm",
+      "label": "Enable bottom padding",
+      "default": false
+    },
+    {
+      "type"  :  "image_picker",
+      "id"    :  "mob_image",
+      "label" :  "Mobile Image",
+      "info": "856 x 1300 recommended"
+      },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "checkbox",
+      "id": "natural_img",
+      "label": "Fill image to container",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_custom_banner",
+      "label": "Enable custom banner",
+      "default": false,
+      "info": "Add the full url of a custom image asset (animated gifs etc) or mp4 file"
+    },
+    {
+      "type": "url",
+      "id": "custom_banner_url",
+      "label": "Custom Banner URL"
+    },
+    {
+      "type": "checkbox",
+      "id": "custom_banner_autoplay",
+      "label": "Autoplay",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "custom_banner_loop",
+      "label": "Loop",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "custom_banner_mute",
+      "label": "Mute",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "portrait",
+      "label": "Portrait video",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "parallax",
+      "label": "Enable parallax effect",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "label": "Layout",
+      "default": "left",
+      "options": [
+        {
+          "value": "left",
+          "label": "Image on left"
+        },
+        {
+          "value": "right",
+          "label": "Image on right"
+        }
+      ]
+    },
+    {
+    "type": "select",
+    "id": "image_height",
+    "label": "Image height",
+    "default": "40vw",
+    "options": [
+        {
+            "value": "30vw",
+            "label": "Small"
+        },
+        {
+            "value": "40vw",
+            "label": "Medium"
+        },
+        {
+            "value": "50vw",
+            "label": "Large"
+        }
+        ]
+    },
+    {
+      "type": "html",
+      "id": "title",
+      "label": "Heading",
+      "default": "Share brand or product details"
+    },
+    {
+      "type": "html",
+      "id": "text",
+      "label": "Text"
+    },
+    {
+      "type": "checkbox",
+      "id": "text_display",
+      "label": "Enable large text"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "color",
+      "id": "btn_color",
+      "label": "Button Color"
+      },
+      {
+        "type": "color",
+        "id": "btn_text_color",
+        "label": "Button Text Color"
+      },
+      {
+        "type": "color",
+        "id": "btn_hover_color",
+        "label": "Button Hover Color"
+      },
+      {
+        "type": "color",
+        "id": "btn_text_hover_color",
+        "label": "Button Text Hover Color"
+        },
+        {
+          "type": "checkbox",
+          "id": "newsletter",
+          "label": "Enable newsletter"
+        }
+      ],
+  "presets": [
+    {
+      "name": "Feature row - Half",
+      "category": "Image"
+    }
+  ]
+}
+{% endschema %}

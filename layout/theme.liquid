@@ -72,6 +72,7 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
     {%- endunless -%}
 
     {%- comment -%}Preload important resources{%- endcomment -%}
+    <link rel="preload" as="script" href="{{ 'output.css' | asset_url }}">
     <link rel="preload" as="style" href="{{ 'theme.css' | asset_url }}">
     <link rel="preload" as="style" href="{{ 'custom.css' | asset_url }}">
     <link rel="preload" as="script" href="{{ 'vendor.js' | asset_url }}">
@@ -101,6 +102,7 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
     {% render 'css-variables', direction: direction %}
     {% render 'js-variables', direction: direction %}
 
+    <link rel="stylesheet" href="{{ 'output.css' | asset_url }}">
     <link rel="stylesheet" href="{{ 'theme.css' | asset_url }}">
     <link rel="stylesheet" href="{{ 'custom.css' | asset_url }}">
 

@@ -67,6 +67,10 @@ h1, h2, h3, h4 {
   color: var(--color-contrast-higher)
 }
 
+.slideshow h1,.slideshow h2,.slideshow h3,.slideshow h4 {
+  color: #fff
+}
+
 
 @media (min-width: 1000px) {
   .cb-slide-container {
@@ -82,3 +86,33 @@ h1, h2, h3, h4 {
   color: var(--color-contrast-higher);
   font-weight: 700;
 }
+
+
+.mobile-img {
+  width: 100vw;
+}
+@media screen and (min-width: 767px) {
+  .mobile-img {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .desktop-img {
+    display: none !important;
+  }
+  .feature-row img {
+    max-height: 420px; 
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .feature-row {
+    height: 420px; 
+  }
+}
+
+.input__field {
+  background-color: #fff;
+}
+

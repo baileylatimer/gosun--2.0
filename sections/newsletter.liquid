@@ -35,27 +35,15 @@
 </style>
 
 <section class="section section--flush">
-  <image-with-text-block {% if section.settings.reveal_on_scroll %}reveal-on-scroll{% endif %} class="image-with-text-block image-with-text-block--small image-with-text-block--cover">
-    <div class="image-with-text-block__image-wrapper">
-      {%- if section.settings.image != blank -%}
-        <img class="image-with-text-block__image" {% if section.settings.reveal_on_scroll %}reveal{% endif %} loading="lazy" sizes="100vw" {% render 'image-attributes', image: section.settings.image, sizes: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' %}>
-      {%- else -%}
-        {%- capture image_classes -%}image-with-text-block__image image-with-text-block__image--placeholder placeholder-background{%- endcapture -%}
 
-        {%- if section.settings.reveal_on_scroll -%}
-          {{- 'lifestyle-1' | placeholder_svg_tag: image_classes | replace: '<svg', '<svg reveal' -}}
-        {%- else -%}
-          {{- 'lifestyle-1' | placeholder_svg_tag: image_classes -}}
-        {%- endif -%}
-      {%- endif -%}
-    </div>
 
-    <div class="container container--flush">
+
+    <div class="container container--flush flex flex-col lg:flex-row">
       {%- assign text_position = section.settings.text_position | split: '_' | last -%}
 
       <div {% if section.settings.reveal_on_scroll %}reveal{% endif %} class="image-with-text-block__content image-with-text-block__content--tight content-box content-box--small content-box--text-{{ section.settings.text_alignment}} content-box--{{ text_position }} text-container">
         {%- if section.settings.subheading != blank -%}
-          <h2 class="heading heading--small">{{ section.settings.subheading | escape }}</h2>
+          <h2 class="heading">{{ section.settings.subheading | escape }}</h2>
         {%- endif -%}
 
         {%- if section.settings.content != blank -%}
@@ -104,8 +92,13 @@
           {%- endif -%}
         {%- endform -%}
       </div>
+      <div>
+        {%- if section.settings.image != blank -%}
+          <img class="image-with-text-block__image" {% if section.settings.reveal_on_scroll %}reveal{% endif %} loading="lazy" sizes="100vw" {% render 'image-attributes', image: section.settings.image, sizes: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' %}>
+        {%- endif -%}
+      </div>
     </div>
-  </image-with-text-block>
+
 </section>
 
 {% schema %}
