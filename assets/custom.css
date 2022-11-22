@@ -134,9 +134,9 @@ h1, h2, h3, h4 {
 
 /* PDP 
 =========== */
-.pulse, .shine, [fill-rule="evenodd"] {
+/* .pulse, .shine, [fill-rule="evenodd"] {
   fill: #C75724
-}
+} */
 
 .product-meta__share,
 .shopify-payment-button {
