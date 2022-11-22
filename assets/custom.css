@@ -165,3 +165,27 @@ font-size: var(--heading-h2-font-size);
   display: flex !important;
   justify-content: center;
 }
+
+
+/* Nav 
+============ */
+[dir="ltr"] .header__cart-count--floating {
+  background: #C75724;
+  }
+
+  .mega-menu__image-push:hover img {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transition: all .5s cubic-bezier(.215,.61,.355,1);
+  }
+
+  .mega-menu__inner {
+    padding-bottom: 30px;
+    }
+
+    .cb-secondary-header a {
+      font-size: 15px !important;
+    }
