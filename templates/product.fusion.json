@@ -92,6 +92,50 @@
         "transition_effect": "slide"
       }
     },
+    "product-content": {
+      "type": "product-content",
+      "blocks": {
+        "38991388-db52-4dee-9e08-c8e555620c13": {
+          "type": "content",
+          "settings": {
+            "title": "Weight & Dimensions",
+            "content": "<p>{{ product.metafields.my_fields._weight_and_dimensions | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "1791f09a-7192-47bc-887e-b6a125de0664": {
+          "type": "content",
+          "settings": {
+            "title": "Tech Specs",
+            "content": "<p>{{ product.metafields.my_fields.features | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "19e6c18d-95b3-4204-bf74-a8e1b49c0623": {
+          "type": "content",
+          "settings": {
+            "title": "In the Box",
+            "content": "<p>{{ product.metafields.my_fields.in_the_box | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "e467e674-5317-4edf-9e00-58a2d1b186eb": {
+          "type": "featured_products",
+          "settings": {
+            "title": "Buy It With",
+            "products": "{{ product.metafields.my_fields.buy_it_with.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "38991388-db52-4dee-9e08-c8e555620c13",
+        "1791f09a-7192-47bc-887e-b6a125de0664",
+        "19e6c18d-95b3-4204-bf74-a8e1b49c0623",
+        "e467e674-5317-4edf-9e00-58a2d1b186eb"
+      ],
+      "settings": {
+      }
+    },
     "16540172429e0f5254": {
       "type": "featured-collections",
       "disabled": true,
@@ -484,50 +528,6 @@
         "background": "rgba(0,0,0,0)"
       }
     },
-    "product-content": {
-      "type": "product-content",
-      "blocks": {
-        "38991388-db52-4dee-9e08-c8e555620c13": {
-          "type": "content",
-          "settings": {
-            "title": "Weight & Dimensions",
-            "content": "<p>{{ product.metafields.my_fields._weight_and_dimensions | metafield_tag }}<\/p>",
-            "page": ""
-          }
-        },
-        "1791f09a-7192-47bc-887e-b6a125de0664": {
-          "type": "content",
-          "settings": {
-            "title": "Tech Specs",
-            "content": "<p>{{ product.metafields.my_fields.features | metafield_tag }}<\/p>",
-            "page": ""
-          }
-        },
-        "19e6c18d-95b3-4204-bf74-a8e1b49c0623": {
-          "type": "content",
-          "settings": {
-            "title": "In the Box",
-            "content": "<p>{{ product.metafields.my_fields.in_the_box | metafield_tag }}<\/p>",
-            "page": ""
-          }
-        },
-        "e467e674-5317-4edf-9e00-58a2d1b186eb": {
-          "type": "featured_products",
-          "settings": {
-            "title": "Buy It With",
-            "products": "{{ product.metafields.my_fields.buy_it_with.value }}"
-          }
-        }
-      },
-      "block_order": [
-        "38991388-db52-4dee-9e08-c8e555620c13",
-        "1791f09a-7192-47bc-887e-b6a125de0664",
-        "19e6c18d-95b3-4204-bf74-a8e1b49c0623",
-        "e467e674-5317-4edf-9e00-58a2d1b186eb"
-      ],
-      "settings": {
-      }
-    },
     "16524703050d8431b4": {
       "type": "apps",
       "blocks": {
@@ -639,6 +639,7 @@
   },
   "order": [
     "main",
+    "product-content",
     "16540172429e0f5254",
     "1653413494c86d6524",
     "16556897665240b08e",
@@ -650,7 +651,6 @@
     "1654887836ec8dc0a1",
     "165341340647ca592b",
     "5e00751b-e319-40b9-ae38-49e41160ba9a",
-    "product-content",
     "16524703050d8431b4",
     "1655498158b983570e",
     "product-recommendations",

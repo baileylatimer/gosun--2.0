@@ -32,7 +32,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_payment_button": true,
+            "show_payment_button": false,
             "button_text": "",
             "atc_button_background": "#c65824",
             "atc_button_text_color": "rgba(0,0,0,0)",
@@ -81,7 +81,7 @@
         "show_taxes_included": false,
         "show_product_rating": true,
         "show_sticky_add_to_cart": true,
-        "show_share_buttons": true,
+        "show_share_buttons": false,
         "bold_compare_price": false,
         "help_page": "",
         "enable_video_autoplay": true,
@@ -90,6 +90,50 @@
         "show_thumbnails_on_mobile": false,
         "desktop_thumbnails_position": "left",
         "transition_effect": "slide"
+      }
+    },
+    "product-content": {
+      "type": "product-content",
+      "blocks": {
+        "38991388-db52-4dee-9e08-c8e555620c13": {
+          "type": "content",
+          "settings": {
+            "title": "Weight & Dimensions",
+            "content": "<p>{{ product.metafields.my_fields._weight_and_dimensions | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "1791f09a-7192-47bc-887e-b6a125de0664": {
+          "type": "content",
+          "settings": {
+            "title": "Tech Specs",
+            "content": "<p>{{ product.metafields.my_fields.features | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "19e6c18d-95b3-4204-bf74-a8e1b49c0623": {
+          "type": "content",
+          "settings": {
+            "title": "In the Box",
+            "content": "<p>{{ product.metafields.my_fields.in_the_box | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "e467e674-5317-4edf-9e00-58a2d1b186eb": {
+          "type": "featured_products",
+          "settings": {
+            "title": "Buy It With",
+            "products": "{{ product.metafields.my_fields.buy_it_with.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "38991388-db52-4dee-9e08-c8e555620c13",
+        "1791f09a-7192-47bc-887e-b6a125de0664",
+        "19e6c18d-95b3-4204-bf74-a8e1b49c0623",
+        "e467e674-5317-4edf-9e00-58a2d1b186eb"
+      ],
+      "settings": {
       }
     },
     "16540172429e0f5254": {
@@ -474,48 +518,22 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "product-content": {
-      "type": "product-content",
-      "blocks": {
-        "38991388-db52-4dee-9e08-c8e555620c13": {
-          "type": "content",
-          "settings": {
-            "title": "Weight & Dimensions",
-            "content": "<p>{{ product.metafields.my_fields._weight_and_dimensions | metafield_tag }}<\/p>",
-            "page": ""
-          }
-        },
-        "1791f09a-7192-47bc-887e-b6a125de0664": {
-          "type": "content",
-          "settings": {
-            "title": "Tech Specs",
-            "content": "<p>{{ product.metafields.my_fields.features | metafield_tag }}<\/p>",
-            "page": ""
-          }
-        },
-        "19e6c18d-95b3-4204-bf74-a8e1b49c0623": {
-          "type": "content",
-          "settings": {
-            "title": "In the Box",
-            "content": "<p>{{ product.metafields.my_fields.in_the_box | metafield_tag }}<\/p>",
-            "page": ""
-          }
-        },
-        "e467e674-5317-4edf-9e00-58a2d1b186eb": {
-          "type": "featured_products",
-          "settings": {
-            "title": "Buy It With",
-            "products": "{{ product.metafields.my_fields.buy_it_with.value }}"
-          }
-        }
-      },
-      "block_order": [
-        "38991388-db52-4dee-9e08-c8e555620c13",
-        "1791f09a-7192-47bc-887e-b6a125de0664",
-        "19e6c18d-95b3-4204-bf74-a8e1b49c0623",
-        "e467e674-5317-4edf-9e00-58a2d1b186eb"
-      ],
+    "f272fe85-0d37-47b0-ad2b-2ca5cc75a1e7": {
+      "type": "rich-text",
       "settings": {
+        "subheading": "",
+        "title": "Reviews",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
       }
     },
     "16524703050d8431b4": {
@@ -688,6 +706,7 @@
   },
   "order": [
     "main",
+    "product-content",
     "16540172429e0f5254",
     "1653413494c86d6524",
     "16555241787b35714b",
@@ -699,7 +718,7 @@
     "16555241718369dd1c",
     "16548794344070cfc1",
     "165341340647ca592b",
-    "product-content",
+    "f272fe85-0d37-47b0-ad2b-2ca5cc75a1e7",
     "16524703050d8431b4",
     "1655498491a4f7c7cd",
     "product-recommendations",
