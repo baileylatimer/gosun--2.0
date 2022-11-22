@@ -137,3 +137,7 @@ h1, h2, h3, h4 {
 .pulse, .shine, [fill-rule="evenodd"] {
   fill: #C75724
 }
+
+.product-meta__share {
+  display: none;
+}
