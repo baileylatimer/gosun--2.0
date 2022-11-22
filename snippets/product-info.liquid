@@ -17,12 +17,13 @@
     {%- endif -%}
 
     {% unless featured %}
-      <h1 class="product-meta__title heading h3">{{ product.title }}</h1>
+      <h1 class="product-meta__title heading h3" style="margin-bottom: 0;">{{ product.title }}</h1>
     {% else %}
       <h2 class="product-meta__title heading h3">
         <a href="{{ product.url }}">{{ product.title }}</a>
       </h2>
     {% endunless %}
+    <h3 class="my-2" style="font-weight: 500 !important;">{{product.type}}</h3>
 
     <div class="product-meta__price-list-container" role="region" aria-live="polite">
       <div class="price-list" data-product-price-list>
