@@ -34,9 +34,9 @@
   {%- endcapture -%}
 
   <div class="product-item__image-wrapper {% if settings.show_secondary_image and product.media.size > 1 and hide_secondary_image != true %}product-item__image-wrapper--multiple{% endif %}">
-    {%- if product_labels != blank and reduced_content != true -%}
-      <div class="product-item__label-list label-list">
-        {{- product_labels -}}
+    {%- if product.metafields.custom.violator != blank -%}
+      <div class="product-item__label-list violator label-list px-2 py-2">
+        {{product.metafields.custom.violator}}
       </div>
     {%- endif -%}
 
@@ -108,8 +108,8 @@
         {%- endunless -%}
       {%- endif -%}
 
-      <h3><a href="{{ product.url }}" class="product-item-meta__title">{{ product.title }}</a></h3>
-
+      <h3><a href="{{ product.url }}" class="product-item-meta__title mb-0">{{ product.title }}</a></h3>
+      <p class="mt-0 mb-0">{{ product.type }}</p>
       <div class="product-item-meta__price-list-container">
         <div class="price-list price-list--centered">
           {%- if product.price_varies and product.compare_at_price -%}

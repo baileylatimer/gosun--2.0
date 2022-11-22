@@ -67,7 +67,7 @@ h1, h2, h3, h4 {
   color: var(--color-contrast-higher)
 }
 
-.slideshow h1,.slideshow h2,.slideshow h3,.slideshow h4, footer .heading {
+.slideshow h1,.slideshow h2,.slideshow h3,.slideshow h4, footer .heading, .image-overlay h1, .image-overlay h2 {
   color: #fff
 }
 
@@ -119,3 +119,15 @@ h1, h2, h3, h4 {
   background-color: #fff;
 }
 
+/* PLP
+============ */
+.violator {
+  background-color: #D9E8F2;
+  color:#1B3550;
+  font-weight: 500;
+}
+
+.product-item {
+  filter: brightness(.95);
+  -webkit-filter: brightness(.95);
+}
