@@ -151,11 +151,11 @@
           <img loading="lazy" decoding="async" src="{{section.settings.custom_banner_url}}"/> 
           {% endif %}
           {% else %}
-          {% if  section.settings.mob_image != blank %} 
-            <img class="mobile-img" src="{{ section.settings.mob_image | img_url: '480x' }}"/>
-          {% endif %}
+          <!-- {% if  section.settings.mob_image != blank %} 
+            <img loading="lazy" class="mobile-img" src="{{ section.settings.mob_image | img_url: '480x' }}"/>
+          {% endif %} -->
           <div class="desktop-img">
-            <img class="desktop-img" src="{{ section.settings.mob_image | img_url: '760x' }}"/>
+            <img loading="lazy" class="desktop-img" src="{{ section.settings.mob_image | img_url: '760x' }}"/>
           </div>
         {% endif %}
 
@@ -190,11 +190,11 @@
             <img loading="lazy" decoding="async" src="{{section.settings.custom_banner_url}}"/> 
             {% endif %}
             {% else %}
-            {% if  section.settings.mob_image != blank %} 
-              <img class="mobile-img" src="{{ section.settings.mob_image | img_url: '480x' }}"/>
-            {% endif %}
+            <!-- {% if  section.settings.mob_image != blank %} 
+              <img  loading="lazy" class="mobile-img" src="{{ section.settings.mob_image | img_url: '480x' }}"/>
+            {% endif %} -->
             <div class="desktop-img">
-              <img class="desktop-img" src="{{ section.settings.mob_image | img_url: '760x' }}"/>
+              <img  loading="lazy" class="desktop-img" src="{{ section.settings.mob_image | img_url: '760x' }}"/>
             </div>
           {% endif %}
         </div>
