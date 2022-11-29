@@ -48,6 +48,59 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
     <meta name="HandheldFriendly" content="true"/> 
     <meta name="MobileOptimized" content="320"/>
 
+
+
+
+    {% comment %} Prevent apps from loading {% endcomment %}
+
+    {% if template contains "index" %} 
+      <script>
+        YETT_BLACKLIST = [
+          /vendors.js.gz/,
+          /client.js.gz/,
+          /doui4jqs03un3.cloudfront.net/,
+        /stamped/,
+        /sellup.herokuapp.com/,
+        /static.zdassets.com/,
+        /zdassets.com/,
+        /optin.savemysales.co/,
+        /cdn.pushowl.com/,
+        /connect.facebook.net/,
+        /cdn1.affirm.com/,
+        /mlveda-shopifyapps.s3.amazonaws.com/,
+        /app.123formbuilder.com/,
+        /cdn.intelliticks.com/,
+        /static.klaviyo.com/,
+        /cdn1.stamped.io/,
+        /button.aftership.com/,
+        /fonts.shopifycdn.com/,
+        /affirm.com/,
+        /stamped.io/
+        ] 
+    </script>
+    {% endif %}
+    {% if template contains 'collection' or 'product' %}   
+      <script>
+          YETT_BLACKLIST = [
+          
+          /static.zdassets.com/,
+          /zdassets.com/,
+          /button.aftership.com/,
+          /fonts.shopifycdn.com/,  
+          /raid/,
+          /raid-upsell/
+          ] 
+      </script>
+    {% endif %}
+
+    <script src="https://unpkg.com/yett/dist/yett.min.modern.js"></script>
+
+
+
+
+
+
+
     <title>{% if page_title == blank %}{{ shop.name }}{% else %}{{ page_title }}{% if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif %}{% endif %}</title>
 
     {%- if page_description -%}
