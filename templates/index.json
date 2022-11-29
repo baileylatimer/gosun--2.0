@@ -133,12 +133,6 @@
         "font_size_mobile": 16
       }
     },
-    "1654015313c6e45a83": {
-      "type": "simple-html",
-      "settings": {
-        "custom_html": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_62768be0a9ca87002998a851\"><\/div>"
-      }
-    },
     "1652380367ca0e8506": {
       "type": "rich-text",
       "settings": {
@@ -510,7 +504,6 @@
   "order": [
     "slideshow",
     "text-with-icons",
-    "1654015313c6e45a83",
     "1652380367ca0e8506",
     "1653908791b385bdfe",
     "165358289622ec07dc",
