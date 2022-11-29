@@ -53,7 +53,7 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
 
     {% comment %} Prevent apps from loading {% endcomment %}
 
-    {% if template contains "index" %} 
+
       <script>
         YETT_BLACKLIST = [
           /vendors.js.gz/,
@@ -79,7 +79,7 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
         /stamped.io/
         ] 
     </script>
-    {% endif %}
+
     {% if template contains 'collection' or 'product' %}   
       <script>
           YETT_BLACKLIST = [
