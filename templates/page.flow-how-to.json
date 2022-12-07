@@ -35,7 +35,7 @@
       "settings": {
         "subheading": "",
         "title": "Download the Manual",
-        "content": "",
+        "content": "<p><\/p>",
         "button_text": "Download Manual",
         "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/GoSun_Flow_User_Manual.pdf?v=1666195303",
         "background_type": "full_width",
@@ -163,9 +163,9 @@
       "settings": {
         "subheading": "",
         "title": "Register Your Product",
-        "content": "<p><\/p>",
+        "content": "",
         "button_text": "Register Here",
-        "button_link": "https:\/\/gosun.co\/pages\/register",
+        "button_link": "https:\/\/gosun.co\/pages\/new-product-registration",
         "background_type": "full_width",
         "text_width": "medium",
         "text_position": "center",
