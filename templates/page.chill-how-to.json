@@ -27,6 +27,7 @@
         "button_background": "#ffffff",
         "button_text_color": "#000000",
         "overlay_color": "#000000",
+        "heading_color": "#ffffff",
         "overlay_opacity": 30
       }
     },
@@ -50,6 +51,7 @@
         "button_background": "#ffffff",
         "button_text_color": "#000000",
         "overlay_color": "#000000",
+        "heading_color": "",
         "overlay_opacity": 0
       }
     },
@@ -257,7 +259,7 @@
       "settings": {
         "subheading": "",
         "title": "Register Your Product",
-        "content": "",
+        "content": "<p><\/p>",
         "button_text": "Register Here",
         "button_link": "https:\/\/gosun.co\/pages\/new-product-registration",
         "background_type": "full_width",
