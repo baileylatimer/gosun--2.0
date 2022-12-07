@@ -13,10 +13,10 @@
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "small",
-        "image": "shopify:\/\/shop_images\/GoSun_Flow_how_to_page_cover_image.jpg",
+        "image": "shopify:\/\/shop_images\/GoSun_Brew_how_to_page_cover_image.jpg",
         "subheading": "",
-        "title": "Flow How To",
-        "content": "<p>Congrats on your purchase of the Flow and welcome to the GoSun ecosystem. Below, you'll find a quickstart video for setting up the Flow with some tips and tricks to get started.<\/p>",
+        "title": "Brew How To",
+        "content": "<p>Congrats on your purchase of the Brew and welcome to the GoSun ecosystem. Below, you'll find a quickstart video for setting up the Brew with some tips and tricks to get started.<\/p>",
         "button_text": "",
         "button_link": "",
         "link_style": "link",
@@ -35,7 +35,7 @@
       "settings": {
         "subheading": "",
         "title": "Download the Manual",
-        "content": "",
+        "content": "<p><\/p>",
         "button_text": "Download Manual",
         "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/GoSun_Flow_User_Manual.pdf?v=1666195303",
         "background_type": "full_width",
