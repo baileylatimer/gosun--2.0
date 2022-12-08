@@ -14,7 +14,7 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
 {%- endcase -%}
 
 <html class="no-js" lang="{{ request.locale.iso_code }}" dir="{{ direction }}">
-  <head>{% if template == 'index' %}{% render 'spdn' %}{% endif %}{% if request.path == '/products/camp365' or request.path == '/collections/todays-deals' or request.path == '/products/go-pro-pack-1' %}{% render 'camp365spdn' %}{% endif %}
+  <head>{% if template == 'index' %}{% render 'spdn' %}{% endif %}{% if request.path == '/products/camp365' or request.path == '/collections/todays-deals' or request.path == '/collections/solar-ovens' or request.path == '/products/go-pro-pack-1' %}{% render 'camp365spdn' %}{% endif %}
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -293,5 +293,5 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
    		_learnq.push(['track', 'Added to Cart', item]);
   	});</script>
     {% endif %}
-{% if template == 'index' %}{% render 'spdn2' %}{% endif %}{% if request.path == '/products/camp365' or request.path == '/collections/todays-deals' or request.path == '/products/go-pro-pack-1'  %}{% render 'camp365spdn2' %}{% endif %}</body>
+{% if template == 'index' %}{% render 'spdn2' %}{% endif %}{% if request.path == '/products/camp365' or request.path == '/collections/todays-deals' or request.path == '/collections/solar-ovens' or request.path == '/products/go-pro-pack-1'  %}{% render 'camp365spdn2' %}{% endif %}</body>
 </html>
