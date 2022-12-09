@@ -179,6 +179,7 @@
     },
     "1653935061372d8d90": {
       "type": "newsletter",
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": false,
         "image": "shopify:\/\/shop_images\/Ativo_2back.png",
