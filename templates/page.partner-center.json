@@ -172,7 +172,9 @@
       ],
       "settings": {
         "background": "#ecedef",
-        "text_color": "rgba(0,0,0,0)"
+        "text_color": "rgba(0,0,0,0)",
+        "font_size_desktop": 16,
+        "font_size_mobile": 16
       }
     },
     "1653935061372d8d90": {
