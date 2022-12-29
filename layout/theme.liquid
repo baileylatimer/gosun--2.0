@@ -192,6 +192,10 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
       {% unless template contains "index" %}{% render 'fast_bundle_service' %}{% endunless %}
   {% endif %}
 
+  <!-- Extend -- Load Extend SDK Configuration script -->
+  {% render 'extend-configuration' %}
+  <!-- Extend -- End Extend code -->
+
 </head>
 
   {%- assign feature_classes = '' -%}

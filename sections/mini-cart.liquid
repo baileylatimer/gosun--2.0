@@ -76,7 +76,11 @@
         <input type="hidden" name="checkout">
 
         {%- for line_item in cart.items -%}
-          <line-item class="line-item">
+
+        {%- comment -%} Extend - Hide Extend Shipping item using if liquid statement {%- endcomment -%}
+        <line-item class="line-item" {% if line_item.title contains 'Extend Shipping Protection Plan'%} style="display: none;"{% endif %} >
+        {%- comment -%} Extend - End code {%- endcomment -%}
+          
             <div class="line-item__content-wrapper">
               <a href="{{ line_item.url }}" class="line-item__image-wrapper" tabindex="-1" aria-hidden="true">
                 <span class="line-item__loader" hidden>
@@ -175,7 +179,13 @@
 
                   {%- if line_item_properties != blank -%}
                     <div class="product-item-meta__property-list">
-                      {{- line_item_properties -}}
+                    
+                      {%- comment -%} Extend - Hide warranty metadata using if liquid statement {%- endcomment -%}
+                      {%- if line_item.vendor != "Extend" -%}
+                        {{- line_item_properties -}}
+                      {%- endif -%}
+                      {%- comment -%} Extend - End code {%- endcomment -%}
+
                     </div>
                   {%- endif -%}
 
@@ -408,3 +418,7 @@
   ]
 }
 {% endschema %}
+
+<!-- Extend -- Load cart integration script -->
+{% render 'extend-sidecart-integration' %}
+<!-- Extend -- End Extend code -->

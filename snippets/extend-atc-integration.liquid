@@ -1,0 +1,123 @@
+<script>
+
+  //run scripts on DOMContentLoaded to avoid affecting site load time
+  window.addEventListener('load', function () {
+
+    //Checks if Extend and Extend Shopify are active, checks product object to prevent running on product page
+    if (window.Extend && window.ExtendShopify && window.Shopify.currency.active === 'USD') {
+
+      //Creates function to be added to event listener to check for ATC button click
+      var atcButtons = function (e) {
+
+        var el;
+
+        // If the customer clicks the span element, grab the parent button container
+        e.target.nodeName === 'BUTTON' ? el = e.target : el = e.target.parentNode
+
+        //Check event target for atc button class
+        if (el.matches('.product-item__link') && el.innerText === '+ Add to cart') {
+
+          //Stop add to cart behavior to show Extend modal
+          e.preventDefault();
+          e.stopImmediatePropagation();
+
+          //Removes event listener after successful fire of event
+          document.removeEventListener('click', atcButtons, true);
+
+          //Find the closest form and get the variantId from that form
+          var variantId = el.parentElement.querySelector('input[name="id"]').value
+
+          //Open Extend offer modal to present offers on add to cart
+          Extend.modal.open({
+            referenceId: variantId,
+            onClose: function (plan, product) {
+              if (plan && product) {
+                // a user has selected a plan. Add it to their cart.
+                ExtendShopify.addPlanToCart(
+                  {
+                    plan: plan,
+                    product: product,
+                    quantity: 1,
+                  },
+                  function (err) {
+                    // an error occurred
+                    if (err) {
+                      return;
+                    } else {
+
+                      //Click button
+                      el.click();
+
+                      //Re-add event listener 
+                      document.addEventListener('click', atcButtons, true);
+                    }
+                  }
+                );
+              } else {
+                // click button
+                el.click();
+
+                //Re-add event listener 
+                document.addEventListener('click', atcButtons, true);
+              }
+            },
+          })
+
+        } else if (el.matches('button[is="loader-button"]') && el.innerHTML.indexOf('+ Add to cart') > -1) {
+
+          //Stop add to cart behavior to show Extend modal
+          e.preventDefault();
+          e.stopImmediatePropagation();
+
+          //Removes event listener after successful fire of event
+          document.removeEventListener('click', atcButtons, true);
+
+          //Find the closest form and get the variantId from that form
+          var variantId = el.parentElement.querySelector('input[name="id"]').value
+
+          //Open Extend offer modal to present offers on add to cart
+          Extend.modal.open({
+            referenceId: variantId,
+            onClose: function (plan, product) {
+              if (plan && product) {
+                // a user has selected a plan. Add it to their cart.
+                ExtendShopify.addPlanToCart(
+                  {
+                    plan: plan,
+                    product: product,
+                    quantity: 1,
+                  },
+                  function (err) {
+                    // an error occurred
+                    if (err) {
+                      return;
+                    } else {
+
+                      //Click button
+                      el.click();
+
+                      //Re-add event listener 
+                      document.addEventListener('click', atcButtons, true);
+                    }
+                  }
+                );
+              } else {
+                // click button
+                el.click();
+
+                //Re-add event listener 
+                document.addEventListener('click', atcButtons, true);
+              }
+            },
+          })
+
+        }
+      }
+
+      //Adds event listener with event delegation to listen for button click
+      document.addEventListener('click', atcButtons, true);
+    }
+
+  })
+
+</script>

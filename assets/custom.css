@@ -169,6 +169,10 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+.image-with-text::before {
+  display: none !important;
+}
+
 /* Support
 =========== */
 .mobile-hide-template--14303051219038__1654533357242c5b7c {
