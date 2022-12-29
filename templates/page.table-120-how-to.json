@@ -35,7 +35,7 @@
       "settings": {
         "subheading": "",
         "title": "Download the Manual",
-        "content": "",
+        "content": "<p><\/p>",
         "button_text": "Download Manual",
         "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/GoSun_SolarTable_120_User_Manual_111622.pdf?v=1668619123",
         "background_type": "full_width",
@@ -54,7 +54,7 @@
       "settings": {
         "subheading": "",
         "title": "Watch How-To Video",
-        "content": "",
+        "content": "<p><\/p>",
         "button_text": "",
         "button_link": "",
         "background_type": "full_width",
@@ -156,7 +156,7 @@
       "settings": {
         "show_navigation": false,
         "title": "FAQ",
-        "content": "",
+        "content": "<p><\/p>",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
@@ -168,7 +168,7 @@
         "title": "Register Your Product",
         "content": "",
         "button_text": "Register Here",
-        "button_link": "https:\/\/gosun.co\/pages\/register",
+        "button_link": "https:\/\/gosun.co\/pages\/new-product-registration",
         "background_type": "full_width",
         "text_width": "medium",
         "text_position": "center",
@@ -188,7 +188,7 @@
         "image": "shopify:\/\/shop_images\/gosun_sporte_features.jpg",
         "subheading": "",
         "title": "",
-        "content": "",
+        "content": "<p><\/p>",
         "button_text": "",
         "button_link": "",
         "link_style": "link",
@@ -218,7 +218,7 @@
         "image": "shopify:\/\/shop_images\/Sport_E_Exploded_View_Both_Columns_081922_4x_Scale.jpg",
         "subheading": "",
         "title": "",
-        "content": "",
+        "content": "<p><\/p>",
         "button_text": "",
         "button_link": "",
         "link_style": "link",
@@ -294,7 +294,7 @@
         "stack_items": true,
         "subheading": "",
         "title": "",
-        "content": "",
+        "content": "<p><\/p>",
         "column_alignment": "center",
         "mobile_item_size": "medium",
         "desktop_item_size": "large",
@@ -326,7 +326,7 @@
             "custom_icon": "shopify:\/\/shop_images\/Frame.png",
             "custom_icon_width": 50,
             "title": "100,000+ customers",
-            "content": ""
+            "content": "<p><\/p>"
           }
         },
         "1655229689bb9f4aa4-1": {
@@ -336,7 +336,7 @@
             "custom_icon": "shopify:\/\/shop_images\/Frame-1.png",
             "custom_icon_width": 50,
             "title": "Quick, simple financing",
-            "content": ""
+            "content": "<p><\/p>"
           }
         },
         "1655229689bb9f4aa4-2": {
@@ -346,7 +346,7 @@
             "custom_icon": "shopify:\/\/shop_images\/Frame-2.png",
             "custom_icon_width": 50,
             "title": "Free Shipping over $50",
-            "content": ""
+            "content": "<p><\/p>"
           }
         },
         "1655229689bb9f4aa4-3": {
@@ -356,7 +356,7 @@
             "custom_icon": "shopify:\/\/shop_images\/Frame-3.png",
             "custom_icon_width": 50,
             "title": "1 Year Warranty",
-            "content": ""
+            "content": "<p><\/p>"
           }
         }
       },

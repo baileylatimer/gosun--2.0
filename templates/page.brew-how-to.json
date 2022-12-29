@@ -13,10 +13,10 @@
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "small",
-        "image": "shopify:\/\/shop_images\/GoSun_Go_how_to_page_cover_image_solar_table_60.jpg",
+        "image": "shopify:\/\/shop_images\/GoSun_Brew_how_to_page_cover_image.jpg",
         "subheading": "",
-        "title": "Solar Table 60 How To",
-        "content": "<p>Congrats on your purchase of the Solar Table 60 and welcome to the GoSun ecosystem. Below, you'll find a user manual for the Solar Table 60 with some tips and tricks to get started.<\/p>",
+        "title": "Brew How To",
+        "content": "<p>Congrats on your purchase of the Brew and welcome to the GoSun ecosystem. Below, you'll find a quickstart video for setting up the Brew with some tips and tricks to get started.<\/p>",
         "button_text": "",
         "button_link": "",
         "link_style": "link",
@@ -35,9 +35,9 @@
       "settings": {
         "subheading": "",
         "title": "Download the Manual",
-        "content": "<p><\/p>",
+        "content": "",
         "button_text": "Download Manual",
-        "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/GoSun_SolarTable_60_User_Manual_111622.pdf?v=1668619235",
+        "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/GoSun_Brew_Users_Manual_120722.pdf?v=1670426229",
         "background_type": "full_width",
         "text_width": "medium",
         "text_position": "center",
@@ -50,7 +50,6 @@
     },
     "c42279dd-1a5c-4b8e-ac2e-180669dc38b0": {
       "type": "rich-text",
-      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "Watch How-To Video",
@@ -69,34 +68,32 @@
     },
     "9d573557-08e1-4a1f-8e03-c7b9eb29d971": {
       "type": "video",
-      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=p-a2wQwkDBk",
-        "image": "shopify:\/\/shop_images\/Flow_how_to_video_cover.jpg",
+        "video_url": "https:\/\/youtu.be\/H3y884NdauA",
+        "image": "shopify:\/\/shop_images\/Gosun_Brew_how_to_video_cover.jpg",
         "background_type": "full_width",
         "video_size": "auto",
         "autoplay": false,
         "background": "rgba(0,0,0,0)",
-        "text_color": "#c4582d"
+        "text_color": "#ffffff"
       }
     },
     "93eeeaf1-02f2-4ab8-b492-976ce08c0729": {
       "type": "faq",
-      "disabled": true,
       "blocks": {
         "template--14275008036958__93eeeaf1-02f2-4ab8-b492-976ce08c0729-1666276584fec17611-0": {
           "type": "category",
           "settings": {
-            "title": "Filter"
+            "title": "GoSun Brew"
           }
         },
         "template--14275008036958__93eeeaf1-02f2-4ab8-b492-976ce08c0729-1666276584fec17611-1": {
           "type": "question",
           "settings": {
-            "title": "How well does the filter work?",
-            "answer": "<p>Our cutting-edge 3-stage cartridge filter removes 99.99% of pathogens. First, a polypropylene filter disc removes large particles like dirt, rust, and sand. Second, a high-efficiency carbon filter absorbs hazardous chemicals and heavy metals. Finally, a nano aluminum fiber filter creates an electropositive charge in a labyrinth of fibers to trap and remove the tiniest particles and organisms from your water. The BCS lab test report for the GoSun Flow is available on this link: <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/BCS_Lab_test_report.jpg?v=1643304318\">https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/BCS_Lab_test_report.jpg?v=1643304318<\/a><\/p>",
+            "title": "What is the GoSun Brew?",
+            "answer": "<p>The Brew is a stainless steel cup, french press & heater in one, makes tea or coffee anywhere. This can be powered from one of our portable powerbanks.<\/p>",
             "button_text": "",
             "button_link": ""
           }
@@ -104,8 +101,8 @@
         "template--14275008036958__93eeeaf1-02f2-4ab8-b492-976ce08c0729-1666276584fec17611-2": {
           "type": "question",
           "settings": {
-            "title": "How long does the filter last?",
-            "answer": "<p>The filter lasts for 1,000 liters of filtration and can be easily replaced. For replacement filters, please check <a href=\"https:\/\/gosun.co\/products\/flow-filter-single-replacement\">https:\/\/gosun.co\/products\/flow-filter-single-replacement<\/a><\/p>",
+            "title": "I already have the Power 144, is the GoSun Brew compatible with this powerbank?",
+            "answer": "<p>All GoSun Solar chargers, Powerbanks, and products are cross-compatible. The Power 144 will run the Brew.<\/p>",
             "button_text": "",
             "button_link": ""
           }
@@ -113,32 +110,17 @@
         "template--14275008036958__93eeeaf1-02f2-4ab8-b492-976ce08c0729-1666276584fec17611-4": {
           "type": "question",
           "settings": {
-            "title": "Will this filter salt water?",
-            "answer": "<p>The Flow can purify brackish water, river water, lake water, rain water. It cannot remove salt. We are currently investigating this technology.<\/p>",
+            "title": "Is the GoSun Brew dishwasher safe?",
+            "answer": "<p>The lid and French press plunger are dishwasher safe. The mug should be hand washed.<\/p>",
             "button_text": "",
             "button_link": ""
-          }
-        },
-        "template--14275008036958__93eeeaf1-02f2-4ab8-b492-976ce08c0729-1666276584fec17611-3": {
-          "type": "category",
-          "settings": {
-            "title": "Flow"
           }
         },
         "8f74bc8f-7d42-46d9-b49f-204fafebbc4d": {
           "type": "question",
           "settings": {
-            "title": "Is the Flow BPA-free and food safe?",
+            "title": "Is the GoSun Brew TSA compliant?",
             "answer": "<p>Yes!<\/p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        },
-        "32ca766c-fbd7-490d-ba41-306c4d3db1c6": {
-          "type": "question",
-          "settings": {
-            "title": "How can you take a hot shower or wash dishes in hot water?",
-            "answer": "<p>The Flow pairs with the Fusion to create a hot shower, check out our video here: <a href=\"https:\/\/www.youtube.com\/watch?v=PTgp1S8k5v8&t=21s\">https:\/\/www.youtube.com\/watch?v=PTgp1S8k5v8&t=21s<\/a><\/p>",
             "button_text": "",
             "button_link": ""
           }
@@ -149,14 +131,12 @@
         "template--14275008036958__93eeeaf1-02f2-4ab8-b492-976ce08c0729-1666276584fec17611-1",
         "template--14275008036958__93eeeaf1-02f2-4ab8-b492-976ce08c0729-1666276584fec17611-2",
         "template--14275008036958__93eeeaf1-02f2-4ab8-b492-976ce08c0729-1666276584fec17611-4",
-        "template--14275008036958__93eeeaf1-02f2-4ab8-b492-976ce08c0729-1666276584fec17611-3",
-        "8f74bc8f-7d42-46d9-b49f-204fafebbc4d",
-        "32ca766c-fbd7-490d-ba41-306c4d3db1c6"
+        "8f74bc8f-7d42-46d9-b49f-204fafebbc4d"
       ],
       "settings": {
         "show_navigation": false,
         "title": "FAQ",
-        "content": "<p><\/p>",
+        "content": "",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }

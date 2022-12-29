@@ -220,13 +220,16 @@
       ],
       "settings": {
         "background": "#ecedef",
-        "text_color": "rgba(0,0,0,0)"
+        "text_color": "rgba(0,0,0,0)",
+        "font_size_desktop": 16,
+        "font_size_mobile": 16
       }
     },
     "1653935061372d8d90": {
       "type": "newsletter",
+      "disabled": true,
       "settings": {
-        "reveal_on_scroll": false,
+        "reveal_on_scroll": true,
         "image": "shopify:\/\/shop_images\/Ativo_2back.png",
         "subheading": "Take the lead.",
         "content": "<p>Subscribe for tips, tricks, recipes, and special deals.<\/p>",

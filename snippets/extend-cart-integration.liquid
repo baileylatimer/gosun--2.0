@@ -1,0 +1,371 @@
+<script>
+
+  //run scripts on DOMContentLoaded to avoid affecting site load time
+  window.addEventListener('DOMContentLoaded', function () {
+
+    //Only run ajax integration if Extend and ExtendShopify is defined, and the currency is set to USD
+    if (window.Extend && window.ExtendShopify && window.Shopify && window.Shopify.currency && window.Shopify.currency.active === 'USD') {
+
+      /*****************************************/
+      /* Global Variables - THEME SPECIFIC */
+      /*****************************************/
+
+      let cartRowItem = '.line-item-table__list .line-item'; // This is the container element for each item in the cart
+      let cartRowItemTitle = '.product-item-meta__title'; // This is the title anchor element for the product
+      let cartRowItemImage = '.line-item__image-wrapper'; // This is the product image or image anchor element
+      let cartRowItemQuantity = '.quantity-selector__input'; // This is the input element containing the product quantity
+      let warrantyContainer = '.product-item-meta'; // This is the container where the offer will be appended
+      let warrantyOriginalMeta = '.product-item-meta__property'; // Each warranty metadata item we want to remove.
+      let metadataContainer = '.product-item-meta__property-list'; // This is where warranty metadata will be appended (Product and Term)
+      let offerClass = 'extend-cart-offer'; // This is the class that will be assigned to each Extend offer
+      let titleReformat = false; // If warranty titles contain various extra characters, set this to true. Sets title to 'Extend Protection Plan'
+      let localCart = {{ cart | json }}; // Shopify Cart Object on initial load
+      let regEx = /\d+$/;
+
+      // QA Cypress variables
+      window.Extend.integration.mainCartRowItem = cartRowItem;
+      window.Extend.integration.mainCartRowItemTitle = cartRowItemTitle;
+      window.Extend.integration.mainCartRowItemImage = cartRowItemImage;
+      window.Extend.integration.mainCartRowItemQuantity = cartRowItemQuantity;
+      window.Extend.integration.mainWarrantyContainer = warrantyContainer;
+      window.Extend.integration.mainWarrantyOriginalMeta = warrantyOriginalMeta;
+      window.Extend.integration.mainMetadataContainer = metadataContainer;
+      window.Extend.integration.mainCartOffer = offerClass;
+
+      // Fail safe for cart
+      if (!localCart) return;
+
+      /***********************/
+      /* util functions */
+      /***********************/
+      // findAll(element) - querySelectorAll to search for children in document OR a parentElement
+      function findAll(elementToFind, parentElement) {
+        const items = parentElement ? parentElement.querySelectorAll(elementToFind) : document.querySelectorAll(elementToFind);
+        return items;
+      }
+
+      /**************************************/
+      /* refreshCart - THEME SPECIFIC */
+      /**************************************/
+      // Refresh the cart (hard refresh by default)
+      function refreshCart() {
+        location.href = location.hash ? location.href.substring(0, location.href.indexOf('#')) : location.href;
+      }
+
+      /**************************************/
+      /* Shipping Protection */
+      /**************************************/
+      const shippingProtectionOfferId = 'extend-shipping-offer' // This is the ID that will be assigned to the Extend Shipping Protection Offer
+      const shippingProtectionContainer = '.cart__recap' // This is where the shipping protection offer will be PREPENDED (Switch to append or insertBefore as needed)
+
+      function renderOrUpdateSP(spcart) {
+        const mappedCartItems = ExtendShopify.spCartMapper(spcart.items)
+        if (Extend.shippingProtection._instance !== null) {
+          Extend.shippingProtection.update({ items: mappedCartItems })
+        } else {
+          const shippingProtectionOffer = document.createElement('div')
+          shippingProtectionOffer.id = shippingProtectionOfferId;
+          document.querySelector(shippingProtectionContainer).prepend(shippingProtectionOffer)
+
+          const isShippingProtectionInCart = ExtendShopify.shippingProtectionInCart(spcart.items);
+
+          Extend.shippingProtection.render({
+            selector: '#extend-shipping-offer',
+            items: mappedCartItems,
+            isShippingProtectionInCart,
+            onEnable(quote) {
+              ExtendShopify.addSpPlanToCart({
+                quote,
+                callback(err, resp) {
+                  if (err) {
+                    return;
+                  } else {
+                    window.location.reload()
+                  }
+                },
+              })
+            },
+            onDisable(quote) {
+              ExtendShopify.updateSpPlanInCart({
+                action: 'remove',
+                quote,
+                callback(err, resp) {
+                  // an error occurred
+                  if (err) {
+                    return;
+                  } else if (resp.isUpdated) window.location.reload()
+                },
+              })
+            },
+            onUpdate(quote) {
+              ExtendShopify.updateSpPlanInCart({
+                action: 'update',
+                quote,
+                callback(err, resp) {
+                  // an error occurred
+                  if (err) {
+                    return;
+                  } else if (resp.isUpdated) window.location.reload()
+                },
+              })
+            },
+          });
+        }
+      }
+
+      // normalizeCartSP should be the called at the very top of initializeCartOffers()
+      function normalizeCartSP() {
+        ExtendShopify.updateExtendLineItems({
+          balanceCart: true,
+          callback(err, data) {
+            if (!err && data && (data.updates || data.additions)) {
+              location.reload()
+            }
+
+            renderOrUpdateSP(data.cart)
+            
+          },
+        })
+      }
+
+      /***********************/
+      /* createElement */
+      /***********************/
+      // createElement(product) - Takes in the product element, and creates the Extend offer element + appends the offer
+      function createElement(product, index) {
+
+        // Removes existing offer elements before creating new ones
+        let extendOffer = product.querySelector('.' + offerClass);
+        if (extendOffer) extendOffer.remove();
+
+        // Grab href from product name and fail safes
+        if (!product.querySelector(cartRowItemTitle)) return;
+        let url = product.querySelector(cartRowItemTitle).href;
+        if (!url) return;
+
+        // Grab the variantId out of the URL
+
+        let variantId;
+
+        //Grabs variant ID from URL if available, otherwise from localCart
+        if (url.match(regEx)) {
+          variantId = url.match(regEx)[0];
+        } else {
+          variantId = localCart.items[index].id;
+        }
+
+        // Select quantity value
+        let quantity = product.querySelector(cartRowItemQuantity).value;
+
+        // Parent container to append ajax offer
+        let container = product.querySelector(warrantyContainer);
+
+        // Fail safes
+        if (!variantId || !quantity || !container) return;
+
+        // Create new element & set class, data-extend-variant, and data-extend-quantity attributes
+        let newExtendOffer = document.createElement('div');
+        newExtendOffer.className = offerClass;
+        newExtendOffer.setAttribute('data-extend-variant', variantId);
+        newExtendOffer.setAttribute('data-extend-quantity', quantity);
+
+        // Append the offer to the container element (THEME SPECIFIC)
+        container.append(newExtendOffer);
+
+      }
+
+      /************************/
+      /* Handle Styling */
+      /************************/
+      // Finds all cartRowItems and styles only Extend warranties
+      function handleStyling() {
+
+        findAll(cartRowItem).forEach(function (el, index) {
+
+          // If item is Extend shipping protection, hide and return
+          if (el.querySelector(cartRowItemTitle).innerHTML.indexOf('Extend Shipping Protection Plan') > -1) {
+            el.style.display = 'none'
+            return
+          }
+
+          // Grab the title of the current item
+          let title = el.querySelector(cartRowItemTitle);
+
+          // Title fail safe
+          if (!title) return;
+
+          // If it's a warranty set isExtend to true and remove links
+          if (title.innerText.toLowerCase().indexOf('extend protection') > -1) {
+
+            // Grab the image of the current item and fail safe
+            let image = el.querySelector(cartRowItemImage);
+            if (!image) return;
+
+            // Select and remove pointerEvents from warranty image
+            image.style.pointerEvents = 'none';
+
+            // Select and remove pointerEvents from warranty title
+            title.style.pointerEvents = 'none';
+
+            el.querySelectorAll(cartRowItemTitle).forEach(function (each) { each.style.pointerEvents = 'none' })
+
+            if (titleReformat === true) {
+              title.innerText = 'Extend Protection Plan';
+            };
+
+            /**************************************/
+            /* THEME SPECIFIC STYLING START */
+            /**************************************/
+
+            // Removes old metadata
+            if (el.querySelector(warrantyOriginalMeta)) {
+              findAll(warrantyOriginalMeta, el).forEach(function (each) {
+                each.remove();
+              })
+            }
+
+            // Selects where to append warranty metadata
+            let contentContainer = el.querySelector(metadataContainer)
+            let warrantyProductData;
+            let warrantyTermData;
+
+            if (localCart.items[index].options_with_values && localCart.items[index].options_with_values[1]) {
+              // Finds the ref id string in the product info string and replaces with an empty string
+              let regexReplace = localCart.items[index].options_with_values[0].value.match(/\-\d{5,}/g);
+              warrantyProductData = localCart.items[index].options_with_values[0].value.replace(regexReplace, '');
+              warrantyTermData = localCart.items[index].options_with_values[1].value;
+            } else {
+              warrantyProductData = localCart.items[index].properties.Product;
+              warrantyTermData = localCart.items[index].properties.Term;
+            }
+
+            // Appends Product and Term metadata
+            if (el.querySelector(metadataContainer)) {
+              let warrantyProductName = document.createElement('p');
+              warrantyProductName.className = 'extend-warranty-info';
+              warrantyProductName.innerHTML = 'Product: ' + warrantyProductData;
+              warrantyProductName.style.margin = '0';
+              warrantyProductName.setAttribute('data-cy', 'warranty-description-product');
+              let warrantyProductTerm = document.createElement('p')
+              warrantyProductTerm.className = 'extend-warranty-info';
+              warrantyProductTerm.innerHTML = 'Term: ' + warrantyTermData;
+              warrantyProductTerm.style.margin = '0';
+              warrantyProductTerm.setAttribute('data-cy', 'warranty-description-term');
+
+              // Only append the metadata if it's not already there
+              if (!el.querySelector('.extend-warranty-info')) {
+                contentContainer.append(warrantyProductName, warrantyProductTerm);
+              }
+
+            }
+
+            /**************************************/
+            /* THEME SPECIFIC STYLING END */
+            /**************************************/
+
+          } else {
+            // Create an offer element for each product
+            createElement(el, index);
+          }
+
+        });
+
+      }
+
+      /************************/
+      /* initializeCartOffer */
+      /************************/
+      // Invokes handleStyling and finds all offers in the cart, handling both normalization and balancing
+      function initializeCartOffer() {
+
+        normalizeCartSP()
+
+        // Handles styling and creates offer elements
+        handleStyling();
+
+        // Find all offer elements
+        findAll('.' + offerClass).forEach(function (el) {
+
+          // Grab attributes out of element
+          let variantId = el.getAttribute('data-extend-variant');
+          let quantity = el.getAttribute('data-extend-quantity');
+
+          // If there's already a warranty in cart, return
+          if (ExtendShopify.warrantyAlreadyInCart(variantId, localCart.items)) {
+            return;
+          }
+
+          // Render all other buttons
+          Extend.buttons.renderSimpleOffer(el, {
+            referenceId: variantId,
+            onAddToCart: function (options) {
+              ExtendShopify.addPlanToCart(
+                {
+                  plan: options.plan,
+                  product: options.product,
+                  quantity: quantity,
+                },
+                function (err) {
+                  // An error occurred
+                  if (err) {
+                    return;
+                  } else {
+                    refreshCart();
+                  }
+                }
+              );
+            },
+          });
+        })
+
+      }
+
+      // initializeCartOffer when script is initially rendered
+      initializeCartOffer();
+
+      window.addEventListener('refreshAjaxCart', function (e) {
+        fetch('/cart.js', {
+          credentials: 'same-origin',
+          method: 'GET',
+          headers: { 'Content-Type': 'application/json', 'X-Requested-With': 'XMLHttpRequest' },
+        }).then(function (e) {
+          e.json().then(function (e) {
+            if (window.Extend.integration.analytics) window.Extend.integration.cartAnalytics(localCart, e);
+            localCart = e;
+            initializeCartOffer();
+          });
+        });
+      });
+
+    }
+  });
+
+</script>
+
+<style>
+  #extend-shipping-offer {
+    text-align: center;
+    height: 120px;
+  }
+
+  .extend-warranty-info {
+    font-size: 13px;
+    color: #424242B3;
+  }
+
+  #sp-learn-more-modal-iframe {
+    z-index: 9999999999 !important;
+  }
+
+  .extend-cart-offer {
+    margin-top: 5px;
+  }
+
+  #extend-offers-modal-iframe {
+    z-index: 99999999999 !important;
+  }
+
+  #extend-learn-more-modal-iframe {
+    z-index: 99999999999 !important;
+  }
+</style>

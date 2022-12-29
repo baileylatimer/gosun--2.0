@@ -27,6 +27,7 @@
         "button_background": "#ffffff",
         "button_text_color": "#000000",
         "overlay_color": "#000000",
+        "heading_color": "#ffffff",
         "overlay_opacity": 30
       }
     },
@@ -39,7 +40,7 @@
         "image": "shopify:\/\/shop_images\/gosun_sporte_features.jpg",
         "subheading": "",
         "title": "",
-        "content": "",
+        "content": "<p><\/p>",
         "button_text": "",
         "button_link": "",
         "link_style": "link",
@@ -50,6 +51,7 @@
         "button_background": "#ffffff",
         "button_text_color": "#000000",
         "overlay_color": "#000000",
+        "heading_color": "",
         "overlay_opacity": 0
       }
     },
@@ -136,7 +138,7 @@
       "settings": {
         "subheading": "",
         "title": "Download the Manual",
-        "content": "",
+        "content": "<p><\/p>",
         "button_text": "Download Manual",
         "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/Chill_User_Manual_102022.pdf?v=1666278609",
         "background_type": "full_width",
@@ -154,7 +156,7 @@
       "settings": {
         "subheading": "",
         "title": "Watch How-To Video",
-        "content": "",
+        "content": "<p><\/p>",
         "button_text": "",
         "button_link": "",
         "background_type": "full_width",
@@ -247,7 +249,7 @@
       "settings": {
         "show_navigation": false,
         "title": "FAQ",
-        "content": "",
+        "content": "<p><\/p>",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
@@ -257,9 +259,9 @@
       "settings": {
         "subheading": "",
         "title": "Register Your Product",
-        "content": "",
+        "content": "<p><\/p>",
         "button_text": "Register Here",
-        "button_link": "https:\/\/gosun.co\/pages\/register",
+        "button_link": "https:\/\/gosun.co\/pages\/new-product-registration",
         "background_type": "full_width",
         "text_width": "medium",
         "text_position": "center",

@@ -88,11 +88,11 @@
           "message-1": {
             "type": "message",
             "settings": {
-              "text": "CYBER MONDAY DEALS HERE",
+              "text": "Free Shipping (USA) | One Year Guarantee",
               "learn_more_text": "Learn more",
               "title": "",
               "content": "",
-              "button_text": "BLACK FRIDAY DEALS HERE",
+              "button_text": "",
               "button_link": "shopify:\/\/collections\/todays-deals"
             }
           }

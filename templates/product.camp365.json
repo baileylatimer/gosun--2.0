@@ -260,6 +260,7 @@
         "button_background": "#ffffff",
         "button_text_color": "#000000",
         "overlay_color": "#000000",
+        "heading_color": "#ffffff",
         "overlay_opacity": 30
       }
     },
@@ -700,6 +701,7 @@
         "button_background": "#ffffff",
         "button_text_color": "#000000",
         "overlay_color": "#000000",
+        "heading_color": "",
         "overlay_opacity": 0
       }
     },
@@ -740,6 +742,7 @@
         "button_background": "#ffffff",
         "button_text_color": "#000000",
         "overlay_color": "#000000",
+        "heading_color": "",
         "overlay_opacity": 0
       }
     },
