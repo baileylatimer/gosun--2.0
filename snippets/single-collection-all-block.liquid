@@ -54,6 +54,7 @@
             {% endif %}
         </div>
     </div>
+    {% if show_search == 'true' %}
     <div class="single-grid-item">
         <div class="single-col col-4_4">
             <div class="single-header-bar {% unless viewable_content_key_names.size > 0 or content_query %}single-empty-header-bar{% endunless %}">
@@ -127,6 +128,7 @@
             </div>
         </div>
     </div>
+    {% endif %}
     {% comment %}
     <!-- END - Search Bar -->
     {% endcomment %}

@@ -145,7 +145,7 @@
       <span class="SIGNUP_LINK_CLASSES">
         <span class="divider"> • </span>
         <span>
-          <a href="#" onclick="showRegisterForm(event)" id="ShowRegister">{{ 'single.login.create_account' | t }}</a>
+          <a href="#" onclick="showRegisterForm(event)" id="ShowRegister">CREATE_ACCT_TITLE</a>
         </span>
       </span>
     </div>
@@ -192,7 +192,7 @@
   {% endcomment %}
   <div id="form-register" class="single-form REGISTER_CLASSES">
     <div class="customer register">
-      <h2 class="login-head">{{ 'single.register.title' | t }}</h2>
+      <h2 class="login-head">CREATE_ACCT_TITLE</h2>
       {% form 'create_customer', return_to: 'SIGNUP_REDIRECT_URL' %}
         <div class="single-errors">
           {% if form.errors %}
