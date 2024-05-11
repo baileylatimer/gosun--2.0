@@ -23,26 +23,40 @@ SOFTWARE.
   text-align: center;
 }
 
-.single-video-info {
-  margin-bottom: 3rem;
-}
-
-.single-video-player {
-  aspect-ratio: 21.25/9;
-  background: black;
-}
-
-@media screen and (max-width: 1060px ){
-  .single-video-player {
-    aspect-ratio: 6/9;
-  }
-}
-
+/** Video Player - Proxy **/
 .single-video-player.chat-disabled {
   aspect-ratio: 16/9 !important;
 }
 
+.single-video-player {
+  aspect-ratio: 20/9;
+  background: black;
+  @media screen and (max-width: 1200px) {
+    aspect-ratio: 21.25/9;
+  }
+  @media screen and (max-width: 990px) {
+    aspect-ratio: 6/9;
+  }
+}
+
+/** Video Player - App Blocks **/
+.page-width .single-video-player,
+.has-max-width .single-video-player {
+  aspect-ratio: 21.25/9;
+  background: black;
+  @media screen and (max-width: 1090px) {
+    aspect-ratio: 1/1;
+  }
+  @media screen and (max-width: 990px) {
+    aspect-ratio: 6/9;
+  }
+}
+
 /** Video Info **/
+.single-video-info {
+  margin-bottom: 3rem;
+}
+
 .single-video-title,
 .single-video-artist {
   margin: 1em 0 0.5em;
